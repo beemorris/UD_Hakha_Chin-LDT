@@ -1,0 +1,58 @@
+# My name is Chin Chin. 
+# Keimah ka min cu Chin Chin a si.
+1	Keimah	my	PRON	_	_	3	nsubj	_	_
+2	ka	I	PRON	_	_	3	Q	_	_
+3	min	name	NOUN	_	_	0	root	_	_
+4	cu	TOP	topic	_	_	3	discourse	_	_
+5	Chin Chin	Chin	NOUN-1-SG	_	_	3	obj	_	_
+6-7	a si	a si	3.SG+cop	_	_	_	cop	_	_
+6	a	3.SG	3.SG	_	_	3	cop	_	_
+7	si	is	3.SG	_	_	6	cop	_	_
+8	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# Indianapolis ah ka um.
+# I live in Indianapolis.
+1	Indianapolis	Indianapolis	PROPN	_	_	4	obl	_	_
+2	ah	LOC	ADP	_	_	1	discourse	_	_
+3	ka	I	PRON	_	_	4	nsubj	_	_
+4	um	live	VERB	_	_	0	root	_	_
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+
+# Indiana University ah sianginn ka kai.
+# I go to school at Indiana University
+1	Indiana University	Indiana University	PROPN	_	_	3	obl	_	_
+2	ah	LOC	ADP	_	_	1	discourse	_	_
+3	sianginn	school	NOUN	_	_	5	obj	_	_
+4	ka	I	PRON	_	_	5	nsubj	_	_
+5	kai	go	VERB	_	_	0	root	_	_
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# Ka ke a faak.
+# My leg hurts. 
+1	Ka	my	PRON	_	_	4	nsubj	_	_
+2	ke	leg	NOUN	_	_	4	obj	_	_
+3	a	3SG	PRON	_	_	4	case	_	_
+4	faak	hurt	VERB	_	_	0	root	_	_
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# Na dam maw?
+# How are you?
+1	Na	you	PRON	_	_	2	nsubj	_	_
+2	dam	well	ADJ	_	_	0	root	_	_
+3	maw	Q	PART	_	_	2	discourse	_	_
+4	?	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# A kaa a fa.
+# Her mouth is small.
+1	A	her	3SG	_	_	4	nsubj	_	_
+2	kaa	mouth	NOUN	_	_	4	root	_	_
+3	a	3SG	PRON	_	_	4	case	_	_
+4	fa	small	VERB	_	_	0	root	_	_
+5	.	PUNCT	PUNCT	_	_	4	PUNCT	_	_
+
+
+
+
+
+

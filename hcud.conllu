@@ -1,13 +1,13 @@
 # 1
-# My name is Chin Chin. 
-# Keimah ka min cu Chin Chin a si.
+# My name is Chinchin. 
+# Keimah ka min cu Chinchin a si.
 1	Keimah	my	PRON	_	_	3	nsubj	_	_
 2	ka	I	PRON	_	_	3	Q	_	_
 3	min	name	NOUN	_	_	0	root	_	_
 4	cu	TOP	topic	_	_	3	discourse	_	_
-5	Chin Chin	Chin	NOUN-1-SG	_	_	3	obj	_	_
-6-7	a si	a si	3.SG+cop	_	_	_	cop	_	_
-6	a	3.SG	3.SG	_	_	3	cop	_	_
+5	Chinchin	Chin	NOUN-1-SG	_	_	3	obj	_	_
+6-7	a si	a si	PART+VERB	_	_	_	cop	_	_
+6	a	3.SG	PART	_	_	3	cop	_	_
 7	si	is	3.SG	_	_	6	cop	_	_
 8	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
@@ -35,7 +35,7 @@
 # My leg hurts. 
 1	Ka	my	PRON	_	_	4	nsubj	_	_
 2	ke	leg	NOUN	_	_	4	obj	_	_
-3	a	3SG	PRON	_	_	4	case	_	_
+3	a	3SG	PART	_	_	4	case	_	_
 
 # 5
 # Na dam maw?
@@ -50,7 +50,7 @@
 # Her mouth is small.
 1	A	her	3SG	_	_	4	nsubj	_	_
 2	kaa	mouth	NOUN	_	_	4	root	_	_
-3	a	3SG	PRON	_	_	4	case	_	_
+3	a	3SG	PART	_	_	4	case	_	_
 4	fa	small	VERB	_	_	0	root	_	_
 5	.	PUNCT	PUNCT	_	_	4	PUNCT	_	_
 
@@ -66,9 +66,9 @@
 # Lih a si!
 # It is a lie!
 1	Lih	lie	NOUN	_	_	0	root	_	_
-2-3	a si	_	_	_	_	_	_	_	_
-2	a	3.SG	3.SG	_	_	3	cop	_	_
-3	si	is	AUX	_	_	1	aux	_	_
+2-3	a si	_	PART+AUX	_	_	_	_	_	_
+2	a	3.SG	PART	_	_	3	cop	_	_
+3	si	is	VERB	_	_	1	aux	_	_
 4	.	PUNCT	PUNCT	_	_	1	punct	_	_
 
 # 9
@@ -110,3 +110,123 @@
 4	naa	you	PRON	2.SG	_	5	obj	_	_
 5	khwang	hurt	VERB	_	_	0	root	_	_
 6	.	punct	punct	_	_	5	punct	_	_
+
+# 14 
+# Naa khawng maw?
+# Are you hurt?
+1	Naa	you	PRON	2.SG	_	2	nsubj	_	_
+2	khawng	hurt	VERB	INTR	_	0	root	_	_
+3	maw	Q	PART	_	_	2	discourse	_	_
+4	?	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# 15
+# Ka ruh a kiak.
+# I broke a bone.
+1	Ka	I	PRON	1.SG	_	4	nsubj	_	_
+2	ruh	bone	NOUN	SG	_	4	obj	_	_
+3	a	3.SG	PART	_	_	4	discourse	_	_
+4	kiak	break	VERB	TR	_	0	root	_	_
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_	
+
+# 16
+# Ka raang.
+# I'm white. 
+1	Ka	I	PRON	1.SG	_	2	nsubj	_	_
+2	raang	white	VERB	_	_	0	root	_	_
+3	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# 17
+# Mah chizawh hi a raang mi a si.
+# This cat is white.
+1	Mah	self	DEM	_	_	2	discourse	_	_
+2	chizawh	cat	NOUN	SG	_	5	nsubj	_	_
+3	hi	this	DEM	_	_	2	discourse	_	_
+4	a	3.SG	PART	_	_	5	discourse	_	_
+5	raang	white	VERB	INTR	_	0	root	_	_
+6	mi	REL	REL	_	_	5	discourse	_	_
+7-8	a si	_	PART+VERB	_	_	_	_	_	_
+7	a	3.SG	PART	_	_	5	cop	_	_
+8	si	is	VERB	_	_	7	aux	_	_
+9	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# 18
+# Uico nih chizawh adawi.
+# The dog chased the cat.
+1	Uico	dog	NOUN	SG	_	4	nsubj	_	_
+2	nih	ERG	PART	_	_	1	case	_	_
+3	chizawh	cat	NOUN	SG	_	4	obj	_	_
+4	adawi	chase	VERB	3.SG	_	0	root	_	_
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# 19
+# Chizawh nih uico adawi.
+# The cat chased the dog.
+1	Chizawh	cat	NOUN	SG	_	4	nsubj	_	_
+2	nih	ERG	PART	_	_	1	case	_	_
+3	uico	dog	NOUN	SG	_	4	obj	_	_
+4	adawi	chase	VERB	3.SG	_	0	root	_	_
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# 20
+# Bawibawi cauk ka pek.
+# I gave Bawi a book. 
+1	Bawibawi	Bawi	PROPN	_	_	4	obj	_	_
+2	cuak	book	NOUN	SG	_	4	iobj	_	_
+3	ka	I	PRON	1.SG	_	4	nsubj	_	_
+4	pek	give	VERB	TR.PST	_	0	root	_	_
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# 21
+# Ka tli.
+# I ran
+1	Ka	I	PRON	1.SG	_	2	nsubj	_	_
+2	tli	run	VERB	INTR.PST	_	0	root	_	_
+3	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# 22
+#	Ti a tle.
+#	The water spilled.
+1	Ti	water	NOUN	_	_	3	nusbj	_	_
+2	a	3.SG	PART	_	_	3	discourse	_	_
+3	tle	spill	VERB	INTR.PST	_	0	root	_	_
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# 23
+# Kaa din lai.
+# I will rest. 
+1	Ka	I	PRON	1.SG	_	2	nsubj	_	_
+2	din	rest	VERB	INTR	_	0	root	_	_
+3	lai	will	VERB	FUT	_	2	discourse	_	_
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+
+# 24
+# Ar a si.
+# It is a chicken.
+1	Ar	chicken	NOUN	SG	_	0	root	_	_
+2-3	a si	_	_	_	_	_	_	_	_
+2	a	3.SG	PART	_	_	1	cop	_	_
+3	si	is	VERB	_	_	2	aux	_	_
+4	.	PUNCT	PUNCT	_	_	1	punct	_	_
+
+# 25
+# Uico a si maw?
+# Is that a dog?
+1	Uico	dog	NOUN	SG	_	0	root	_	_
+2-3	a si	_	_	_	_	_	_	_	_
+2	a	3.SG	PART	_	_	1	cop	_	_
+3	si	is	VERB	_	_	2	aux	_	_
+4	maw	Q	PART	_	_	1	discourse	_	_
+5	?	PUNCT	PUNCT	_	_	1	punct	_	_
+
+# 26
+# Uico pahnih an ngei.
+# They have two dogs.
+1	Uico	dog	NOUN	PL	_	4	obj	_	_
+2	pahnih	two	NUM	_	_	1	nummod	_	_
+3	an	they	PRON	3.PL	_	4	nsubj	_	_
+4	ngei	have	VERB	TR	_	0	root	_	_
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# 27
+# 

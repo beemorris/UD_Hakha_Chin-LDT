@@ -7,7 +7,7 @@
 4	cu	TOP	topic	_	_	3	discourse	_	_
 5	Chinchin	Chin	NOUN-1-SG	_	_	3	obj	_	_
 6-7	a si	a si	PART+VERB	_	_	_	cop	_	_
-6	a	3.SG	PART	_	_	3	cop	_	_
+6	a	3.SG	PART	_	_	3	part	_	_
 7	si	is	3.SG	_	_	6	cop	_	_
 8	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
@@ -67,7 +67,7 @@
 # It is a lie!
 1	Lih	lie	NOUN	_	_	0	root	_	_
 2-3	a si	_	PART+AUX	_	_	_	_	_	_
-2	a	3.SG	PART	_	_	3	cop	_	_
+2	a	3.SG	PART	_	_	3	part	_	_
 3	si	is	VERB	_	_	1	aux	_	_
 4	.	PUNCT	PUNCT	_	_	1	punct	_	_
 
@@ -197,7 +197,7 @@
 # I will rest. 
 1	Ka	I	PRON	1.SG	_	2	nsubj	_	_
 2	din	rest	VERB	INTR	_	0	root	_	_
-3	lai	will	VERB	FUT	_	2	discourse	_	_
+3	lai	will	VERB	FUT	_	2	aux	_	_
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 
@@ -206,7 +206,7 @@
 # It is a chicken.
 1	Ar	chicken	NOUN	SG	_	0	root	_	_
 2-3	a si	_	_	_	_	_	_	_	_
-2	a	3.SG	PART	_	_	1	cop	_	_
+2	a	3.SG	PART	_	_	1	part	_	_
 3	si	is	VERB	_	_	2	aux	_	_
 4	.	PUNCT	PUNCT	_	_	1	punct	_	_
 
@@ -215,7 +215,7 @@
 # Is that a dog?
 1	Uico	dog	NOUN	SG	_	0	root	_	_
 2-3	a si	_	_	_	_	_	_	_	_
-2	a	3.SG	PART	_	_	1	cop	_	_
+2	a	3.SG	PART	_	_	1	part	_	_
 3	si	is	VERB	_	_	2	aux	_	_
 4	maw	Q	PART	_	_	1	discourse	_	_
 5	?	PUNCT	PUNCT	_	_	1	punct	_	_
@@ -244,7 +244,7 @@
 # Is that a chicken?
 1	Ar	chicken	NOUN	SG	_	0	root	_	_
 2-3	a si	_	_	_	_	_	_	_	_
-2	a	3.SG	PART	_	_	1	cop	_	_
+2	a	3.SG	PART	_	_	1	case	_	_
 3	si	is	VERB	_	_	2	aux	_	_
 4	maw	Q	PART	_	_	1	discourse	_	_
 5	.	PUNCT	PUNCT	_	_	1	punct	_	_
@@ -265,3 +265,183 @@
 2	a	3.SG	PART	_	_	3	discourse	_	_
 3	cat	break	VERB	INTR	_	0	root	_	_
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# 31
+# Na dam maw?
+# How are you?
+1	Na	you	PRON	2.SG	_	2	nsubj	_	_
+2	dam	well	VERB	_	_	0	root	_	_
+3	maw	Q	PART	_	_	2	discourse	_	_
+4	?	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# 32
+# Uico nih a ka dawi.
+# A dog chased me.
+1	Uico	dog	NOUN	SG	_	5	nsubj	_	_
+2	nih	ERG	PART	_	_	1	case	_	_
+3	a	3.SG	PART	_	_	5	discourse	_	_
+4	ka	I	PRON	1.SG	_	5	obj	_	_
+5	dawi	chase	VERB	TR.PST	_	0	root	_	_
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# 33
+# Rawl kan ei lai.
+# We will eat food.
+1	Rawl	food	NOUN	_	_	3	obj	_	_
+2	kan	we	PRON	1.PL	_	3	nsubj	_	_
+3	ei	eat	VERB	TR	_	0	root	_	_
+4	lai	will	VERB	FUT	_	3	aux	_	_
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# 34
+# Sa kan em.
+# We roast meat.
+1	Sa	meat	NOUN	_	_	3	obj	_	_
+2	kan	we	PRON	1.SG	_	3	nsubj	_	_
+3	em	roast	VERB	TR	_	0	root	_	_
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# 35
+# Ka keng a fak.
+# My back hurts (i.e., the lower part of my back is painful).
+1	Ka	my	PRON	1.SG	_	2	nmod:poss	_	_
+2	keng	back	NOUN	_	_	4	nsubj	_	_
+3	a	3.SG	PART	_	_	4	discourse	_	_
+4	fak	hurt	VERB	INTR	_	0	root	_	_
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# 36
+# Ka keng a faak.
+# I have backache.
+1	Ka	my	PRON	1.SG	_	2	nmod:poss	_	_
+2	keng	back	NOUN	_	_	4	nsubj	_	_
+3	a	3.SG	PART	_	_	4	discourse	_	_
+4	faak	hurt	VERB	INTR	_	0	root	_	_
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# 37
+# Ka ke a kik.
+# My feet are cold.
+1	Ka	my	PRON	1.SG	_	2	nmod:poss	_	_
+2	ke	foot	NOUN	PL	_	4	nsubj	_	_
+3	a	3.SG	PART	_	_	4	discourse	_	_
+4	kik	cold	VERB	INTR	_	0	root	_	_
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# 38
+# Ngakchia hme a si.
+# She is a small child.
+1	Ngakchia	child	NOUN	_	_	0	root	_	_
+2	hme	small	ADJ	_	_	1	amod	_	_
+3-4	a si	_	_	_	_	_	_	_	_
+3	a	3.SG	PART	_	_	1	part	_	_
+4	si	is	VERB	_	_	3	aux	_	_
+5	.	PUNCT	PUNCT	_	_	1	punct	_	_
+
+# 39
+# Na ra lai maw?
+# Are you coming?
+1	Na	you	PRON	2.SG	_	2	nsubj	_	_
+2	ra	come	VERB	_	_	0	root	_	_
+3	lai	will	VERB	FUT	_	2	aux	_	_
+4	maw	Q	PART	_	_	3	discourse	_	_
+5	?	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# 40
+# Rawl kan ei lai.
+# We shall eat food.
+1	Rawl	food	NOUN	_	_	3	obj	_	_
+2	kan	we	PRON	1.PL	_	3	nsubj	_	_
+3	ei	eat	VERB	TR	_	0	root	_	_
+4	lai	shall	VERB	FUT	_	3	aux	_	_
+5	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# 41
+# Ka paang a faak.
+# My abdomen hurt(s).
+1	Ka	my	PRON	1.SG	_	2	nmod:poss	_	_
+2	paang	abdomen	NOUN	SG	_	4	obj	_	_
+3	a	3.SG	PART	_	_	4	part	_	_
+4	faak	hurt	VERB	_	_	0	root	_	_
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# 42
+# Fa a pawi.
+# She is pregnant.
+1	Fa	child	NOUN	_	_	3	obj	_	_
+2	a	she	PRON	3.SG	_	3	nsubj	_	_
+3	pawi	pregnant	VERB	INTR	_	0	root	_	_
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# 43
+# Siangngakchia pawl sianginn an kai.
+# The students go to school.
+1	Siangngakchia	student	NOUN	PL	_	5	nsubj	_	_
+2	pawl	PL	PART	_	_	1	nmod	_	_
+3	sianginn	school	NOUN	SG	_	5	obj	_	_
+4	an	they	PART	3.PL	_	5	part	_	_
+5	kai	go	VERB	TR	_	0	root	_	_
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# 44
+# Ka rang cu a pawl.
+# My horse is grey.
+1	Ka	my	PRON	1.SG	_	2	nmod:poss	_	_
+2	rang	horse	NOUN	SG	_	5	nsubj	_	_
+3	cu	TOP	PART	_	_	2	discourse	_	_
+4	a	3.SG	PART	_	_	5	part	_	_
+5	pawl	grey	VERB	_	_	0	root	_	_
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# 45
+# Ka hnar a ping.
+# My nose clogs up.
+1	Ka	my	PRON	1.SG	_	2	nmod:poss	_	_
+2	hnar	nose	NOUN	SG	_	4	nsubj	_	_
+3	a	3.SG	PART	_	_	4	part	_	_
+4	ping	clogs	VERB	INTR	_	0	root	_	_
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# 46
+# Ka hngete a faak.
+# My little toe is in pain.
+1	Ka	my	PRON	1.SG	_	2	nmod:poss	_	_
+2	hngete	little toe	NOUN	SG	_	4	nsubj	_	_
+3	a	3.SG	PART	_	_	4	part	_	_
+4	faak	hurt	VERB	INTR	_	0	root	_	_
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# 47
+# Ka hma a por.
+# My wound gets infected.
+1	Ka	my	PRON	1.SG	_	2	nmod:poss	_	_
+2	hma	wound	NOUN	SG	_	4	nsubj	_	_
+3	a	3.SG	PART	_	_	4	part	_	_
+4	por	infect	VERB	INTR.PST	_	0	root	_	_
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# 48
+# Cawhnuk a rawk.
+# Milk was spoiled.
+1	Cawhnuk	(cow) milk	NOUN	_	_	3	nsubj	_	_
+2	a	3.SG	PART	_	_	3	part	_	_
+3	rawk	spoil	VERB	INTR.PST	_	0	root	_	_
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_	
+
+# 49
+# Sa an reu.
+# They fried meat.
+1	Sa	meat	NOUN	_	_	3	nsubj	_	_
+2	an	they	PART	3.PL	_	3	part	_	_
+3	reu	fry	VERB	TR.PST	_	0	root	_	_
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# 50
+# Inn ah ka kal lai.
+# I shall go home.
+1	Inn	home	NOUN	SG	_	4	obj	_	-
+2	ah	LOC	PART	_	_	1	discourse	_	_
+3	ka	I	PRON	1.SG	_	4	nsubj	_	_
+4	kal	go	VERB	TR	_	0	root	_	_
+5	lai	shall	VERB	FUT	_	4	aux	_	_
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_

@@ -366,16 +366,16 @@
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 42
-# Fa a pawi.
-# She is pregnant.
+# text = Fa a pawi.
+# text[eng] = She is pregnant.
 1	Fa	child	NOUN	_	_	3	obj	_	_
 2	a	she	PRON	3.SG	_	3	nsubj	_	_
 3	pawi	pregnant	VERB	INTR	_	0	root	_	_
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
-# 43
-# Siangngakchia pawl sianginn an kai.
-# The students go to school.
+# sent_id = 43
+# text = Siangngakchia pawl sianginn an kai.
+# text[eng] = The students go to school.
 1	Siangngakchia	student	NOUN	PL	_	5	nsubj	_	_
 2	pawl	PL	PART	_	_	1	nmod	_	_
 3	sianginn	school	NOUN	SG	_	5	obj	_	_
@@ -383,9 +383,9 @@
 5	kai	go	VERB	TR	_	0	root	_	_
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
-# 44
-# Ka rang cu a pawl.
-# My horse is grey.
+# sent_id = 44
+# text = Ka rang cu a pawl.
+# text[eng] = My horse is grey.
 1	Ka	my	PRON	1.SG	_	2	nmod:poss	_	_
 2	rang	horse	NOUN	SG	_	5	nsubj	_	_
 3	cu	TOP	PART	_	_	2	discourse	_	_
@@ -393,52 +393,52 @@
 5	pawl	grey	VERB	_	_	0	root	_	_
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
-# 45
-# Ka hnar a ping.
-# My nose clogs up.
+# sent_id = 45
+# text = Ka hnar a ping.
+# text[eng] = My nose clogs up.
 1	Ka	my	PRON	1.SG	_	2	nmod:poss	_	_
 2	hnar	nose	NOUN	SG	_	4	nsubj	_	_
 3	a	3.SG	PART	_	_	4	part	_	_
 4	ping	clogs	VERB	INTR	_	0	root	_	_
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
-# 46
-# Ka hngete a faak.
-# My little toe is in pain.
+# sent_id = 46
+# text = Ka hngete a faak.
+# text[eng] = My little toe is in pain.
 1	Ka	my	PRON	1.SG	_	2	nmod:poss	_	_
 2	hngete	little toe	NOUN	SG	_	4	nsubj	_	_
 3	a	3.SG	PART	_	_	4	part	_	_
 4	faak	hurt	VERB	INTR	_	0	root	_	_
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
-# 47
-# Ka hma a por.
-# My wound gets infected.
+# sent_id = 47
+# text = Ka hma a por.
+# text[eng] = My wound gets infected.
 1	Ka	my	PRON	1.SG	_	2	nmod:poss	_	_
 2	hma	wound	NOUN	SG	_	4	nsubj	_	_
 3	a	3.SG	PART	_	_	4	part	_	_
 4	por	infect	VERB	INTR.PST	_	0	root	_	_
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
-# 48
-# Cawhnuk a rawk.
-# Milk was spoiled.
+# sent_id = 48
+# text = Cawhnuk a rawk.
+# text[eng] = Milk was spoiled.
 1	Cawhnuk	(cow) milk	NOUN	_	_	3	nsubj	_	_
 2	a	3.SG	PART	_	_	3	part	_	_
 3	rawk	spoil	VERB	INTR.PST	_	0	root	_	_
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_	
 
-# 49
-# Sa an reu.
-# They fried meat.
+# sent_id = 49
+# text = Sa an reu.
+# text[eng] = They fried meat.
 1	Sa	meat	NOUN	_	_	3	nsubj	_	_
 2	an	they	PART	3.PL	_	3	part	_	_
 3	reu	fry	VERB	TR.PST	_	0	root	_	_
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
-# 50
-# Inn ah ka kal lai.
-# I shall go home.
+# sent_id = 50
+# text = Inn ah ka kal lai.
+# text[eng] = I shall go home.
 1	Inn	home	NOUN	SG	_	4	obj	_	-
 2	ah	LOC	PART	_	_	1	discourse	_	_
 3	ka	I	PRON	1.SG	_	4	nsubj	_	_

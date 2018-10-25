@@ -33,12 +33,12 @@
 
 # sent_id = 4
 # text = Ka ke a faak.
-# text[eng] = My leg hurts. 
-1	Ka	ka	PRON	_	_	4	nsubj	_	my
-2	ke	ke	NOUN	_	_	4	obj	_	leg
-3	a	a	PRON	_	_	4	obj	_	3SG
-4	faak	faak	VERB	_	_	0	root	_	hurt
-5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+# text[eng] = My leg (it) hurts. 
+1	Ka	ka	PRON	_	_	2	nmod:poss	2:nmod:poss	my
+2	ke	ke	NOUN	_	_	4	obj	4:obj	leg
+3	a	a	PRON	_	_	4	nsubj	4:nsubj	it
+4	faak	faak	VERB	_	_	0	root	0:root	hurt
+5	.	PUNCT	PUNCT	_	_	4	punct	4:punct	_
 
 # sent_id = 5
 # text = Na dam maw?
@@ -50,19 +50,19 @@
 
 # sent_id = 6
 # text = A kaa a fa.
-# text[eng] = Her mouth is small.
-1	A	a	3SG	_	_	4	nsubj	_	her
-2	kaa	kaa	NOUN	_	_	4	root	_	mouth
-3	a	a	PRON	_	_	4	obj	_	3SG
-4	fa	fa	VERB	_	_	0	root	_	small
-5	.	PUNCT	PUNCT	_	_	4	PUNCT	_	_
+# text[eng] = Her mouth (it) is small.
+1	A	a	PRON	_	_	4	nmod:poss	4:nmod:poss	her
+2	kaa	kaa	NOUN	_	_	4	obj	4:obj	mouth
+3	a	a	PRON	_	_	4	nsubj	4:nsubj	it
+4	fa	fa	VERB	_	_	0	root	0:root	small
+5	.	PUNCT	PUNCT	_	_	4	PUNCT	4:PUNCT	_
 
 # sent_id = 7
-# text = Ka lu afak
-# text[eng] =  My head hurts. 
-1	Ka	ka	PRON	_	_	3	nsubj	_	my
+# text = Ka lu afak.
+# text[eng] =  My head (it) hurts. 
+1	Ka	ka	PRON	_	_	3	nmod:poss	_	my
 2	lu	lu	NOUN	_	_	3	obj	_	head
-3	a	a	PRON	_	_	4	PRON	_	3SG
+3	a	a	PRON	_	_	4	nsubj	_	it
 4	fak	fak	VERB	_	_	0	root	_	hurt
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 

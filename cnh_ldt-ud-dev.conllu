@@ -71,7 +71,7 @@
 # text[eng] = It is a lie!
 1	Lih	lih	NOUN	_	_	0	root	_	lie
 2-3	a si	_	_	_	_	_	_	_	_
-2	a	a	PRON	_	_	3	obj	_	3SG
+2	a	a	PRON	_	_	3	obj	_	it
 3	si	si	VERB	_	_	1	aux	_	is
 4	.	PUNCT	PUNCT	_	_	1	punct	_	_
 
@@ -452,3 +452,4 @@
 4	kal	kal	VERB	TR	_	0	root	_	go
 5	lai	lai	VERB	FUT	_	4	aux	_	shall
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+

@@ -16,7 +16,7 @@
 # text = Indianapolis ah ka um.
 # text[eng] = I live in Indianapolis.
 1	Indianapolis	Indianapolis	PROPN	_	_	4	obl	_	Indianapolis
-2	ah	ah	LOC	ADP	_	1	discourse	_	in
+2	ah	ah	PREP	_	_	1	discourse	_	in
 3	ka	ka	PRON	_	_	4	nsubj	_	I
 4	um	um	VERB	_	_	0	root	_	live
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
@@ -25,7 +25,7 @@
 # text = Indiana University ah sianginn ka kai.
 # text[eng] =  I go to school at Indiana University
 1	Indiana University	Indiana University	PROPN	_	_	3	obl	_	Indiana University
-2	ah	ah	ADP	_	_	1	discourse	_	LOC
+2	ah	ah	PREP	_	_	1	discourse	_	LOC
 3	sianginn	sianginn	NOUN	_	_	5	obj	_	school
 4	ka	ka	PRON	_	_	5	nsubj	_	I
 5	kai	kai	VERB	_	_	0	root	_	go
@@ -143,9 +143,9 @@
 # sent_id = 17
 # text = Mah chizawh hi a raang mi a si.
 # text[eng] = This cat is white.
-1	Mah	mah	REF	_	_	2	discourse	_	self
+1	Mah	mah	DEM	_	_	2	det	_	DEM
 2	chizawh	chizawh	NOUN	SG	_	5	nsubj	_	cat
-3	hi	hi	DEM	_	_	2	discourse	_	this
+3	hi	hi	DET	_	_	2	discourse	_	this
 4	a	a	PRON	_	_	5	obj	_	3SG
 5	raang	raang	VERB	_	_	0	root	_	white
 6	mi	mi	REL	_	_	5	discourse	_	REL
@@ -238,7 +238,7 @@
 # sent_id = 27
 # text = Hi hlei cu a kiak.
 # text[eng] = This lader is broken.
-1	Hi	hi	DEM	_	_	2	nmod	_	this
+1	Hi	hi	DET	_	_	2	nmod	_	this
 2	hlei	hlei	NOUN	_	_	5	nsubj	_	ladder
 3	cu	TOP	TOP	_	_	2	discourse	_	TOP
 4	a	a	PRON	_	_	5	obj	_	3SG
@@ -447,9 +447,47 @@
 # text = Inn ah ka kal lai.
 # text[eng] = I shall go home.
 1	Inn	inn	NOUN	SG	_	4	obj	_	home
-2	ah	ah	PART	_	_	1	discourse	_	LOC
+2	ah	ah	PREP	_	_	1	discourse	_	LOC
 3	ka	ka	PRON	1SG	_	4	nsubj	_	I
 4	kal	kal	VERB	TR	_	0	root	_	go
 5	lai	lai	VERB	FUT	_	4	aux	_	shall
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 51
+# text = Mei kha an sen dih.
+# text[eng] = The lights were all red. 
+1	Mei	mei	NOUN	_	_	4	nsubj	_	light
+2	kha	kha	DEM	_	_	1	det	_	DEM
+3	an	an	PRON	_	_	4	obj	_	they
+4	sen	sen	VERB	_	_	0	root	_	red
+5	dih	dih	COMPL	_	_	4	discourse	_	COMPL
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 52
+# text = Uico a rak rang tuk.
+# text[eng] = The dog was very fast.
+1	Uico	uico	NOUN	_	_	4	nsubj	_	dog
+2	a	a	PRON	_	_	4	obj	_	it
+3	rak	rak	PART	_	_	4	discourse	_	PERF
+4	rang	rang	VERB	_	_	0	root	_	fast
+5	tuk	tuk	ADV	_	_	4	advmod	_	_	very
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 53
+# text = Mei a vun sen.
+# text[eng] = The light immediately turned red. 
+1	Mei	mei	NOUN	_	_	4	nsubj	_	light
+2	a	a	PRON	_	_	4	obj	_	it
+3	vun	vun	ADV	_	_	4	advmod	_	immediately
+4	sen	sen	VERB	_	_	0	root	_	red
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 54
+# text = Mah uico hi a ran pik mi a si lai.
+# text[eng] = This dog will (definitely) be fast.
+1	Mah	mah	DEM	_	_	2	det	_	DEM
+2	uico	uico	NOUN	_	_	
+
+
+
 

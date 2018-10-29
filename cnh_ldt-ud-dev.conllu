@@ -1,15 +1,16 @@
 # sent_id = 1
 # text = My name is Chinchin. 
 # text[eng] = Keimah ka min cu Chinchin a si.
-1	Keimah	keimah	PRON	_	_	3	nsubj	3:nsubj	my
-2	ka	ka	PRON	_	_	3	discourse	3:discourse	I
-3	min	min	NOUN	_	_	0	root	0:root	name
-4	cu	cu	TOP	_	_	3	discourse	3:discourse	_
-5	Chinchin	Chin	NOUN	_	_	3	obj	3:obj	Chin
-6	a	a	PRON	_	_	3	obj	3:obj	3SG
-7	si	si	3SG	_	_	6	cop	6:cop	is
-8	.	PUNCT	PUNCT	_	_	3	punct	3:punct	_
+1	Keimah	keimah	PRON	_	_	5	nsubj	_	I
+2	ka	ka	DET	_	_	3	det	_	I
+3	min	min	NOUN	_	_	5	obj	_	name
+4	cu	cu	PART	_	_	3	discourse	_	TOP
+5	Chinchin	Chin	PROPN	_	_	0	root	_	Chin
+6	a	a	PRON	_	_	5	nsubj	_	3SG
+7	si	si	AUX	_	_	5	cop	_	is
+8	.	PUNCT	PUNCT	_	_	5	punct	_	_
 # In this instance I'm annotating the pre-verbal agreements as PRON with the obj syntactic relation following examples found in the Bambara and Spanish UD Treebanks. The gloss is 3SG which is also like the examples in these treebanks.
+# look at French treebank
 
 # sent_id = 2
 # text = Indianapolis ah ka um.
@@ -155,11 +156,12 @@
 # text = Uico nih chizawh adawi.
 # text[eng] = The dog chased the cat.
 1	Uico	uico	NOUN	SG	_	5	nsubj	_	dog
-2	nih	nih	PART	_	_	1	case	_	ERG
+2	nih	nih	ADP	_	_	1	case	_	ERG
 3	chizawh	chizawh	NOUN	SG	_	5	obj	_	cat
-4	a	a	PRON	_	_	5	obj	_	3SG
-5	dawi	VERB	3SG	_	0	root	_	chase
+4	a	a	PRON	_	_	5	dep	_	3SG
+5	dawi	dawi	VERB	3SG	_	0	root	_	chase
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+# look at Inu treebank
 
 # sent_id = 19
 # text = Chizawh nih uico adawi.

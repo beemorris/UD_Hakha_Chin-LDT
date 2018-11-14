@@ -1,16 +1,15 @@
 # sent_id = 1
 # text = My name is Chinchin. 
 # text[eng] = Keimah ka min cu Chinchin a si.
-1	Keimah	keimah	PRON	_	_	5	nsubj	_	I
-2	ka	ka	DET	_	_	3	det	_	I
-3	min	min	NOUN	_	_	5	obj	_	name
+# look at French treebank
+1	Keimah	keimah	PRON	_	_	5	obj	_	me
+2	ka	ka	PRON	_	_	3	nmod:poss	_	my
+3	min	min	NOUN	_	_	5	nsubj	_	name
 4	cu	cu	PART	_	_	3	discourse	_	TOP
 5	Chinchin	Chin	PROPN	_	_	0	root	_	Chin
-6	a	a	PRON	_	_	5	nsubj	_	3SG
+6	a	a	PART	_	_	7	dep	_	3SG
 7	si	si	AUX	_	_	5	cop	_	is
 8	.	PUNCT	PUNCT	_	_	5	punct	_	_
-# In this instance I'm annotating the pre-verbal agreements as PRON with the obj syntactic relation following examples found in the Bambara and Spanish UD Treebanks. The gloss is 3SG which is also like the examples in these treebanks.
-# look at French treebank
 
 # sent_id = 2
 # text = Indianapolis ah ka um.

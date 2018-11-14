@@ -16,7 +16,7 @@
 # text = Indianapolis ah ka um.
 # text[eng] = I live in Indianapolis.
 1	Indianapolis	Indianapolis	PROPN	_	_	4	obl	_	Indianapolis
-2	ah	ah	PREP	_	_	1	discourse	_	in
+2	ah	ah	ADP	_	_	1	discourse	_	in
 3	ka	ka	PRON	_	_	4	nsubj	_	I
 4	um	um	VERB	_	_	0	root	_	live
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
@@ -43,8 +43,9 @@
 # sent_id = 5
 # text = Na dam maw?
 # text[eng] = How are you?
+# B/C HC does adjectival verbs, I'm annotating well as VERB
 1	Na	na	PRON	_	_	2	nsubj	_	you
-2	dam	dam	ADJ	_	_	0	root	_	well
+2	dam	dam	VERB	_	_	0	root	_	well
 3	maw	maw	PART	_	_	2	discourse	_	Q
 4	?	PUNCT	PUNCT	_	_	2	punct	_	_
 
@@ -126,11 +127,11 @@
 # sent_id = 15
 # tetextxt = Ka ruh a kiak.
 # text[eng] = I broke a bone.
-1	Ka	ka	PRON		_	4	nsubj	_	I
+1	Ka	ka	PRON	_	_	4	nsubj	_	I
 2	ruh	ruh	NOUN	SG	_	4	obj	_	bone
-3	a	a	PRON	_	_	4	obj	_	3SG
+3	a	a	PRON	_	_	4	dep	_	3SG
 4	kiak	kiak	VERB	_	_	0	root	_	break
-5	.	PUNCT	PUNCT	_	_	4	punct	_	_	
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 16
 # text = Ka raang.
@@ -142,18 +143,18 @@
 # sent_id = 17
 # text = Mah chizawh hi a raang mi a si.
 # text[eng] = This cat is white.
-1	Mah	mah	DEM	_	_	2	det	_	DEM
+1	Mah	mah	DET	_	_	2	det	_	DEM
 2	chizawh	chizawh	NOUN	SG	_	5	nsubj	_	cat
 3	hi	hi	DET	_	_	2	discourse	_	this
-4	a	a	PRON	_	_	5	obj	_	3SG
+4	a	a	PRON	_	_	5	dep	_	3SG
 5	raang	raang	VERB	_	_	0	root	_	white
-6	mi	mi	REL	_	_	5	discourse	_	REL
-7	a	a	PRON	_	_	5	obj	_	3SG
+6	mi	mi	DET	_	_	5	discourse	_	REL
+7	a	a	PRON	_	_	5	dep	_	3SG
 8	si	si	VERB	_	_	7	aux	_	si
 9	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 18
-# text = Uico nih chizawh adawi.
+# text = Uico nih chizawh a dawi.
 # text[eng] = The dog chased the cat.
 1	Uico	uico	NOUN	SG	_	5	nsubj	_	dog
 2	nih	nih	ADP	_	_	1	case	_	ERG
@@ -161,7 +162,7 @@
 4	a	a	PRON	_	_	5	dep	_	3SG
 5	dawi	dawi	VERB	3SG	_	0	root	_	chase
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
-# look at Inu treebank
+# look at Inuit treebank
 
 # sent_id = 19
 # text = Chizawh nih uico adawi.
@@ -390,7 +391,7 @@
 1	Ka	ka	PRON	1SG	_	2	nmod:poss	_	my
 2	rang	rang	NOUN	_	_	5	nsubj	_	horse
 3	cu	cu	PART	_	_	2	discourse	_	TOP
-4	a	a	PRON	_	_	5	obj	_	3SG
+4	a	a	PART	_	_	5	dep	_	3SG
 5	pawl	pawl	VERB	_	_	0	root	_	grey
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 

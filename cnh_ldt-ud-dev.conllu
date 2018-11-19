@@ -156,7 +156,7 @@
 # text = Uico nih chizawh a dawi.
 # text[eng] = The dog chased the cat.
 1	Uico	uico	NOUN	SG	_	5	nsubj	_	dog
-2	nih	nih	ADP	_	_	1	case	_	ERG
+2	nih	nih	PART	_	_	1	case	_	ERG
 3	chizawh	chizawh	NOUN	SG	_	5	obj	_	cat
 4	a	a	PRON	_	_	5	dep	_	3SG
 5	dawi	dawi	VERB	3SG	_	0	root	_	chase
@@ -759,4 +759,139 @@
 9	ka	ka	PRON	_	_	10	obj	_	I
 10	peh	peh	VERB	_	_	0	root	_	hit
 11	.	PUNCT	PUNCT	_	_	10	punct	_	_
-# I feel like this one is super wrong. 
+# I feel like this one is super wrong.
+
+# sent_id = 79
+# text = Hi	cauk hi i hlang ve na duh maw?
+# text_eng = Do you want to borrow this book?
+1	Hi	Hi	DET	_	_	2	det	_	This
+2	cuak	cuak	NOUN	_	_	5	obj	_	book
+3	hi	hi	DET	_	_	2	det	_	this
+4	i	i	PART	_	_	5	dep	_	REFL
+5	hlang	hlang	VERB	_	_	8	ccomp	_	borrow
+6	ve	ve	ADV	_	_	5	advmod	_	also
+7	na	na	PRON	_	_	8	nsubj	_	you
+8	duh	duh	VERB	_	_	0	root	_	want
+9	maw	maw	PART	_	_	8	discourse	_	Q
+10	?	PUNCT	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 80
+# text = Nizan ah caw ka ∅ hmuh.
+# text_eng = I saw a cow yesterday.
+1	Nizan	nizan	ADV	_	_	5	advmod	_	yesterday
+2	ah	ah	ADP	_	_	1	discourse	_	LOC
+3	caw	caw	NOUN	_	_	5	obj	_	cow
+4	ka	ka	PRON	_	_	5	nsubj	_	I
+5	hmuh	hmuh	VERB	_	_	0	root	_	see
+6	.	PUNCY	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 81
+# text = Ngakchiapa nih darkio in rol a ∅ ei.
+# text_eng = The boy ate food with a spoon.
+1	Ngakchiapa	ngakchia	NOUN	_	_	7	nsubj	_	male child
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	darkio	darkio	NOUN	_	_	5	obl	_	spoon
+4	in	in	ADP	_	_	7	discourse	_	with
+5	rol	rol	NOUN	_	_	7	obj	_	food
+6	a	a	PRON	_	_	7	dep	_	3SG
+7	ei	ei	VERB	_	_	0	root	_	eat
+8	.	PUNCT	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 82
+# text = Ngakchianu nih siangpahrangpa he an laam.
+# text_eng = The girl danced with the king.
+# why is this pl verbal prefix?
+1	Ngakchianu	ngakchia	NOUN	_	_	6	nsubj	_	female child
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	siangpahrangpa	siangpahrang	NOUN	_	_	6	obl	_	king
+4	he	he	ADP	_	_	6	discourse	_	with
+5	an	an	PRON	_	_	6	dep	_	3PL
+6	laam	lam	VERB	_	_	0	root	_	dance
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 83
+# text = Mei nih lo cu a ∅ khangh.
+# text_eng = The fire burned the field..
+1	Mei	mei	NOUN	_	_	6	nsubj	_	fire
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	lo	lo	NOUN	_	_	6	obj	_	field
+4	cu	cu	PART	_	_	3	discourse	_	TOP
+5	a	a	PRON	_	_	6	dep	_	3SG
+6	khangh	khang	VERB	_	_	0	root	_	burn
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 84
+# text = Ka hmuh mi ka duh.
+# text_eng = I like what I see. 
+1	Ka	ka	PRON	_	_	2	nsubj	_	I
+2	hmuh	hmuh	VERB	_	_	5	ccomp	_	see
+3	mi	mi	DET	_	_	2	discourse	_	REL
+4	ka	ka	PRON	_	_	5	nsubj	_	I
+5	duh	duh	VERB	_	_	0	root	_	like
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 85
+# text = Mipa nih a ka chuih.
+# text_eng = The man kicked me. 
+1	Mipa	mipa	PRON	_	_	5	nsubj	_	male person
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	a	a	PRON	_	_	5	dep	_	3SG
+4	ka	ka	PRON	_	_	5	obj	_	me
+5	chuih	chuih	VERB	_	_	0	root	_	kick
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 86 
+# text = Ka nuamh tikah hla a sa.
+# text_eng = When I’m happy, she sings a song.
+1	Ka	ka	PRON	_	_	2	nsubj	_	I
+2	nuamh	nuamh	VERB	_	_	6	ccomp	_	happy
+3	tikah	tikah	ADV	_	_	2	advmod	_	when
+4	hla	hla	NOUN	_	_	6	obj	_	song
+5	a	a	PRON	_	_	6	nsubj	_	she
+6	sa	sa	VERB	_	_	0	root	_	sing
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 87
+# text = Mei a mit.
+# text_eng = The fire went out.
+1	Mei	mei	NOUN	_	_	3	nsubj	_	fire
+2	a	a	PRON	_	_	3	dep	_	3SG
+3	mit	mit	VERB	_	_	0	root	_	extinguish
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 88
+# text = Mei ka ∅ hmit.
+# text_eng = I put the fire out. 
+1	Mei	mei	NOUN	_	_	3	obj	_	fire
+2	ka	ka	PRON	_	_	3	nsubj	_	I
+3	hmit	hmit	VERB	_	_	0	root	_	extinguish
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 89
+# text = Ka paw a ttam.
+# text_eng = I'm hungry.
+1	Ka	ka	PRON	_	_	2	nmod:poss	_	my
+2	paw	paw	NOUN	_	_	4	nsubj	_	stomach
+3	a	a	PRON	_	_	4	dep	_	3SG
+4	ttam	ttam	VERB	_	_	0	root	_	hunger
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 90
+# text = Van cu a pia.
+# text_eng = The sky is blue.
+1	Van	van	NOUN	_	_	4	nsubj	_	sky
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	a	a	PRON	_	_	4	dep	_	3SG
+4	pia	pia	VERB	_	_	0	root	_	blue
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 91
+# text = A tung a sang deu maw?
+# text_eng = Is he taller (than before)?
+1	A	a	PRON	_	_	2	nmod:poss	_	his
+2	tung	tung	NOUN	_	_	4	nsubj	_	stature
+3	a	a	PRON	_	_	4	dep	_	3SG
+4	sang	sang	VERB	_	_	0	root	_	tall
+5	deu	deu	ADV	_	_	4	advmod	_	more
+6	maw	maw	PART	_	_	4	discourse	_	Q
+7	?	PUNCT	PUNCT	_	_	4	punct	_	_

@@ -59,12 +59,13 @@
 
 # sent_id = 7
 # text = Ka lu afak.
-# text[eng] =  My head (it) hurts. 
-1	Ka	ka	PRON	_	_	3	nmod:poss	_	my
-2	lu	lu	NOUN	_	_	3	obj	_	head
-3	a	a	PRON	_	_	4	nsubj	_	it
+# text[eng] =  My head (it) hurts.  
+1	Ka	ka	PRON	_	_	2	nmod:poss	_	my
+2	lu	lu	NOUN	_	_	3	nsubj	_	head
+3-4	afak	afak	_	_	_	_	_	_	_
+3	a	a	PRON	_	_	4	dep	_	3SG
 4	fak	fak	VERB	_	_	0	root	_	hurt
-4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 8
 # text = Lih a si!
@@ -176,8 +177,8 @@
 # sent_id = 20
 # text = Bawibawi cauk ka pek.
 # text[eng] = I gave Bawi a book. 
-1	Bawibawi	Bawi	PROPN	_	_	4	obj	_	Bawi
-2	cuak	cuak	NOUN	SG	_	4	iobj	_	book
+1	Bawibawi	Bawi	PROPN	_	_	4	iobj	_	Bawi
+2	cuak	cuak	NOUN	SG	_	4	obj	_	book
 3	ka	ka	PRON	_	_	4	nsubj	_	ka
 4	pek	pe	VERB	_	_	0	root	_	give
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
@@ -499,8 +500,8 @@
 2	i	i	PART	_	_	3	nmod:poss	_	POSS
 3	sibawi	sibawi	NOUN	_	_	7	nsubj	_	doctor
 4	nih	nih	PART	_	_	3	case	_	ERG
-5	sii	sii	NOUN	_	_	7	iobj	_	medicine
-6	an	an	PRON	_	_	7	obj	_	you
+5	sii	sii	NOUN	_	_	7	obj	_	medicine
+6	an	an	PRON	_	_	7	iobj	_	you
 7	pek	pe	VERB	_	_	0	root	_	give
 8	.	PUNCT	PUNCT	_	_	7	punct	_	_
 
@@ -752,11 +753,11 @@
 2	nih	nih	PART	_	_	1	case	_	ERG
 3	hi	hi	PART	_	_	1	discourse	_	DEM
 4	ka	ka	PRON	_	_	10	obj	_	me
-5	ha	ha	NOUN	_	_	10	iobj	_	tooth
+5	ha	ha	NOUN	_	_	10	obj	_	tooth
 6	ah	ah	PREP	_	_	5	discourse	_	on
 7	hin	hin	PART	_	_	5	discourse	_	DEM
 8	a	a	PRON	_	_	10	obj	_	it
-9	ka	ka	PRON	_	_	10	obj	_	I
+9	ka	ka	PRON	_	_	10	iobj	_	I
 10	peh	peh	VERB	_	_	0	root	_	hit
 11	.	PUNCT	PUNCT	_	_	10	punct	_	_
 # I feel like this one is super wrong.
@@ -895,3 +896,94 @@
 5	deu	deu	ADV	_	_	4	advmod	_	more
 6	maw	maw	PART	_	_	4	discourse	_	Q
 7	?	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 92
+# text = A hnar aa kheuh.
+# text_eng = He is scratching his nose. 
+1	A	a	PRON	_	_	4	nsubj	_	he
+2	hnar	hnar	NOUN	_	_	4	obj	_	nose
+3	aa	aa	PRON	_	_	2	nmod:poss	_	his
+4	kheuh	kheuh	VERB	_	_	0	root	_	scratch
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 93
+# text = Na pa nih ruul a thah.
+# text_eng = Your father killed a snake.
+1	Na	na	PRON	_	_	2	nmod:poss	_	your
+2	pa	pa	NOUN	_	_	6	nsubj	_	father
+3	nih	nih	PART	_	_	2	case	_	ERG
+4	ruul	ruul	NOUN	_	_	6	obj	_	snake
+5	a	a	PRON	_	_	6	dep	_	3SG
+6	thah	thah	VERB	_	_	0	root	_	kill
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_	
+
+# sent_id = 94
+# text = Kan inn ah kal.
+# text_eng = Go to our house.
+1	Kan	kan	PRON	_	_	2	nmod:poss	_	our
+2	inn	inn	NOUN	_	_	4	nsubj	_	house
+3	ah	ah	ADP	_	_	2	discourse	_	LOC
+4	kal	kal	VERB	_	_	0	root	_	go
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 95
+# text = A lei aa seh.
+# text_eng = He bit his tongue. 
+1	A	a	PRON	_	_	4	nsubj	_	he
+2	lei	lei	NOUN	_	_	4	obj	_	tongue
+3	aa	aa	PRON	_	_	2	nmod:poss	_	his
+4	seh	seh	VERB	_	_	0	root	_	bit
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 96
+# text = Dawr ah na kal lai maw?
+# text_eng = Are you going to the store?
+1	Dawr	dawr	NOUN	_	_	4	obj	_	store
+2	ah	ah	ADP	_	_	1	discourse	_	to
+3	na	na	PRON	_	_	4	nsubj	_	you
+4	kal	kal	VERB	_	_	0	root	_	go
+5	lai	lai	AUX	_	_	4	aux	_	FUT
+6	maw	maw	PART	_	_	4	discourse	_	Q
+7	?	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 97
+# text = Chinchin cu cauk a pek.
+# text_eng = He gave Chinchin a book.
+1	Chinchin	Chin	PROPN	_	_	5	iobj	_	Chinchin
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	cuak	cuak	NOUN	_	_	5	obj	_	book
+4	a	a	PRON	_	_	5	dep	_	3SG
+5	pek	pe	VERB	_	_	0	root	_	give
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 98
+# text = Chinchin cu cauk ka pek lai.
+# text_eng = I will give Chinchin a book. 
+1	Chinchin	Chinchin	PROPN	_	_	5	iobj	_	Chinchin
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	cuak	cuak	NOUN	_	_	5	obj	_	book
+4	ka	ka	PRON	_	_	5	nsubj	_	I
+5	pek	pe	VERB	_	_	0	root	_	give
+6	lai	lai	AUX	_	_	5	aux	_	FUT
+7	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 99
+# text = Chinchin cu cauk an pek.
+# text_eng = They gave Chinchin a book/Chinchin was given a book. 
+1	Chinchin	Chinchin	PROPN	_	_	5	iobj	_	Chinchin
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	cuak	cuak	NOUN	_	_	5	obj	_	book
+4	an	an	PRON	_	_	5	nsubj	_	they
+5	pek	pe	VERB	_	_	0	root	_	give
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 100
+# text = A cauk cu Chinchin a pek.
+# text_eng = He gave Chinchin his book. 
+1	A	a	PRON	_	_	2	nmod:poss	_	his
+2	cuak	cuak	NOUN	_	_	6	obj	_	book
+3	cu	cu	PART	_	_	2	discourse	_	TOP
+4	Chinchin	Chinchin	PROPN	_	_	6	iobj	_	Chinchin
+5	a	a	PRON	_	_	6	nsubj	_	he
+6	pek	pe	VERB	_	_	0	root	_	give
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_

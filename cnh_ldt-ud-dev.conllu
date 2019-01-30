@@ -986,3 +986,33 @@
 5	a	a	PRON	_	_	6	nsubj	_	he
 6	pek	pe	VERB	_	_	0	root	_	give
 7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 101
+# text = A lei aa seh.
+# text_eng = He bit his tongue.
+1	A	a	PRON	_	_	4	nsubj	_	he
+2	lei	lei	NOUN	_	_	4	obj	_	tongue
+3	aa	aa	PART	_	_	2	nmod:poss	_	his
+4	seh	seh	VERB	_	_	0	root	_	bit
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 102
+# text = Na fa a ṭap tuk.
+# text_eng = Your child cries a lot.
+1	Na	na	PRON	_	_	2	nmod:poss	_	your
+2	fa	fa	NOUN	_	_	4	nsubj	_	child
+3	a	a	PRON	_	_	4	dep	_	3SG
+4	ṭap	ṭap	VERB	_	_	0	root	_	cry
+5	tuk	tuk	ADV	_	_	4	advmod	_	a lot
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 103
+# text = Na pa nih ruul a thah.
+# text_eng = Your father killed a snake.
+1	Na	na	PRON	_	_	2	nmod:poss	_	your
+2	pa	pa	PRON	_	_	6	nsubj	_	father
+3	nih	nih	PART	_	_	2	case	_	ERG
+4	ruul	ruul	NOUN	_	_	6	obj	_	snake
+5	a	a	PRON	_	_	6	dep	_	3SG
+6	thah	thah	VERB	_	_	0	root	_	kill
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_

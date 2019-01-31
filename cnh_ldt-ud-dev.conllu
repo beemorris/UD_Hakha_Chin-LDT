@@ -185,8 +185,8 @@
 # sent_id = 21
 # text = Ka tli.
 # text[eng] = I ran
-1	Ka	ka	PRON	1SG	_	2	nsubj	_	I
-2	tli	tli	VERB	INTR.PST	_	0	root	_	run
+1	Ka	ka	PRON	_	_	2	nsubj	_	I
+2	tli	tli	VERB	_	_	0	root	_	run
 3	.	PUNCT	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 22
@@ -194,22 +194,22 @@
 # text[eng] = The water spilled.
 1	Ti	ti	NOUN	_	_	3	nusbj	_	water
 2	a	a	PRON	_	_	3	obj	_	3SG
-3	tle	tle	VERB	INTR.PST	_	0	root	_	spill
+3	tle	tle	VERB	_	_	0	root	_	spill
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 23
 # text = Kaa din lai.
 # text[eng] = I will rest. 
-1	Ka	ka	PRON	1SG	_	2	nsubj	_	I
-2	din	din	VERB	INTR	_	0	root	_	rest
-3	lai	lai	VERB	FUT	_	2	aux	_	will
+1	Ka	ka	PRON	_	_	2	nsubj	_	I
+2	din	din	VERB	_	_	0	root	_	rest
+3	lai	lai	VERB	_	_	2	aux	_	will
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 
 # sent_id = 24
 # text = Ar a si.
 # text[eng] = It is a chicken.
-1	Ar	ar	NOUN	SG	_	0	root	_	chicken
+1	Ar	ar	NOUN	_	_	0	root	_	chicken
 2	a	a	PRON	_	_	1	obj	_	3SG
 3	si	si	VERB	_	_	2	aux	_	is
 4	.	PUNCT	PUNCT	_	_	1	punct	_	_
@@ -217,7 +217,7 @@
 # sent_id = 25
 # text = Uico a si maw?
 # text[eng] = Is that a dog?
-1	Uico	uico	NOUN	SG	_	0	root	_	dog
+1	Uico	uico	NOUN	_	_	0	root	_	dog
 2	a	a	PRON	_	_	1	obj	_	3SG
 3	si	si	VERB	_	_	2	aux	_	is
 4	maw	maw	PART	_	_	1	discourse	_	Q
@@ -226,10 +226,10 @@
 # sent_id = 26
 # text = Uico pahnih an ngei.
 # text[eng] = They have two dogs.
-1	Uico	uico	NOUN	PL	_	4	obj	_	dog
+1	Uico	uico	NOUN	_	_	4	obj	_	dog
 2	pahnih	pahnih	NUM	_	_	1	nummod	_	two
 3	an	an	PRON	3.PL	_	4	nsubj	_	they
-4	ngei	negi	VERB	TR	_	0	root	_	have
+4	ngei	negi	VERB	_	_	0	root	_	have
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 27
@@ -245,7 +245,7 @@
 # sent_id = 28
 # text = Ar a si maw?
 # text[eng] = Is that a chicken?
-1	Ar	ar	NOUN	SG	_	0	root	_	chicken
+1	Ar	ar	NOUN	_	_	0	root	_	chicken
 2	a	a	PRON	_	_	1	obj	_	3SG
 3	si	si	VERB	_	_	2	aux	_	is
 4	maw	maw	PART	_	_	1	discourse	_	Q
@@ -282,7 +282,7 @@
 1	Uico	uico	NOUN	SG	_	5	nsubj	_	dog
 2	nih	nih	PART	_	_	1	case	_	ERG
 3	a	a	PRON	_	_	5	obj	_	3SG
-4	ka	ka	PRON	1SG	_	5	obj	_	I
+4	ka	ka	PRON	_	_	5	obj	_	I
 5	dawi	dawi	VERB	_	_	0	root	_	chase
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
@@ -292,21 +292,21 @@
 1	Rawl	rawl	NOUN	_	_	3	obj	_	food
 2	kan	kan	PRON	_	_	3	nsubj	_	we
 3	ei	ei	VERB	_	_	0	root	_	eat
-4	lai	lai	VERB	FUT	_	3	aux	_	will
+4	lai	lai	VERB	_	_	3	aux	_	will
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 34
 # text = Sa kan em.
 # text[eng] = We roast meat.
 1	Sa	sa	NOUN	_	_	3	obj	_	meat
-2	kan	kan	PRON	1SG	_	3	nsubj	_	we
-3	em	em	VERB	TR	_	0	root	_	roast
+2	kan	kan	PRON	_	_	3	nsubj	_	we
+3	em	em	VERB	_	_	0	root	_	roast
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 35
 # text = Ka keng a fak.
 # text[eng] = My back hurts (i.e., the lower part of my back is painful).
-1	Ka	ka	PRON	1SG	_	2	nmod:poss	_	my
+1	Ka	ka	PRON	_	_	2	nmod:poss	_	my
 2	keng	keng	NOUN	_	_	4	nsubj	_	back
 3	a	a	PRON	_	_	4	obj	_	3SG
 4	fak	fak	VERB	_	_	0	root	_	hurt
@@ -315,7 +315,7 @@
 # sent_id = 36
 # text = Ka keng a faak.
 # text[eng] = I have backache.
-1	Ka	ka	PRON	1SG	_	2	nmod:poss	_	my
+1	Ka	ka	PRON	_	_	2	nmod:poss	_	my
 2	keng	keng	NOUN	_	_	4	nsubj	_	back
 3	a	a	PRON	_	_	4	obj	_	3SG
 4	faak	faak	VERB	_	_	0	root	_	hurt
@@ -377,17 +377,17 @@
 # sent_id = 43
 # text = Siangngakchia pawl sianginn an kai.
 # text[eng] = The students go to school.
-1	Siangngakchia	Siangngakchia	NOUN	PL	_	5	nsubj	_	student
+1	Siangngakchia	Siangngakchia	NOUN	_	_	5	nsubj	_	student
 2	pawl	pawl	PART	_	_	1	nmod	_	PL
-3	sianginn	sianginn	NOUN	SG	_	5	obj	_	school
+3	sianginn	sianginn	NOUN	_	_	5	obj	_	school
 4	an	an	PART	_	_	5	obj	_	3PL
-5	kai	kai	VERB	TR	_	0	root	_	go
+5	kai	kai	VERB	_	_	0	root	_	go
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 44
 # text = Ka rang cu a pawl.
 # text[eng] = My horse is grey.
-1	Ka	ka	PRON	1SG	_	2	nmod:poss	_	my
+1	Ka	ka	PRON	_	_	2	nmod:poss	_	my
 2	rang	rang	NOUN	_	_	5	nsubj	_	horse
 3	cu	cu	PART	_	_	2	discourse	_	TOP
 4	a	a	PART	_	_	5	dep	_	3SG
@@ -397,7 +397,7 @@
 # sent_id = 45
 # text = Ka hnar a ping.
 # text[eng] = My nose clogs up.
-1	Ka	ka	PRON	1SG	_	2	nmod:poss	_	my
+1	Ka	ka	PRON	_	_	2	nmod:poss	_	my
 2	hnar	hnar	NOUN	SG	_	4	nsubj	_	nose
 3	a	a	PRON	_	_	4	obj	_	3SG
 4	ping	ping	VERB	_	_	0	root	_	clogs
@@ -406,7 +406,7 @@
 # sent_id = 46
 # text = Ka hngete a faak.
 # text[eng] = My little toe is in pain.
-1	Ka	ka	PRON	1SG	_	2	nmod:poss	_	my
+1	Ka	ka	PRON	_	_	2	nmod:poss	_	my
 2	hngete	hngete	NOUN	SG	_	4	nsubj	_	little toe
 3	a	a	PRON	_	_	4	obj	_	3SG
 4	faak	faak	VERB	_	_	0	root	_	hurt
@@ -415,7 +415,7 @@
 # sent_id = 47
 # text = Ka hma a por.
 # text[eng] = My wound gets infected.
-1	Ka	ka	PRON	1SG	_	2	nmod:poss	_	my
+1	Ka	ka	PRON	_	_	2	nmod:poss	_	my
 2	hma	hma	NOUN	_	_	4	nsubj	_	wound
 3	a	a	PRON	_	_	4	obj	_	3SG
 4	por	por	VERB	_	_	0	root	_	infect
@@ -433,19 +433,19 @@
 # text = Sa an reu.
 # text[eng] = They fried meat.
 1	Sa	sa	NOUN	_	_	3	obj	_	meat
-2	an	an	PRON	3.PL	_	3	nsubj	_	they
-3	reu	reu	VERB	TR.PST	_	0	root	_	fry
+2	an	an	PRON	_	_	3	nsubj	_	they
+3	reu	reu	VERB	_	_	0	root	_	fry
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 # Verb valency; not word order
 
 # sent_id = 50
 # text = Inn ah ka kal lai.
 # text[eng] = I shall go home.
-1	Inn	inn	NOUN	SG	_	4	obj	_	home
+1	Inn	inn	NOUN	_	_	4	obj	_	home
 2	ah	ah	PREP	_	_	1	discourse	_	LOC
-3	ka	ka	PRON	1SG	_	4	nsubj	_	I
-4	kal	kal	VERB	TR	_	0	root	_	go
-5	lai	lai	VERB	FUT	_	4	aux	_	shall
+3	ka	ka	PRON	_	_	4	nsubj	_	I
+4	kal	kal	VERB	_	_	0	root	_	go
+5	lai	lai	VERB	_	_	4	aux	_	shall
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 51
@@ -1015,4 +1015,57 @@
 4	ruul	ruul	NOUN	_	_	6	obj	_	snake
 5	a	a	PRON	_	_	6	dep	_	3SG
 6	thah	thah	VERB	_	_	0	root	_	kill
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 104
+# text = Chinchin cu cauk a pek.
+# text_eng = He gave Chin a book. 
+1	Chinchin	Chin	PROPN	_	_	5	iobj	_	Chin
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	cauk	cauk	NOUN	_	_	5	obj	_	book
+4	a	a	PRON	_	_	5	nsubj	_	he
+5	pek	pek	VERB	_	_	0	root	_	give
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 105
+# text = Chinchin cu cauk ka pek lai.
+# text_eng = I will give Chin a book.
+1	Chinchin	Chin	PROPN	_	_	5	iobj	_	Chin
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	cauk	cauk	NOUN	_	_	5	obj	_	book
+4	ka	ka	PRON	_	_	5	nsubj	_	I
+5	pek	pek	VERB	_	_	0	root	_	give
+6	lai	lai	VERB	_	_	5	verb	_	FUT
+7	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 106
+# text = Chinchin cu cauk an pek.
+# text_eng = Chinchin was given a book/They gave chin a book.
+1	Chinchin	Chinchin	PROPN	_	_	5	iobj	_	Chinchin
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	cauk	cauk	NOUN	_	_	5	obj	_	book
+4	an	an	PRON	_	_	5	nsubj	_	they
+5	pek	pek	VERB	_	_	0	root	_	give
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 107
+# text = A cauk cu Chinchin a pek.
+# text_eng = He gave his book to Chinchin.
+1	A	a	PRON	_	_	2	nmod:poss	_	his
+2	cauk	cauk	NOUN	_	_	6	iobj	_	book
+3	cu	cu	PART	_	_	2	discourse	_	TOP
+4	Chinchin	Chinchin	PROPN	_	_	6	obj	_	nsubj
+5	a	a	PRON	_	_	6	nsubj	_	he
+6	pek	pek	VERB	_	_	0	root	_	give
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 108
+# text = Bawibawi cu Chinchin cauk ka pek.
+# text_eng = I gave Bawi Chin's book.
+1	Bawibawi	Bawi	PROPN	_	_	6	iobj	_	Bawi
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	Chinchin	Chin	PROPN	_	_	4	nmod:poss	_	Chin's
+4	cauk	cauk	NOUN	_	_	6	obj	_	book
+5	ka	ka	PRON	_	_	6	nsubj	_	I
+6	pek	pek	VERB	_	_	0	root	_	give
 7	.	PUNCT	PUNCT	_	_	6	punct	_	_

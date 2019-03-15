@@ -199,7 +199,7 @@
 
 # sent_id = 23
 # text = Kaa din lai.
-# text[eng] = I will rest. 
+# text[eng] = I will rest.
 1	Ka	ka	PRON	_	_	2	nsubj	_	I
 2	din	din	VERB	_	_	0	root	_	rest
 3	lai	lai	AUX	_	_	2	aux	_	will

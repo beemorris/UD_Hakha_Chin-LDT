@@ -535,7 +535,7 @@
 3	lo	lo	PART	_	_	0	root	_	not
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
-#	sent_id = 61
+# sent_id = 61
 # text = Uico nih chisawpol a dawi hna.
 # text[eng] = The dog chased the cats. 
 1	Uico	uico	NOUN	_	_	5	nsubj	_	dog
@@ -741,7 +741,7 @@
 2	ah	ah	PREP	_	_	1	discourse	_	LOC
 3	dah	dah	PART	_	_	1	discourse	_	WH
 4	cuak	cuak	NOUN	_	_	0	root	_	book
-5	a	a	PRON	_	_	6	obj	_	_	it
+5	a	a	PRON	_	_	6	dep	_	_	it
 6	um	um	AUX	_	_	4	ccomp	_	COP
 7	?	PUNCT	PUNCT	_	_	4	punct	_	_
 
@@ -751,12 +751,12 @@
 1	Lung	lung	NOUN	_	_	10	nsubj	_	rock
 2	nih	nih	PART	_	_	1	case	_	ERG
 3	hi	hi	PART	_	_	1	discourse	_	DEM
-4	ka	ka	PRON	_	_	10	obj	_	me
+4	ka	ka	PRON	_	Person=1|Number=Sing	10	obj	_	me
 5	ha	ha	NOUN	_	_	10	obj	_	tooth
 6	ah	ah	PREP	_	_	5	discourse	_	on
 7	hin	hin	PART	_	_	5	discourse	_	DEM
-8	a	a	PRON	_	_	10	obj	_	it
-9	ka	ka	PRON	_	_	10	iobj	_	I
+8	a	a	PRON	_	Person=3|Number=Sing	10	dep	_	3SG
+9	ka	ka	PRON	_	Person=1|Number=Sing	10	iobj	_	I
 10	peh	peh	VERB	_	_	0	root	_	hit
 11	.	PUNCT	PUNCT	_	_	10	punct	_	_
 # I feel like this one is super wrong.
@@ -811,7 +811,7 @@
 
 # sent_id = 83
 # text = Mei nih lo cu a ∅ khangh.
-# text[eng] = The fire burned the field..
+# text[eng] = The fire burned the field.
 1	Mei	mei	NOUN	_	_	6	nsubj	_	fire
 2	nih	nih	PART	_	_	1	case	_	ERG
 3	lo	lo	NOUN	_	_	6	obj	_	field
@@ -997,12 +997,12 @@
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 102
-# text = Na fa a ṭap tuk.
+# text = Na fa a ttap tuk.
 # text[eng] = Your child cries a lot.
 1	Na	na	PRON	_	_	2	nmod:poss	_	your
 2	fa	fa	NOUN	_	_	4	nsubj	_	child
 3	a	a	PRON	_	_	4	dep	_	3SG
-4	ṭap	ṭap	VERB	_	_	0	root	_	cry
+4	ttap	ttap	VERB	_	_	0	root	_	cry
 5	tuk	tuk	ADV	_	_	4	advmod	_	a lot
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 

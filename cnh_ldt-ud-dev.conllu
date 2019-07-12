@@ -973,3 +973,76 @@
 2	kaa	kaa	PRON	_	Person=1|Number=Sing	3	nsubj	3:nsubj	I
 3	tteih	tteih	VERB	_	Tense=Present	0	root	0:root	accident/collision
 4	.	PUNCT	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = 101
+# text = Mah pa hi sibawi a si.
+# text[eng] = This man is a doctor.
+1	Mah	mah	DET	_	_	2	det	_	this
+2	pa	pa	PRON	_	Person=3|Number=Sing	4	nsubj	_	man
+3	hi	hi	DET	_	_	2	det	_	this
+4	sibawi	sibawi	NOUN	_	_	0	root	_	doctor
+5	a	a	PART	_	Person=3|Number=Sing	6	dep	_	3SG
+6	si	si	AUX	_	_	4	COP	_	is
+7	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 102
+# text = Ka fapa a si lo.
+# text[eng] = He is not my son.
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
+2	fapa	fapa	NOUN	_	_	0	root	_	son
+3	a	a	PRON	_	Person=3|Number=Sing	2	nsubj	_	he
+4	si	si	AUX	_	_	2	cop	_	is
+5	lo	lo	PART	_	_	4	discourse	_	not
+6	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 103
+# text = Ka fapa a si.
+# text[eng] = He is my son.
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
+2	fapa	fapa	NOUN	_	_	0	root	_	son
+3	a	a	PRON	_	Person=3|Number=Sing	2	nsubj	_	he
+4	si	si	AUX	_	_	2	cop	_	is
+5	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 104
+# text = Ruah a sur lo.
+# text[eng] = It is not raining.
+1	Ruah	ruah	NOUN	_	_	3	nsubj	_	rain
+2	a	a	PRON	_	Person=3|Number=Sing	2	dep	_	3SG
+3	sur	sur	VERB	_	_	0	root	_	fall
+4	lo	lo	PART	_	_	3	discourse	_	not
+5	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 105
+# text = Ruah a sur.
+# text[eng] = It is raining.
+1	Ruah	ruah	NOUN	_	_	3	nsubj	_	rain
+2	a	a	PRON	_	Person=3|Number=Sing	2	dep	_	3SG
+3	sur	sur	VERB	_	_	0	root	_	fall
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 106
+# text = Ka it lo.
+# text[eng] = I did not sleep.
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nsubj	_	I
+2	it	it	VERB	_	_	0	root	_	sleep
+3	lo	lo	PART	_	_	2	discourse	_	not
+4	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 107
+# text = Kan it lo.
+# text[eng] = We do not sleep.
+1	Kan	kan	PRON	_	Person=1|Number=Plural	2	root	_	we
+2	it	it	VERB	_	_	0	root	_	sleep
+3	lo	lo	PART	_	_	2	discourse	_	not
+4	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 108
+# text = Hi vok hi a lian.
+# text[eng] = This pig is big.
+1	Hi	hi	DET	_	_	2	discourse	_	this
+2	vok	vok	NOUN	_	_	5	nsubj	_	pig
+3	hi	hi	DET	_	_	2	discourse	_	this
+4	a	a	PART	_	Person=3|Number=Sing	5	dep	_	3SG
+5	lian	lian	VERB	_	_	0	root	_	big
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_

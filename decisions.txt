@@ -1,5 +1,6 @@
 Hakha Chin UD Decisions:
-1.  ṭ = tt
+1. ṭ = tt
 2. Sometimes if there is a nominal subject the verbal prefix is being marked as a dep because it is unclear what it is. If there is no nom sbj then the prefix is treated as the nom sbj of the sentence. One possible annotation is that it is an AUX to the verb. This will be looked into. 
 3. Keimah ka min = I call/name my(self). Min has another word sense in HC and it's a verb. Similar to Je m'appelle in French. So Keimah ka min cu ChinChin a si = It is ChinChin that I call/name myself
 4. HC has adjectival verbs so adjectives will be annotated as verbs.
+5. Verbs are not usually annotated with tense unless there is a verbal modifier indicating tense.

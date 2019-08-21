@@ -45,7 +45,7 @@
 
 # sent_id = 6
 # text = Ka lu afak.
-# text[eng] =  My head (it) hurts.  
+# text[eng] =  My head (it) hurts.
 1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
 2	lu	lu	NOUN	_	_	3	nsubj	_	head
 3-4	afak	afak	_	_	_	_	_	_	_
@@ -143,7 +143,7 @@
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 17
-# text = Chizawh nih uico adawi.
+# text = Chizawh nih uico a dawi.
 # text[eng] = The cat chased the dog.
 1	Chizawh	chizawh	NOUN	_	_	5	nsubj	_	cat
 2	nih	nih	PART	_	_	1	case	_	ERG
@@ -1230,6 +1230,10 @@
 5	dawi	dawi	VERB	_	_	0	root	_	chase
 6	hna	hna	PRON	_	Number=Plural	3	discourse	_	_	PL
 7	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+
+# ask about 129 with the dog chased them.
+
 
 # sent_id = 130
 # text = Uico nih a dawi.

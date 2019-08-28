@@ -244,7 +244,7 @@
 # text[eng] = A dog chased me.
 1	Uico	uico	NOUN	_	_	5	nsubj	_	dog
 2	nih	nih	PART	_	_	1	case	_	ERG
-3	a	a	PRON	_	Person=3|Number=Sing	5	obj	_	3SG
+3	a	a	PART	_	_	5	expl	_	3SG
 4	ka	ka	PRON	_	Person=1|Number=Sing	5	obj	_	I
 5	dawi	dawi	VERB	_	_	0	root	_	chase
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
@@ -488,15 +488,15 @@
 3	lo	lo	PART	_	_	0	root	_	not
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 55
-# text = Uico nih chisaw a dawi hna.
+# sent_ id = 55
+# text = Uico nih chizawh a dawi hna.
 # text[eng] = The dog chased the cats.
 1	Uico	uico	NOUN	_	_	5	nsubj	_	dog
 2	nih	nih	PART	_	_	1	case	_	ERG
-3	chizawh	chizawh	NOUN	_	_	5	obj	_	cats
+3	chizawh	chizawh	NOUN	_	_	5	obj	_	cat
 4	a	a	PRON	_	Person=3|Number=Sing	5	dep	_	3SG
 5	dawi	dawi	VERB	_	_	0	root	_	chase
-6	hna	hna	PART	_	Number=Plural	3	discourse	_	PL
+6	hna	hna	PRON	_	Number=Plural	3	discourse	_	_	PL
 7	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
 #sent_id = 56
@@ -1220,22 +1220,7 @@
 5	lai	lai	AUX	_	Tense=Future	3	aux	_	will
 6	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
-# sent_ id = 129
-# text = Uico nih chizawh a dawi hna.
-# text[eng] = The dog chased the cats.
-1	Uico	uico	NOUN	_	_	5	nsubj	_	dog
-2	nih	nih	PART	_	_	1	case	_	ERG
-3	chizawh	chizawh	NOUN	_	_	5	obj	_	cat
-4	a	a	PRON	_	Person=3|Number=Sing	5	dep	_	3SG
-5	dawi	dawi	VERB	_	_	0	root	_	chase
-6	hna	hna	PRON	_	Number=Plural	3	discourse	_	_	PL
-7	.	PUNCT	PUNCT	_	_	5	punct	_	_
-
-
-# ask about 129 with the dog chased them.
-
-
-# sent_id = 130
+# sent_id = 129
 # text = Uico nih a dawi.
 # text[eng] = The dog chased it.
 1	Uico	uico	NOUN	_	_	4	nsubj	_	dog
@@ -1243,3 +1228,115 @@
 3	a	a	PRON	_	Person=3|Number=Sing	4	obj	_	it
 4	dawi	dawi	VERB	_	_	0	root	_	chase
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 130
+# text = Uico pawl nih chizawh an dawi.
+# text_eng = The dogs chased the cat.
+1	Uico	uico	NOUN	_	_	6	nsubj	_	dog
+2	pawl	pawl	PART	_	_	1	case	_	PL
+3	nih	nih	PART	_	_	1	case	_	ERG
+4	chizawh	chizawh	NOUN	_	_	6	obj	_	cat
+5	an	an	PART	_	_	6	expl	_	3PL
+6	dawi	dawi	VERB	_	_	0	root	_	chase
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 131
+# text = Chizawh pawl nih uico an dawi.
+# text_eng = The cats chased the dog.
+1	Chizawh	chizawh	NOUN	_	_	6	nsubj	_	cat
+2	pawl	pawl	PART	_	_	1	case	_	PL
+3	nih	nih	PART	_	_	1	case	_	ERG
+4	uico	uico	NOUN	_	_	6	obj	_	dog
+5	an	an	PART	_	_	6	expl	_	3PL
+6	dawi	dawi	VERB	_	_	0	root	_	chase
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 132
+# text Nangmah nih chizawh na dawi.
+# text_eng = You chased the cat.
+1	Nangmah	nangmah	PRON	_	Person=1|Number=Sing	5	nsubj	_	you
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	chizawh	chizawh	NOUN	_	_	5	obj	_	cat
+4	na	na	PART	_	_	5	expl	_	1SG
+5	dawi	dawi	VERB	_	_	0	root	_	chase
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 133
+# text = Ngakchia pawl nih nangmah an in dawi.
+# text_eng = The children chased you.
+1	Ngakchia	ngakchia	NOUN	_	_	7	nsubj	_	child
+2	pawl	pawl	PART	_	_	1	case	_	PL
+3	nih	nih	PART	_	_	1	case	_	_	ERG
+4	nangmah	nangmah	PRON	_	_	7	obj	_	you
+5	an	an	PART	_	_	7	expl	_	3PL
+6	in	in	PART	_	_	7	expl	_	2SG
+7	dawi	dawi	VERB	_	_	0	root	_	chase
+8	.	PUNCT	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 134
+# text = Ngakchia nu rawl a ei.
+# text_eng = The girl eats food.
+1	Ngakchia	ngakchia	NOUN	_	_	5	nsubj	_	child
+2	nu	nu	PART	_	_	1	case	_	female
+3	rawl	rawl	NOUN	_	_	5	obj	_	food
+4	a	a	PART	_	_	5	expl	_	3SG
+5	ei	ei	VERB	_	_	0	root	_	eat
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 135
+# text = SuiSui cu TV a zoh.
+# text_eng = Sui is watching TV.
+1	SuiSui	Sui	PROPN	_	_	5	nsubj	_	Sui
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	TV	TV	NOUN	_	_	5	obj	_	TV
+4	a	a	PART	_	_	5	expl	_	3SG
+5	zoh	zoh	VERB	_	_	0	root	_	watch
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 136
+# text = TV a zoh.
+# text_eng = She watches TV.
+1	TV	TV	NOUN	_	_	3	obj	_	TV
+2	a	a	PRON	_	_	3	nsubj	_	she
+3	zoh	zoh	VERB	_	_	0	root	_	watch
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 137
+# text = Nizaan zingka ah ka tli.
+# text_eng = Yesterday morning I ran.
+1	Nizaan	Nizaan	ADV	_	_	5	advcl	_	yesterday
+2	zingka	zingka	NOUN	_	_	5	acl	_	morning
+3	ah	ah	ADP	_	_	2	discourse	_	TEMP
+4	ka	ka	PRON	_	_	5	nsubj	_	I
+5	tli	tli	VERB	_	_	0	root	_	run
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 138
+# text = Thlalang a ka hmuh.
+# text_eng = I saw myself in the mirror.
+1	Thlalang	Thlalang	NOUN	_	_	4	iobj	_	mirror
+2	a	a	PART	_	_	4	expl	_	3SG
+3	ka	ka	PRON	_	_	4	nsubj	_	I
+4	hmuh	hmuh	VERB	_	REFL	0	root	_	saw
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 139
+# text = Cauk ka rel.
+# text_eng = I read the book.
+1	Cauk	cauk	NOUN	_	_	3	obj	_	book
+2	ka	ka	PRON	_	_	3	nsubj	_	I
+3	rel	rel	VERB	_	_	0	root	_	read
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 140
+# text = A ka hmuh.
+# text_eng = She saw me.
+1	A	a	PRON	_	_	3	nsubj	_	she
+2	ka	ka	PRON	_	_	3	obj	_	me
+3	hmuh	hmuh	VERB	_	TRANS	0	root	_	see
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 141
+# text = Amah nu nih a kan hmuh.
+# text_eng = She saw us.
+1-2	Amah nu	amah	

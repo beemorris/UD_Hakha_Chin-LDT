@@ -1257,7 +1257,7 @@
 1	Nangmah	nangmah	PRON	_	Person=1|Number=Sing	5	nsubj	_	you
 2	nih	nih	PART	_	_	1	case	_	ERG
 3	chizawh	chizawh	NOUN	_	_	5	obj	_	cat
-4	na	na	PART	_	_	5	expl	_	1SG
+4	na	na	PART	_	_	5	expl	_	2SG
 5	dawi	dawi	VERB	_	_	0	root	_	chase
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
@@ -1339,4 +1339,36 @@
 # sent_id = 141
 # text = Amah nu nih a kan hmuh.
 # text_eng = She saw us.
-1-2	Amah nu	amah	
+1	Amah	amah	PRON	_	_	6	nsubj	_	she
+2	nu	nu	PART	_	_	1	case	_	_	female
+3	nih	nih	PART	_	_	1	case	_	_	ERG
+4	a	a	PART	_	_	6	expl	_	_	3SG
+5	kan	kan	PRON	_	Person=1|Number=Plural	6	obj	_	_	us
+6	hmuh	humh	VERB	_	_	0	root	_	_	see
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 142
+# text = Ngakchia nang dawi.
+# text_eng = Y'all chased the child.
+1	Ngakchia	ngakchia	NOUN	_	_	3	obj	_	child
+2	nang	nang	PRON	_	Person=3|Number=Plural	3	nsubj	_	y'all
+3	dawi	dawi	VERB	_	_	0	root	_	chase
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 143
+# text = Ngakchia na dawi hna.
+# text_eng = You chased the children.
+1	Ngakchia	ngakchia	NOUN	_	_	3	obj	_	children
+2	na	na	PRON	_	Person=2|Number=Sing	3	nsubj	_	you
+3	dawi	dawi	VERB	_	_	0	root	_	chase
+4	hna	hna	PART	_	_	3	expl	_	3PL
+5	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 144
+# text = Ngakchia nang dawi hna.
+# text_eng = Y'all chased the children.
+1	Ngakchia	ngakchia	NOUN	_	_	3	obj	_	children
+2	nang	nang	PRON	_	Person=3|Number=Plural	3	nsubj	_	y'all
+3	dawi	dawi	VERB	_	_	0	root	_	chase
+4	hna	hna	PART	_	_	3	expl	_	3PL
+5	.	PUNCT	PUNCT	_	_	3	punct	_	_

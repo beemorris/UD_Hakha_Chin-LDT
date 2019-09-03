@@ -1372,3 +1372,84 @@
 3	dawi	dawi	VERB	_	_	0	root	_	chase
 4	hna	hna	PART	_	_	3	expl	_	3PL
 5	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 145
+# text = Caw ka hmuh.
+# text_eng = I saw the cow.
+1	Caw	caw	NOUN	_	_	3	obj	_	cow
+2	ka	ka	PRON	_	Person=1|Number=Sing	3	nsubj	_	I
+3	hmuh	hmuh	VERB	_	_	0	root	_	see
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 146
+# text = Caw na hmuh.
+# text_eng = You saw the cow.
+1	Caw	caw	NOUN	_	_	3	obj	_	cow
+2	na	na	PRON	_	Person=2|Number=Sing	3	nsubj	_	you
+3	hmuh	hmuh	VERB	_	_	0	root	_	see
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 147
+# text = Caw a hmuh.
+# text_eng = S/he/it saw a cow.
+1	Caw	caw	NOUN	_	_	3	obj	_	cow
+2	a	a	PRON	_	Person=3|Number=Sing	3	nsubj	_	S/he/it
+3	humh	hmuh	VERB	_	_	0	root	_	see
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 148
+# text = Caw an hmuh.
+# text_eng = They saw the cow.
+1	Caw	caw	NOUN	_	_	3	obj	_	cow
+2	an	an	PRON	_	Person=3|Number=Plural	3	nsubj	_	they
+3	humh	hmuh	VERB	_	_	0	root	_	see
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 149
+# text = Uico nih caw a hmuh.
+# text_eng = The dog saw the cow.
+1	Uico	uico	NOUN	_	_	5	nsubj	_	dog
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	caw	caw	NOUN	_	_	5	obj	_	cow
+4	a	a	PART	_	Person=3|Number=Sing	5	expl	_	3SG
+5	hmuh	hmuh	VERB	_	_	0	root	_	see
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 150
+# text = Uico pawl nih caw an hmuh hna.
+# text_eng = The dogs saw the cows.
+1	Uico	uico	NOUN	_	_	6	nsubj	_	dog
+2	pawl	pawl	PART	_	_	1	case	_	PL
+3	nih	nih	PART	_	_	1	case	_	ERG
+4	caw	caw	NOUN	_	_	6	obj	_	cow
+5	an	an	PART	_	Person=3|Number=Plural	6	expl	_	_3PL
+6	hmuh	hmuh	VERB	_	_	0	root	_	chase
+7	hna	hna	PART	_	Person=3|Number=Plural	6	expl	_	3PL
+8	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 151
+# text = Palik khawl hna.
+# text_eng = Call the police.
+1	Palik	palik	NOUN	_	_	2	obj	_	police
+2	khawl	khawl	VERB	_	_	0	root	_	call
+3	hna	hna	PART	_	Person=3|Number=Plural	2	expl	_	3PL
+4.	PUNCT	PUNCT	_	_	2	punct	_	_	
+
+# sent_id = 152
+# text = Hi uico cu a lian.
+# text_eng = This dog is big.
+1	Hi	hi	DET	_	_	2	det	_	this
+2	uico	uico	NOUN	_	_	5	nsubj	_	dog
+3	cu	cu	PART	_	_	2	discourse	_	TOP
+4	a	a	PART	_	Person=3|Number	5	expl	_	3SG
+5	lian	lian	VERB	_	_	0	root	_	big
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 153
+# text = Kan tuah hna lai.
+# text_eng = We will do it.
+1	Kan	kan	PRON	_	Person=1|Number=Plural	2	nsubj	_	we
+2	tuah	tuah	VERB	_	_	0	root	_	do
+3	hna	hna	PART	_	Person=3|Number=Plural	2	expl	_	3PL
+4	lai	lai	AUX	_	Tense=Futire	2	aux	_	will
+5	.	PUNCT	PUNCT	_	_	2	punct	_	_

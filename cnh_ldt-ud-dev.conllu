@@ -1,20 +1,20 @@
 # sent_id = 1
 # text = Indianapolis ah ka um.
 # text_en = I live in Indianapolis.
-1	Indianapolis	Indianapolis	PROPN	_	_	4	obl	_	Indianapolis
-2	ah	ah	ADP	_	_	1	case	_	in
-3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	I
-4	um	um	VERB	_	_	0	root	_	live
+1	Indianapolis	Indianapolis	PROPN	_	_	4	obl	_	Gloss=Indianapolis
+2	ah	ah	ADP	_	_	1	case	_	Gloss=in
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	Gloss=I
+4	um	um	VERB	_	_	0	root	_	Gloss=live
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 2
 # text = Indiana University ah sianginn ka kai.
 # text_en =  I go to school at Indiana University
-1	Indiana University	Indiana University	PROPN	_	_	3	obl	_	Indiana University
-2	ah	ah	ADP	_	_	1	case	_	at
-3	sianginn	sianginn	NOUN	_	_	5	obj	_	school
-4	ka	ka	PRON	_	Person=1|Number=Sing	5	nsubj	_	I
-5	kai	kai	VERB	_	_	0	root	_	go
+1	Indiana University	Indiana University	PROPN	_	_	3	obl	_	Gloss=Indiana University
+2	ah	ah	ADP	_	_	1	case	_	Gloss=at
+3	sianginn	sianginn	NOUN	_	_	5	obj	_	Gloss=school
+4	ka	ka	PRON	_	Person=1|Number=Sing	5	nsubj	_	Gloss=I
+5	kai	kai	VERB	_	_	0	root	_	Gloss=go
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 3
@@ -174,7 +174,7 @@
 # text_en = I will rest.
 1	Kaa	kaa	PRON	_	Person=1|Number=Sing	2	nsubj	_	I
 2	din	din	VERB	_	_	0	root	_	rest
-3	lai	lai	AUX	_	Tense=Future	2	aux	_	will
+3	lai	lai	AUX	_	Tense=Fut	2	aux	_	will
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 #sent_id = 21
@@ -225,9 +225,9 @@
 # sent_id = 26
 # text = Zei dah na tuah?
 # text_en = What do you do?
-1	Zei	zei	NOUN	_	_	4	nsubj	_	what
+1	Zei	zei	NOUN	_	_	4	obj	_	what
 2	dah	dah	PART	_	_	1	discourse	_	WH
-3	na	na	PRON	_	Person=2|Number=Sing	4	obj	_	you
+3	na	na	PRON	_	Person=2|Number=Sing	4	nsubj	_	you
 4	tuah	tuah	VERB	AUX	_	0	root	_	do
 5	?	PUNCT	PUNCT	_	_	4	punct	_	_
 
@@ -255,7 +255,7 @@
 1	Rawl	rawl	NOUN	_	_	3	obj	_	food
 2	kan	kan	PRON	_	Person=1|Number=Plural	3	nsubj	_	we
 3	ei	ei	VERB	_	_	0	root	_	eat
-4	lai	lai	AUX	_	Tense=Future	3	aux	_	will
+4	lai	lai	AUX	_	Tense=Fut	3	aux	_	will
 5	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 30
@@ -307,7 +307,7 @@
 # text_en = Are you coming?/Will you come?
 1	Na	na	PRON	_	Person=2|Number=Sing	2	nsubj	_	you
 2	ra	ra	VERB	_	_	0	root	_	come
-3	lai	lai	AUX	_	Tense=Future	2	aux	_	will
+3	lai	lai	AUX	_	Tense=Fut	2	aux	_	will
 4	maw	maw	PART	_	_	2	discourse	_	Q
 5	?	PUNCT	PUNCT	_	_	2	punct	_	_
 
@@ -398,7 +398,7 @@
 2	ah	ah	ADP	_	_	1	discourse	_	LOC
 3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	I
 4	kal	kal	VERB	_	_	0	root	_	go
-5	lai	lai	AUX	_	Tense=Future	4	aux	_	shall
+5	lai	lai	AUX	_	Tense=Fut	4	aux	_	shall
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 46
@@ -442,7 +442,7 @@
 7	mi	mi	PART	_	_	5	discourse	_	REL
 8	a	a	PART	_	Person=3|Number=Sing	9	obj	_	3SG
 9	si	si	AUX	_	_	5	cop	_	is
-10	lai	lai	AUX	_	Tense=Future	5	aux	_	FUT
+10	lai	lai	AUX	_	Tense=Fut	5	aux	_	FUT
 11	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 50
@@ -934,7 +934,7 @@
 1	Zeidah	zeidah	PRON	_	_	3	obj	_	what
 2	na	na	PRON	_	Person=2|Number=Sing	3	nsubj	_	you
 3	tuah	tuah	VERB	_	_	0	root	_	do
-4	lai	lai	AUX	_	Tense=Future	3	aux	_	going to
+4	lai	lai	AUX	_	Tense=Fut	3	aux	_	going to
 5	?	PUNCT	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 97
@@ -944,7 +944,7 @@
 2	ka	ka	PRON	_	Person=1|Number=Sing	3	nsubj	_	I
 3	hmu	hmu	VERB	_	_	0	root	_	see
 4	kho	kho	ADV	_	_	3	advmod	_	able
-5	lai	lai	AUX	_	Tense=Future	3	aux	_	will
+5	lai	lai	AUX	_	Tense=Fut	3	aux	_	will
 6	lo	lo	PART	_	_	3	discourse	_	not
 7	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
@@ -1217,7 +1217,7 @@
 2	kan	kan	PRON	_	Person=1|Number=Plural	3	nsubj	_	we
 3	ei	ei	VERB	_	_	0	root	_	eat
 4	hna	hna	PRON	_	Number=Plural	2	discourse	_	PL
-5	lai	lai	AUX	_	Tense=Future	3	aux	_	will
+5	lai	lai	AUX	_	Tense=Fut	3	aux	_	will
 6	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 129
@@ -1635,7 +1635,7 @@
 3	kan	kan	PRON	_	Person=1|Number=Plural	4	nsubj	_	us/we
 4	kal	kal	VERB	_	_	0	root	_	go
 5	hna	hna	PRON	_	Person=3|Number=Plural	4	expl	_	3PL
-6	lai	lai	AUX	_	Tense=Future	4	aux	_	FUT
+6	lai	lai	AUX	_	Tense=Fut	4	aux	_	FUT
 7	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 175
@@ -1672,5 +1672,89 @@
 # sent_id = 178
 # text = Siangngakchia an nuar.
 # text_en = The students are on strike.
-1	Siangngakchia	siangngakchia	NOUN	_	_	3	noun	_	student
-2	an	an	PRON	_	Person=3
+1	Siangngakchia	siangngakchia	NOUN	_	_	3	nsubj	_	Gloss=student
+2	an	an	PRON	_	Person=3|Number=Plural	3	expl	_	Gloss=expl
+3	nuar	nuar	VERB	_	_	0	root	_	Gloss=strike
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 179
+# text = A nu cu Sung Ngen a si.
+# text_en = Sung Ngen is his mother.
+1	A	a	PRON	_	Person=3|Number=Sing	2	nmod:poss	_	Gloss=his
+2	nu	nu	NOUN	_	_	0	root	_	Gloss=mother
+3-4	Sung Ngen	Sung Ngen	_	_	_	_	_	_	_
+3	Sung	Sung	PROPN	_	_	2	nsubj	_	Gloss=Sung
+4	Ngen	Ngen	PROPN	_	_	3	flat	_	Gloss=Ngen
+5	a	a	PART	_	Person=3|Number=Sing	2	expl	_	Gloss=expl
+6	si	si	AUX	_	_	2	cop	_	Gloss=is
+7	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 180
+# text = Ka kal nolh lai
+# text_en = I shall go again.
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nsubj	_	Gloss=I
+2	kal	kal	VERB	_	_	0	root	_	Gloss=go
+3	nolh	nolh	ADV	_	_	2	advmod	_	Gloss=again
+4	lai	lai	AUX	_	Tense=Fut	2	aux	_	Gloss=shall
+5	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 181
+# text = Ka nolh nolh lai.
+# text_en = I will repeat it again.
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nsubj	_	Gloss=I
+2	nolh	nolh	VERB	_	_	0	root	_	Gloss=repeat
+3	nolh	nolh	ADV	_	_	2	advmod	_	Gloss=again
+4	lai	lai	AUX	_	Tense=Fut	2	aux	_	Gloss=will
+5	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 182
+# text = Nihin cu Zarhpini a si.
+# text_en = Today is Sunday.
+1	Nihin	nihin	ADV	_	_	0	root	_	Gloss=Today
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	Zarhpini	zarhpini	NOUN	_	_	1	obj	_	Gloss=Sunday
+4	a	a	PART	_	Person=3|Number=Sing	1	expl	_	Gloss=expl
+5	si	si	AUX	_	_	1	cop	_	Gloss=is
+6	.	PUNCT	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 183
+# text = Amah cu ka ni a si.
+# text_en = She is my aunt.
+1	Amah	amah	PRON	_	Gender=Female	0	root	_	Gloss=She
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	nmod:poss	_	Gloss=my
+4	ni	ni	NOUN	_	_	1	obj	_	Gloss=aunt
+5	a	a	PART	_	Person=3|Number=Sing	1	expl	_	Gloss=expl
+6	si	si	AUX	_	_	1	cop	_	Gloss=is
+7	.	PUNCT	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 184
+# text = Nemtein a holh.
+# text_en = He speaks softly.
+1	Nemtein	nemtein	ADV	_	_	3	advmod	_	Gloss=softly
+2	a	a	PRON	_	Person=3|Number=Sing	3	nsubj	_	Gloss=he
+3	holh	holh	VERB	_	_	0	root	_	Gloss=speak
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 185
+# text = Hi ihphah cu a neem.
+# text_en = This mattress/bedroll is soft.
+1	Hi	hi	DET	_	_	2	det	_	Gloss=this
+2	ihphah	ihphah	NOUN	_	_	5	nsubj	_	Gloss=mattress/bedroll
+3	cu	cu	PART	_	_	2	discourse	_	Gloss=TOP
+4	a	a	PART	_	Person=3|Number=Sing	5	expl	_	Gloss=expl
+5	neem	nem	VERB	_	_	0	root	_	Gloss=soft
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 186
+# text = Zei rawl dah na neih?
+# text_en = What food do you have?
+1	Zei	zei	NOUN	_	_	2	det	_	Gloss=what
+2	rawl	rawl	NOUN	_	_	5	obj	_	Gloss=food
+3	dah	dah	PART	_	_	1	compound	_	Gloss=what
+4	na	na	PRON	_	Person=2|Number=Sing	5	nsubj	_	Gloss=you
+5	neih	nei	VERB	_	_	0	root	_	Gloss=have
+6	?	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 187
+# text = 

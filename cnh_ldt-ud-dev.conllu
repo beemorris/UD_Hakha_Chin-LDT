@@ -1668,3 +1668,9 @@
 5	kan	kan	PRON	_	Person=1|Number=Plural	6	nsubj	_	we
 6	nung	nung	VERB	_	_	0	root	_	live
 7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 178
+# text = Siangngakchia an nuar.
+# text_en = The students are on strike.
+1	Siangngakchia	siangngakchia	NOUN	_	_	3	noun	_	student
+2	an	an	PRON	_	Person=3

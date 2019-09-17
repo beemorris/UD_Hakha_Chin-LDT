@@ -20,8 +20,8 @@
 # sent_id = 3
 # text = Ka ke a faak.
 # text_en = My leg (it) hurts. 
-1	Ka	ka	PRON	_	_	2	nmod:poss	2:nmod:poss	my
-2	ke	ke	NOUN	_	_	4	obj	4:obj	leg
+1	Ka	ka	PRON	_	_	2	nmod:poss	_	my
+2	ke	ke	NOUN	_	_	4	_	leg
 3	a	a	PART	_	Person=3|Number=Sing	4	nsubj	4:nsubj	it
 4	faak	faak	VERB	_	_	0	root	0:root	hurt
 5	.	PUNCT	PUNCT	_	_	4	punct	4:punct	_
@@ -37,11 +37,11 @@
 # sent_id = 5
 # text = A kaa a fa.
 # text_en = Her mouth (it) is small.
-1	a	a	PART	_	Person=3|Number=Sing	4	nmod:poss	4:nmod:poss	her
-2	kaa	ka	NOUN	_	_	4	obj	4:obj	mouth
-3	a	a	PART	_	Person=3|Number=Sing	4	nsubj	4:nsubj	it
-4	fa	fa	VERB	_	_	0	root	0:root	small
-5	.	PUNCT	PUNCT	_	_	4	PUNCT	4:PUNCT	_
+1	a	a	PART	_	Person=3|Number=Sing	4	nmod:poss	_	her
+2	kaa	ka	NOUN	_	_	4	obj	_	mouth
+3	a	a	PART	_	Person=3|Number=Sing	4	nsubj	_	it
+4	fa	fa	VERB	_	_	0	root	_	small
+5	.	PUNCT	PUNCT	_	_	4	PUNCT	_	_
 
 # sent_id = 6
 # text = Ka lu afak.
@@ -1524,4 +1524,147 @@
 6	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 161
-# text = 
+# text = Ka it.
+# text_en = I slept.
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nsubj	_	I
+2	it	it	VERB	_	_	0	root	_	slept
+3	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 162
+# text = Na it.
+# text_en = You slept.
+1	Na	na	PRON	_	Person=2|Number=Sing	2	nsubj	_	you
+2	it	it	VERB	_	_	0	root	_	slept
+3	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 163
+# text = A it.
+# text_en = S/he/it slept.
+1	A	A	PRON	_	Person=3|Number=Sing	2	nsubj	_	s/he/it
+2	it	it	VERB	_	_	0	root	_	slept
+3	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 164
+# text = Kan it.
+# text_en = We slept.
+1	Kan	Kan	PRON	_	Person=1|Number=Plural	2	nsubj	_	we
+2	it	it	VERB	_	_	0	root	_	slept
+3	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 165
+# text = Nan it.
+# text_en = Y'all slept.
+1	Nan	nan	PRON	_	Person=2|Number=Plural	2	nsubj	_	we
+2	it	it	VERB	_	_	0	root	_	slept
+3	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 166
+# text = An it.
+# text_en = They slept.
+1	An	An	PRON	_	Person=3|Number=Plural	2	nsubj	_	we
+2	it	it	VERB	_	_	0	root	_	slept
+3	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 167
+# text = Saya kan si.
+# text_en = We are teachers.
+1	Saya	saya	NOUN	_	_	0	root	_	teacher
+2	kan	kan	PRON	_	Person=1|Number=Plural	1	nsubj	_	we
+3	si	si	AUX	_	_	1	cop	_	is
+4	.	PUNCT	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 168
+# text = Zahan ah ka hmuh hna.
+# text_en = I saw them yesterday.
+1	Zahan	zahan	ADV	_	_	4	advmod	_	yesterday/last night
+2	ah	ah	ADP	_	_	1	discourse	_	LOC
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	I
+4	hmuh	hmuh	VERB	_	_	0	root	_	see
+5	hna	hna	PRON	_	Person=3|Number=Plural	4	obj	_	them
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 169
+# text = Zahan ka hmuh.
+# text_en = I saw you yesterday.
+1	Zahan	zahan	ADV	_	_	3	advmod	_	yesterday/last night
+2	ka	ka	PRON	_	Person=1|Number=Sing	3	nsubj	_	i
+3	hmuh	hmuh	VERB	_	_	0	root	_	saw
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 170
+# text = Ngakchia a ni.
+# text_en = The child laughed.
+1	Ngakchia	ngakchia	NOUN	_	_	3	nsubj	_	child
+2	a	a	PART	_	Person=3|Number=Sing	3	expl	_	3SG
+3	ni	ni	VERB	_	_	0	root	_	laugh
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 171
+# text = Khoika na kal lai?
+# text_en = Where are you going?
+1	Khoika	khoika	PRON	_	_	3	obj	_	where
+2	na	na	PRON	_	Person=2|Number=Sing	3	nsubj	_	you
+3	kal	kal	VERB	_	_	0	root	_	go
+4	lai	lai	AUX	_	Tense=Perf Cont	3	aux	_	ing
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 172
+# text = Rak ka chawn.
+# text_en = Talk to me!
+1	Rak	rak	ADV	_	_	3	advmod	_	imperative
+2	ka	ka	PRON	_	Person=1|Number=Sing	3	obj	_	me
+3	chawn	chawnh	VERB	_	_	0	root	_	talk
+4	.	punct	punct	_	_	3	punct	_	_
+
+# sent_id = 173
+# text = BiakBiak cu ka hawipa a si.
+# text_en = BiakBiak is my friend.
+1	BiakBiak	BiakBiak	PROPN	_	_	4	nsubj	_	BiakBiak
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	nmod:poss	_	my
+4	hawipa	hawipa	NOUN	_	_	0	root	_	friend
+5	a	a	PART	_	Person=3|Number=Sing	4	expl	_	3SG
+6	si	si	AUX	_	_	4	cop	_	is
+7	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 174
+# text = Dawr ah kan kal hna lai.
+# text_en = Let's go to the store.
+1	Dawr	dawr	NOUN	_	_	4	obj	_	store
+2	ah	ah	PART	_	_	1	discourse	_	LOC
+3	kan	kan	PRON	_	Person=1|Number=Plural	4	nsubj	_	us/we
+4	kal	kal	VERB	_	_	0	root	_	go
+5	hna	hna	PRON	_	Person=3|Number=Plural	4	expl	_	3PL
+6	lai	lai	AUX	_	Tense=Future	4	aux	_	FUT
+7	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 175
+# text = Sianginn ah ka kal lai.
+# text_en = I am going to school.
+1	Sianginn	Sianginn	NOUN	_	_	4	obj	_	school
+2	ah	ah	PART	_	_	1	discourse	_	LOC
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	I
+4	kal	kal	VERB	_	_	0	root	_	go
+5	lai	lai	AUX	_	Tense=Perf Cont	4	aux	_	ing
+6	.	PUNCT	PUNCT	_	_	4	punct	_	punct
+
+# sent_id = 176
+# text = SuiTtha cu nutung a si.
+# text_en = SuiTtha is a married woman.
+1	SuiTtha	SuiTtha	PROPN	_	_	3	nsubj	_	SuiTtha
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	nutung	nutung	NOUN	_	_	0	root	_	married woman
+4	a	a	PART	_	Person=3|Number=Sing	3	expl	_	3SG
+5	si	si	AUX	_	_	3	cop	_	is
+6	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 177
+# text = Rawl kan ei caah kan nung.
+# text_en = We live because we eat food.
+1	Rawl	rawl	NOUN	_	_	3	obj	_	food
+2	kan	kan	PRON	_	Person=1|Number=Plural	3	csubj	_	we
+3	ei	ei	VERB	_	_	4	conj	_	eat
+4	caah	caah	cconj	_	_	6	ccomp	_	because
+5	kan	kan	PRON	_	Person=1|Number=Plural	6	nsubj	_	we
+6	nung	nung	VERB	_	_	0	root	_	live
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_

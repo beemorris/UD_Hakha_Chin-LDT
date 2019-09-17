@@ -6,7 +6,7 @@ Hakha Chin UD Decisions:
 		- Fixed some of them, will have to check them later 9/10 BM
 	2b. Is pawl the plural marked for SBJs and hna the one for ObJs?! 8/28 BM
 	2c. Eng transitive verbs can be intransitive in CNH, go for instance can in INTR when there is no particle 'piak' meaning there is no OBJ agreement marker, it's marked obliquely. I am still marking the nom obj as obj of the verb and there is a null obj marker which is not represented in the trees. 9/11 BM
-	
+
 3. Keimah ka min = I call/name my(self). Min has another word sense in HC and it's a verb. Similar to Je m'appelle in French. So Keimah ka min cu ChinChin a si = It is ChinChin that I call/name myself
 
 4. HC has adjectival verbs so adjectives will be annotated as verbs.

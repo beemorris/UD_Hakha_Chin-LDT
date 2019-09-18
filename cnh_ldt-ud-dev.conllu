@@ -1,20 +1,20 @@
 # sent_id = 1
 # text = Indianapolis ah ka um.
 # text_en = I live in Indianapolis.
-1	Indianapolis	Indianapolis	PROPN	_	_	4	obl	_	Gloss=Indianapolis
-2	ah	ah	ADP	_	_	1	case	_	Gloss=in
-3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	Gloss=I
-4	um	um	VERB	_	_	0	root	_	Gloss=live
+1	Indianapolis	Indianapolis	PROPN	_	_	4	obl	_	Indianapolis
+2	ah	ah	ADP	_	_	1	case	_	in
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	I
+4	um	um	VERB	_	_	0	root	_	live
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 2
 # text = Indiana University ah sianginn ka kai.
 # text_en =  I go to school at Indiana University
-1	Indiana University	Indiana University	PROPN	_	_	3	obl	_	Gloss=Indiana University
-2	ah	ah	ADP	_	_	1	case	_	Gloss=at
-3	sianginn	sianginn	NOUN	_	_	5	obj	_	Gloss=school
-4	ka	ka	PRON	_	Person=1|Number=Sing	5	nsubj	_	Gloss=I
-5	kai	kai	VERB	_	_	0	root	_	Gloss=go
+1	Indiana University	Indiana University	PROPN	_	_	3	obl	_	Indiana University
+2	ah	ah	ADP	_	_	1	case	_	at
+3	sianginn	sianginn	NOUN	_	_	5	obj	_	school
+4	ka	ka	PRON	_	Person=1|Number=Sing	5	nsubj	_	I
+5	kai	kai	VERB	_	_	0	root	_	go
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 3
@@ -22,9 +22,9 @@
 # text_en = My leg (it) hurts. 
 1	Ka	ka	PRON	_	_	2	nmod:poss	_	my
 2	ke	ke	NOUN	_	_	4	_	leg
-3	a	a	PART	_	Person=3|Number=Sing	4	nsubj	4:nsubj	it
-4	faak	faak	VERB	_	_	0	root	0:root	hurt
-5	.	PUNCT	PUNCT	_	_	4	punct	4:punct	_
+3	a	a	PART	_	Person=3|Number=Sing	4	nsubj	_	it
+4	faak	faak	VERB	_	_	0	root	_	hurt
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 4
 # text = Na dam maw?
@@ -108,7 +108,7 @@
 # text_en = I broke a bone.
 1	Ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	I
 2	ruh	ruh	NOUN	_	_	4	obj	_	bone
-3	a	a	PART	_	Person=3|Number=Sing	4	expl	_	_
+3	a	a	PART	_	Person=3|Number=Sing	4	expl	_	expl
 4	kiak	kiak	VERB	_	_	0	root	_	break/fracture
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
@@ -206,7 +206,7 @@
 # sent_id = 24
 # text = Hi hlei cu a kiak.
 # text_en = This ladder is broken.
-1	Hi	hi	DET	_	_	2	det	_	part
+1	Hi	hi	DET	_	_	2	det	_	this
 2	hlei	hlei	NOUN	_	_	5	nsubj	_	ladder
 3	cu	cu	PART	_	_	2	discourse	_	TOP
 4	a	a	PART	_	_	5	expl	_	3SG
@@ -1672,89 +1672,213 @@
 # sent_id = 178
 # text = Siangngakchia an nuar.
 # text_en = The students are on strike.
-1	Siangngakchia	siangngakchia	NOUN	_	_	3	nsubj	_	Gloss=student
-2	an	an	PRON	_	Person=3|Number=Plural	3	expl	_	Gloss=expl
-3	nuar	nuar	VERB	_	_	0	root	_	Gloss=strike
+1	Siangngakchia	siangngakchia	NOUN	_	_	3	nsubj	_	student
+2	an	an	PRON	_	Person=3|Number=Plural	3	expl	_	expl
+3	nuar	nuar	VERB	_	_	0	root	_	strike
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 179
 # text = A nu cu Sung Ngen a si.
 # text_en = Sung Ngen is his mother.
-1	A	a	PRON	_	Person=3|Number=Sing	2	nmod:poss	_	Gloss=his
-2	nu	nu	NOUN	_	_	0	root	_	Gloss=mother
+1	A	a	PRON	_	Person=3|Number=Sing	2	nmod:poss	_	his
+2	nu	nu	NOUN	_	_	0	root	_	mother
 3-4	Sung Ngen	Sung Ngen	_	_	_	_	_	_	_
-3	Sung	Sung	PROPN	_	_	2	nsubj	_	Gloss=Sung
-4	Ngen	Ngen	PROPN	_	_	3	flat	_	Gloss=Ngen
-5	a	a	PART	_	Person=3|Number=Sing	2	expl	_	Gloss=expl
-6	si	si	AUX	_	_	2	cop	_	Gloss=is
+3	Sung	Sung	PROPN	_	_	2	nsubj	_	Sung
+4	Ngen	Ngen	PROPN	_	_	3	flat	_	Ngen
+5	a	a	PART	_	Person=3|Number=Sing	2	expl	_	expl
+6	si	si	AUX	_	_	2	cop	_	is
 7	.	PUNCT	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 180
 # text = Ka kal nolh lai
 # text_en = I shall go again.
-1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nsubj	_	Gloss=I
-2	kal	kal	VERB	_	_	0	root	_	Gloss=go
-3	nolh	nolh	ADV	_	_	2	advmod	_	Gloss=again
-4	lai	lai	AUX	_	Tense=Fut	2	aux	_	Gloss=shall
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nsubj	_	I
+2	kal	kal	VERB	_	_	0	root	_	go
+3	nolh	nolh	ADV	_	_	2	advmod	_	again
+4	lai	lai	AUX	_	Tense=Fut	2	aux	_	shall
 5	.	PUNCT	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 181
 # text = Ka nolh nolh lai.
 # text_en = I will repeat it again.
-1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nsubj	_	Gloss=I
-2	nolh	nolh	VERB	_	_	0	root	_	Gloss=repeat
-3	nolh	nolh	ADV	_	_	2	advmod	_	Gloss=again
-4	lai	lai	AUX	_	Tense=Fut	2	aux	_	Gloss=will
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nsubj	_	I
+2	nolh	nolh	VERB	_	_	0	root	_	repeat
+3	nolh	nolh	ADV	_	_	2	advmod	_	again
+4	lai	lai	AUX	_	Tense=Fut	2	aux	_	will
 5	.	PUNCT	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 182
 # text = Nihin cu Zarhpini a si.
 # text_en = Today is Sunday.
-1	Nihin	nihin	ADV	_	_	0	root	_	Gloss=Today
+1	Nihin	nihin	ADV	_	_	0	root	_	Today
 2	cu	cu	PART	_	_	1	discourse	_	TOP
-3	Zarhpini	zarhpini	NOUN	_	_	1	obj	_	Gloss=Sunday
-4	a	a	PART	_	Person=3|Number=Sing	1	expl	_	Gloss=expl
-5	si	si	AUX	_	_	1	cop	_	Gloss=is
+3	Zarhpini	zarhpini	NOUN	_	_	1	obj	_	Sunday
+4	a	a	PART	_	Person=3|Number=Sing	1	expl	_	expl
+5	si	si	AUX	_	_	1	cop	_	is
 6	.	PUNCT	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 183
 # text = Amah cu ka ni a si.
 # text_en = She is my aunt.
-1	Amah	amah	PRON	_	Gender=Female	0	root	_	Gloss=She
+1	Amah	amah	PRON	_	Gender=Female	0	root	_	She
 2	cu	cu	PART	_	_	1	discourse	_	TOP
-3	ka	ka	PRON	_	Person=1|Number=Sing	4	nmod:poss	_	Gloss=my
-4	ni	ni	NOUN	_	_	1	obj	_	Gloss=aunt
-5	a	a	PART	_	Person=3|Number=Sing	1	expl	_	Gloss=expl
-6	si	si	AUX	_	_	1	cop	_	Gloss=is
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	nmod:poss	_	my
+4	ni	ni	NOUN	_	_	1	obj	_	aunt
+5	a	a	PART	_	Person=3|Number=Sing	1	expl	_	expl
+6	si	si	AUX	_	_	1	cop	_	is
 7	.	PUNCT	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 184
 # text = Nemtein a holh.
 # text_en = He speaks softly.
-1	Nemtein	nemtein	ADV	_	_	3	advmod	_	Gloss=softly
-2	a	a	PRON	_	Person=3|Number=Sing	3	nsubj	_	Gloss=he
-3	holh	holh	VERB	_	_	0	root	_	Gloss=speak
+1	Nemtein	nemtein	ADV	_	_	3	advmod	_	softly
+2	a	a	PRON	_	Person=3|Number=Sing	3	nsubj	_	he
+3	holh	holh	VERB	_	_	0	root	_	speak
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 185
 # text = Hi ihphah cu a neem.
 # text_en = This mattress/bedroll is soft.
-1	Hi	hi	DET	_	_	2	det	_	Gloss=this
-2	ihphah	ihphah	NOUN	_	_	5	nsubj	_	Gloss=mattress/bedroll
-3	cu	cu	PART	_	_	2	discourse	_	Gloss=TOP
-4	a	a	PART	_	Person=3|Number=Sing	5	expl	_	Gloss=expl
-5	neem	nem	VERB	_	_	0	root	_	Gloss=soft
+1	Hi	hi	DET	_	_	2	det	_	this
+2	ihphah	ihphah	NOUN	_	_	5	nsubj	_	mattress/bedroll
+3	cu	cu	PART	_	_	2	discourse	_	TOP
+4	a	a	PART	_	Person=3|Number=Sing	5	expl	_	expl
+5	neem	nem	VERB	_	_	0	root	_	soft
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 186
 # text = Zei rawl dah na neih?
 # text_en = What food do you have?
-1	Zei	zei	NOUN	_	_	2	det	_	Gloss=what
-2	rawl	rawl	NOUN	_	_	5	obj	_	Gloss=food
-3	dah	dah	PART	_	_	1	compound	_	Gloss=what
-4	na	na	PRON	_	Person=2|Number=Sing	5	nsubj	_	Gloss=you
-5	neih	nei	VERB	_	_	0	root	_	Gloss=have
+1	Zei	zei	NOUN	_	_	2	det	_	what
+2	rawl	rawl	NOUN	_	_	5	obj	_	food
+3	dah	dah	PART	_	_	1	compound	_	what
+4	na	na	PRON	_	Person=2|Number=Sing	5	nsubj	_	you
+5	neih	nei	VERB	_	_	0	root	_	have
 6	?	PUNCT	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 187
-# text = 
+# text = Chang a ka nawnh.
+# text_en = He makes bread for me.
+1	Chang	chang	VERB	_	_	4	aux	_	knead
+2	a	a	PRON	_	Person=3|Number=Sing	4	nsubj	_	he
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	obj	_	me
+4	nawnh	nawnh	VERB	_	_	0	root	_	make bread for someone
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 188
+# text = Ka kal nawlh lai.
+# text_en = I shall go again.
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nsubj	_	I
+2	kal	kal	VERB	_	_	0	root	_	go
+3	nawlh	nawlh	ADV	_	_	2	advmod	_	again
+4	lai	lai	AUX	_	Tense=Fut	2	aux	_	shall
+
+# sent_id = 189
+# text = Ti a nawi.
+# text_en = The water is muddy.
+1	Ti	ti	NOUN	_	_	3	nsubj	_	water
+2	a	a	PRON	_	Person=3|Number=Sing	3	expl	_	expl
+3	nawi	nawi	ADJ	_	_	0	root	_	muddy
+
+# sent_id = 190
+# text = Hihi na cauk an si maw?
+# text_en = Are these your books?
+1	Hihi	hihi	DET	_	_	3	det	_	these
+2	na	na	PRON	_	Person=2|Number=Sing	3	nmod:poss	_	your
+3	cauk	cauk	NOUN	_	_	0	root	_	book
+4	an	an	PART	_	Person=3|Number=Plural	3	expl	_	expl
+5	si	si	AUX	_	_	3	cop	_	is
+6	maw	maw	PART	_	_	3	discourse	_	Q
+7	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 191
+# text = Rawl nan ei cang maw?
+# text_en = Have you taken your meal?
+1	Rawl	rawl	NOUN	_	_	3	obj	_	food
+2	nan	nan	PRON	_	Person=2|Number=Plural	3	nsubj	_	you
+3	ei	ei	VERB	_	_	0	root	_	eat
+4	cang	cang	ADV	_	_	3	advmod	_	already
+5	maw	maw	PART	_	_	3	discourse	_	Q
+6	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 192
+# text = Naa hngilh cang maw?
+# text_en = Have you fallen asleep yet?
+1	Naa	Na	PRON	_	Person=2|Number=Sing	2	nsubj	_	you
+2	hngilh	hngilh	VERB	_	_	0	root	_	sleep
+3	cang	cang	ADV	_	_	2	advmod	_	already
+4	maw	maw	PART	_	_	2	discourse	_	Q
+5	?	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 193
+# text = Na kal lai maw?
+# text_en = Are you going now?
+1	Na	na	PRON	_	Person=2|Number=Sing	2	nsubj	_	you
+2	kal	kal	VERB	_	_	0	root	_	go
+3	lai	lai	AUX	_	Tense=Perf Cont	2	aux	_	ing
+4	maw	maw	PART	_	_	2	discourse	_	Q
+5	?	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 194
+# text = Chizawh a ngeu.
+# text_en = A cat meows.
+1	Chizawh	chizawh	NOUN	_	_	3	nsubj	_	cat
+2	a	a	PART	_	Person=2|Number=Sing	3	expl	_	expl
+3	ngeu	ngeu	VERB	_	_	0	root	_	meow
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 195
+# text = Kan inntung a nget.
+# text_en = Our post is getting rotten.
+1	Kan	kan	PRON	_	Person=1|Number=Plural	2	nmod:poss	_	our
+2	inntung	inntung	NOUN	_	_	4	nsubj	_	post
+3	a	a	PART	_	Person=3|Number=Sing	4	expl	_	expl
+4	nget	nget	VERB	_	_	0	root	_	rot
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 196
+# text = Ka angki a ngawn.
+# text_en = My shirt is dirty.
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
+2	angki	angki	NOUN	_	_	4	nsubj	_	shirt
+3	a	a	PART	_	Person=3|Number=Sing	4	expl	_	expl
+4	ngawn	ngawn	ADJ	_	_	0	root	_	dirty
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 197
+# text = Vok a nguuk.
+# text_en = A swine grunts.
+1	Vok	vok	NOUN	_	_	3	nsubj	_	swine
+2	a	a	PART	_	Person=3|Number=Sing	3	expl	_	expl
+3	nguuk	nguk	VERB	_	_	0	root	_	grunt
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 198
+# text = Na inntung a ngawi.
+# text_en = Your post is crooked.
+1	Na	na	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	your
+2	inntung	inntung	NOUN	_	_	4	nsubj	_	post
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	ngawi	ngawi	VERB	_	_	0	root	_	crooked
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 199
+# text = Piter cu ngatlai a rak si.
+# text_en = Peter was once a fisherman.
+1	Piter	Piter	PROPN	_	_	3	nsubj	_	Peter
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	ngatlai	ngatlai	NOUN	_	_	0	root	_	fisherman
+4	a	a	PART	_	Person=3|Number=Sing	3	expl	_	expl
+5	rak	rak	ADV	_	Tense=Past	3	advmod	_	Past Tense
+6	si	si	AUX	_	_	3	cop	_	is
+7	.	PUNCT	PUNCT	_	_	3	punct	_	_	
+
+# sent_id = 200
+# text = Kan rang a ngam cang.
+# text_en = Our horse has been domiciled.
+1	Kan	kan	PRON	_	Person=1|Numbe=Plural	2	nmod:poss	_	our
+2	rang	rang	NOUN	_	_	4	nsubj	_	horse
+3	a	a	PART	_	Person=3|Number=Sing	4	expl	_	expl
+4	ngam	ngam	VERB	_	_	0	root	_	tame
+5	cang	cang	ADV	_	_	4	advmod	_	already
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_

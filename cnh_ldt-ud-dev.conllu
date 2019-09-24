@@ -1882,3 +1882,195 @@
 4	ngam	ngam	VERB	_	_	0	root	_	tame
 5	cang	cang	ADV	_	_	4	advmod	_	already
 6	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 201
+# text = Ngakchia nu a ttap.
+# text_en = A girl cries.
+1	Ngakchia	ngakchia	NOUN	_	_	4	nsubj	_	child
+2	nu	nu	PART	_	_	1	case	_	female
+3	a	a	PART	_	Person=3|Number=Sing	4	expl	_	expl
+4	ttap	ttap	VERB	_	_	0	root	_	cry
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 202
+# text = Ka nu ka ngai.
+# text_en = I miss my mother.
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
+2	nu	nu	NOUN	_	_	4	obj	_	mother
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	I
+4	ngai	ngai	VERB	_	_	0	root	_	miss
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 203
+# text = Ka chizawh ka muai.
+# text_en = I stroke my cat.
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
+2	chizawh	chizawh	NOUN	_	_	4	obj	_	cat
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	I
+4	muai	muai	VERB	_	_	0	root	_	stroke
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 204
+# text = Mupi nih ar a cawk.
+# text_en = A hawk catches a chicken.
+1	Mupi	mupi	NOUN	_	_	5	nsubj	_	hawk
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	ar	ar	NOUN	_	_	5	obj	_	chicken
+4	a	a	PART	_	Person=3|Number=Sing	5	expl	_	expl
+5	cawk	cawk	VERB	_	_	0	root	_	catch
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 205
+# text = Artimu na duh maw?
+# text_en = Do you like egg yolk?
+1	Artimu	artimu	NOUN	_	_	3	obj	_	egg yolk
+2	na	na	PRON	_	Person=2|Number=Sing	3	nsubj	_	you
+3	duh	duh	VERB	_	_	0	root	_	like
+4	maw	maw	PART	_	_	3	discourse	_	Q
+5	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 206
+# text = Kan vanpang a mot.
+# text_en = Our wall is rotten.
+1	Kan	kan	PRON	_	Person=1|Number=Plural	2	nmod:poss	_	our
+2	vanpang	vanpang	NOUN	_	_	4	nsubj	_	wall
+3	a	a	PART	_	Person=3|Number=Sing	4	expl	_	expl
+4	mot	mot	ADJ	_	_	0	root	_	rotten
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 207
+# text = Ka mit ah hnawm a lut.
+# text_en = Dust got into my eyes.
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
+2	mit	mit	NOUN	_	_	6	obj	_	eye
+3	ah	ah	PART	_	_	2	discourse	_	LOC
+4	hnawm	hnawm	NOUN	_	_	6	nsubj	_	dust
+5	a	a	PART	_	_	6	expl	_	expl
+6	lut	lut	VERB	_	_	0	root	_	enter
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 208
+# text = A mit a ku.
+# text_en = He is sleepy./His eyes are sleepy.
+1	A	a	PRON	_	Number=2|Person=Sing	2	nmod:poss	_	his
+2	mit	mit	NOUN	_	_	4	nsubj	_	eyes
+3	a	a	PART	_	Person=3|Number=Sing	4	expl	_	expl
+4	ku	ku	VERB	_	_	0	root	_	sleepy
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 209
+# text = A mit a kau.
+# text_en = She has big eyes./Her eyes are big.
+1	A	a	PART	_	Person=3|Number=Sing	2	nmod:poss	_	her
+2	mit	mit	NOUN	_	_	4	nsubj	_	eyes
+3	a	a	PART	_	Person=3|Number=Sing	4	expl	_	expl
+4	kau	kau	ADJ	_	_	0	root	_	big
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 210
+# text = Ngaknu nih a ka mirh.
+# text_en = A young girl smiles at me.
+1	Ngaknu	ngaknu	NOUN	_	_	5	nsubj	_	young girl
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	a	a	PART	_	Person=3|Number=Sing	5	expl	_	expl
+4	ka	ka	PRON	_	Person=1|Number=Sing	5	obj	_	me
+5	mirh	mirh	VERB	_	_	0	root	_	smile
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 211
+# text = Mirangholh a thiam.
+# text_en = He can speak English.
+1	Mirangholh	Mirangholh	NOUN	_	_	3	obj	_	English language/speak English
+2	a	a	PRON	_	Person=3|Number=Sing	3	nsubj	_	he
+3	thiam	thiam	VERB	_	_	0	root	_	know
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 212
+# text = Mirangca a thiam.
+# text_en = He knows English.
+1	Mirangca	Mirangca	NOUN	_	_	3	obj	_	English
+2	a	a	PRON	_	Person=3|Number=Sing	3	nsubj	_	he
+3	thiam	thiam	VERB	_	_	0	root	_	know
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 213
+# text = Kan fangvoi an mir cang.
+# text_en = Our corn seeds have germinated.
+1	Kan	kan	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	our
+2	fangvoi	fangvoi	NOUN	_	_	4	nsubj	_	corn seeds
+3	an	an	PRON	_	Person=3|Number=Plural	4	expl	_	expl
+4	mir	mir	VERB	_	_	0	root	_	germinate
+5	cang	cang	ADV	_	_	4	advmod	_	mature
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 214
+# text = Ka pa nih ka min a ka sak.
+# text_en = My father gave me my name.
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
+2	pa	pa	NOUN	_	_	8	nsubj	_	father
+3	nih	nih	PART	_	_	2	case	_	ERG
+4	ka	ka	PRON	_	_	5	nmod:poss	_	my
+5	min	min	NOUN	_	_	8	iobj	_	name
+6	a	a	PART	_	Person=3|Number=Sing	8	expl	_	expl
+7	ka	ka	PRON	_	Person=1|Number=Sing	8	obj	_	me
+8	sak	sak	VERB	_	_	0	root	_	give/build
+9	.	PUNCT	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 215
+# text = A min a chia.
+# text_en = He has a bad reputation./His reputation/name is bad.
+1	A	a	PRON	_	Person=3|Number=Sing	2	nmod:poss	_	his
+2	min	min	NOUN	_	_	4	nsubj	_	name
+3	a	a	PART	_	Person=3|Number=Sing	4	expl	_	expl
+4	chia	chia	ADJ	_	_	0	root	_	bad/poor
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 216
+# text = Na min ahodah a si?
+# text_en = What is your name? ("who is your name?")
+1	Na	na	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	your
+2	min	min	NOUN	_	_	0	root	_	name
+3	ahodah	ahodah	PRON	_	_	2	nsubj	_	who
+4	a	a	PART	_	Person=3|Number=Sing	2	expl	_	expl
+5	si	si	AUX	_	_	2	cop	_	_	is
+6	?	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 217
+# text = Mileng nan ngei.
+# text_en = You have a visitor.
+1	Mileng	mileng	NOUN	_	_	3	obj	_	visitor
+2	nan	nan	PRON	_	Person=2|Number=Plural	3	nsubj	_	you PL
+3	ngei	ngei	VERB	_	_	0	root	_	have
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 218
+# text = Nan cabuai a mil ngaingai.
+# text_en = Your table is very smooth.
+1	Nan	nan	PRON	_	Person=2|Number=Plural	2	nmod:poss	_	your
+2	cabuai	cabuai	NOUN	_	_	4	nsubj	_	table
+3	a	a	PART	_	Person=3|Number=Sing	4	expl	_	expl
+4	mil	mil	VERB	_	_	0	root	_	smooth
+5	ngaingai	ngaingai	ADV	_	_	4	advmod	_	very
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 219
+# text = Miruak cu thlan ah an vui.
+# text_en = They buried the corpse in the grave.
+1	Miruak	miruak	NOUN	_	_	6	obj	_	obj
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	thlan	thlan	NOUN	_	_	6	iobj	_	grave
+4	ah	ah	PART	_	_	3	discourse	_	LOC
+5	an	an	PRON	_	Person=3|Number=Plural	6	nsubj	_	they
+6	vui	vui	VERB	_	_	0	root	_	bury
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 220
+# text = Nichin cu mi umthiam a si.
+# text_en = Nichin is a well behaved woman.
+1	Nichin	Nichin	PROPN	_	_	3	nsubj	_	Nichin
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	mi	mi	NOUN	_	_	0	root	_	person
+4	umthiam	umthiam	ADJ	_	_	3	amod	_	well behaved
+5	a	a	PART	_	Person=3|Number=Sing	3	expl	_	expl
+6	si	si	AUX	_	_	3	cop	_	is
+7	.	PUNCT	PUNCT	_	_	3	punct	_	_

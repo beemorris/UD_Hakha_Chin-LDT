@@ -12,3 +12,8 @@ Hakha Chin UD Decisions:
 4. HC has adjectival verbs so adjectives will be annotated as verbs.
 
 5. Verbs are not usually annotated with tense unless there is a verbal modifier indicating tense.
+
+6. How to annotate neg marker 'lo'?
+	- It's being glossed as a PART but I'm unsure of its relation. It's usually given the discourse relation.
+
+7. Verbal adj are annotated as VERB with the XPOS = ADJ

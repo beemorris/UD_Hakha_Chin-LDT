@@ -2168,3 +2168,73 @@
 1	Mang	Mang	NOUN	_	_	0	root	_	dream
 2	ttha	ttha	ADJ	_	_	1	amod	_	good
 3	.	PUNCT	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 231
+# text = Ka nu nih la a carh.
+# text_en = My mother dries cotton in the sun.
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
+2	nu	nu	NOUN	_	_	6	nsubj	_	mother
+3	nih	nih	PART	_	_	2	case	_	ERG
+4	la	la	NOUN	_	_	6	obj	_	cotton
+5	a	a	PRON	_	Person=3|Number=Sing	6	expl	_	expl
+6	carh	carh	VERB	_	_	0	root	_	dry in the sun
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 232
+# text = Tuan ah rian kan ot lai.
+# text_en = We shall start our work early.
+1	Tuan	tuan	ADV	_	_	5	advmod	_	early
+2	ah	ah	ADP	_	_	1	case	_	at
+3	rian	rian	NOUN	_	_	5	obj	_	work
+4	kan	kan	PRON	_	Person=1|Number=Plural	3	nsubj	_	we
+5	ot	ot	VERB	_	_	0	root	_	start
+6	lai	lai	AUX	_	Tense=Fut	5	aux	_	_	shall
+7	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 233
+# text = A orhlei ah a tthu.
+# text_en = He sits on his right side.
+1	A	a	PRON	_	Person=3|Number=Sing	2	nmod:poss	_	his
+2	orhlei	orhlei	NOUN	_	_	5	obj	_	_	right (side)
+3	ah	ah	PART	_	_	2	case	_	LOC
+4	a	a	PRON	_	Person=1|Number=Sing	5	nsubj	_	he
+5	tthu	tthu	VERB	_	_	0	root	_	sit
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 234
+# text = Orhlei ah naa mer lai.
+# text_en = You will turn to the right.
+1	Orhlei	orhlei	NOUN	_	_	4	obj	_	right
+2	ah	ah	PART	_	_	1	case	_	LOC
+3	naa	na	PRON	_	Person=2|Number=Sing	4	nsubj	_	you
+4	mer	mer	VERB	_	_	0	root	_	turn
+5	lai	lai	AUX	_	_	4	aux	_	will
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 235
+# text = Mi or a si.
+# text_en = He is a gluttonous person.
+1	Mi	mi	NOUN	_	_	0	root	_	person
+2	or	or	ADJ	_	_	1	amod	_	gluttonous
+3	a	a	PRON	_	Person=3|Number=Sing	1	nsubj	_	he
+4	si	si	AUX	_	_	1	cop	_	is
+5	.	PUNCT	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 236
+# text = A rang a tthawng ngai.
+# text_en = His horse is very strong.
+1	A	a	PRON	_	Person=3|Number=Sing	2	nmod:poss	_	his
+2	rang	rang	NOUN	_	_	4	nsubj	_	horse
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	tthawng	tthawng	VERB	ADJ	_	0	root	_	strong
+5	ngai	ngai	ADV	_	_	4	advmod	_	very
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 237
+# text = Bawlung puai an sung.
+# text_en = They lost a soccer game.
+1	Bawlung	bawlung	NOUN	_	_	2	nmod	_	soccer
+2	puai	puai	NOUN	_	_	4	obj	_	game (festival)
+3	an	an	PRON	_	Person=3|Number=Plural	4	nsubj	_	they
+4	sung	sung	VERB	_	_	0	root	_	lose
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_	

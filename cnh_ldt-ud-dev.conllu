@@ -2366,3 +2366,96 @@
 3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
 4	it	it	VERB	_	_	0	root	_	sleep
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 251
+# text = Na thathu tuk.
+# text_en = You are very lazy.
+1	Na	na	PRON	_	Person=2|Number=Sing	2	nsubj	_	you
+2	thathu	thathu	VERB	_	_	0	root	_	lazy
+3	tuk	tuk	ADV	_	_	2	advmod	_	very
+4	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 252
+# text = Palik na si.
+# text_en = You are a police officer. 
+1	Palnik	palnik	NOUN	_	_	0	root	_	police officer
+2	na	na	PRON	_	Person=2|Number=Sing	1	nsubj	_	you
+3	si	si	AUX	_	_	1	cop	_	is
+4	.	PUNCT	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 253
+# text = Ngakchia nu a it.
+# text_en = The little girl slept.
+1	Ngakchia	ngakchia	NOUN	ADJ	NOUN	2	amod	_	child
+2	nu	nu	NOUN	_	_	4	nsubj	_	girl
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	it	it	VERB	_	_	0	root	_	sleep
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 254
+# text = Inn ah ka um.
+# text_en = I am in my house.
+1	Inn	inn	NOUN	_	_	0	root	_	house
+2	ah	ah	ADP	_	_	1	case	_	in
+3	ka	ka	PRON	_	Person=1|Number=Sing	1	nsubj	_	I
+4	um	um	VERB	_	_	1	cop	_	am
+5	.	PUNCT	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 255
+# text = Kan dam ko.
+# text_en = We are fine.
+1	Kan	kan	PRON	_	Person=1|Number=Plural	2	nsubj	_	we
+2	dam	dam	VERB	ADJ	_	0	root	_	fine
+3	ko	ko	ADV	_	_	2	advmod	_	of course
+4	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 256
+# text = Ka dam ko.
+# text_en = I am fine. 
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nsubj	_	I
+2	dam	dam	VERB	ADJ	_	0	root	_	fine
+3	ko	ko	ADV	_	_	2	advmod	_	of course
+4	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 257
+# text = Nan dam ma?
+# text_en = How are y'all?
+1	Nan	nan	PRON	_	Person=2|Number=Plural	2	nsubj	_	y'all
+2	dam	dam	VERB	ADJ	_	0	root	_	fine
+3	ma	maw	PART	_	_	2	discourse	_	Q
+4	?	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 258
+# text = Pangpar an um.
+# text_en = There are flowers
+1	Pangpar	pangpar	NOUN	_	_	0	root	_	flower
+2	an	an	PRON	_	Person=3|Number=Plural	1	expl	_	expl
+3	um	um	VERB	_	_	1	cop	_	are
+4	.	PUNCT	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 259
+# text = Ka lu a fak.
+# text_en = My head hurts./I have a headache.
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
+2	lu	lu	NOUN	_	_	4	nsubj	_	head
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	fak	fak	VERB	_	_	0	root	_	hurt
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 260
+# text = Ka lu a ri.
+# text_en = I am dizzy (lit: my head is drunk).
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
+2	lu	lu	NOUN	_	_	4	nsubj	_	head
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	ri	ri	VERB	_	_	0	root	_	drunk
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 261
+# text = A biachim a fum.
+# text_en = His speech is slow.
+1	A	a	PRON	_	Person=3|Number=Sing	2	nmod:poss	_	his
+2	biachim	biachim	NOUN	_	_	4	nsubj	_	talk
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	fum	fum	VERB	ADJ	_	0	root	_	slow
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_

@@ -2459,3 +2459,126 @@
 3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
 4	fum	fum	VERB	ADJ	_	0	root	_	slow
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 262
+# text = Ka pa nih sakhi a kah.
+# text_en = My father shot and killed a deer.
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
+2	pa	pa	NOUN	_	_	6	nsubj	_	father
+3	nih	nih	PART	_	_	2	case	_	ERG
+4	sakhi	sakhi	NOUN	_	_	6	obj	_	deer
+5	a	a	PRON	_	Person=3|Number=Sing	6	expl	_	expl
+6	kah	kah	VERB	_	_	0	root	_	shoot
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 263
+# text = Hawikom neih na duh maw?
+# text_en = Do you want to have friends?
+1	Hawikom	hawikom	NOUN	_	_	4	obj	_	friend
+2	neih	nei	VERB	-	-	4	ccomp	_	have
+3	na	na	PRON	_	Person=2|Number=Sing	4	nsubj	_	you
+4	duh	duh	VERB	_	_	0	root	_	want
+5	maw	maw	PART	_	_	4	discourse	_	Q
+6	?	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 264
+# text = Nupi na ngei cang maw?
+# text_en = Do you have a wife?
+1	Nupi	nupi	NOUN	_	_	3	obj	_	wife
+2	na	na	PRON	_	Person=2|Number=Sing	3	nsubj	_	you
+3	ngei	ngei	VERB	_	_	0	root	_	have
+4	cang	cang	ADV	_	_	3	advmod	_	already
+5	maw	maw	PART	_	_	3	discourse	_	Q
+
+# sent_id = 265
+# text = Nau pakhat an ngei.
+1	Nau	nau	NOUN	_	_	4	obj	_	child
+2	pakhat	pakhat	DET	_	_	1	det	_	a
+3	an	an	PRON	_	Person=3|Number=Plural	4	nsubj	_	they
+4	ngei	ngei	VERB	_	_	0	root	_	have
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 266
+# text = Amah cu ka naute a si.
+# text_en = He is a much younger person than me.
+1	Amah	amah	PRON	_	Person=3|Number=Sing|Gender=Masc	4	nsubj	_	he
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	obj	_	me
+4	naute	naute	VERB	ADJ	_	0	root	_	much younger
+5	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+6	si	si	AUX	_	_	4	cop	_	is
+7	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 267
+# text = Amah cu an nauum a si.
+# text_en = She is their baby sitter.
+1	Amah	amah	PRON	_	Person=3|Number=Sing|Gender=Fem	4	nsubj	_	she
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	an	an	PRON	_	Person=3|Number=Plural	4	obj	_	their
+4	nauum	nauum	VERB	NOUN	_	0	root	_	baby sitter
+5	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+6	si	si	AUX	_	_	4	cop	_	is
+7	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 268
+# text = Amah cu ka nau a si.
+# text_en = She is younger than me.
+1	Amah	amah	PRON	_	Person=3|Number=Sing|Gender=Masc	4	nsubj	_	she
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	obj	_	me
+4	nau	nau	VERB	NOUN	_	0	root	_	younger brother or sister
+5	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+6	si	si	AUX	_	_	4	cop	_	is
+7	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 269
+# text = Nambar rel na thiam maw?
+# text_en = Do you know how to count numbers?
+1	Nambar	nambar	NOUN	_	_	2	obj	_	numbers
+2	rel	rel	VERB	_	_	4	ccomp	_	count
+3	na	na	PRON	_	Person=1|Number=Sing	4	nsubj	_	you
+4	thiam	thiam	VERB	_	_	0	root	_	know
+5	maw	maw	PART	_	_	4	discourse	_	Q
+6	?	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 270
+# text = Saruak kha a nam.
+# text_en = The carcass has bad smell.
+1	Saruak	saruak	NOUN	_	_	4	obj	_	carcass
+2	kha	kha	DET	_	_	1	det	_	that
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	nam	nam	VERB	_	_	0	root	_	stink/smell bad
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 271
+# text = Kan vanpang kan nalh.
+# text_en = We are plastering our wall.
+1	Kan	kan	PRON	_	Person=1|Number=Plural	2	nmod:poss	_	our
+2	vanpang	vanpang	NOUN	_	_	4	obj	_	wall
+3	kan	kan	PRON	_	Person=1|Number=Plural	4	nsubj	_	we
+4	nalh	nalh	VERB	_	_	0	root	_	plastering
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 272
+# text = Na sur in nga ka tlaih nak.
+# text_en = I caught a fish with your net.
+1	Na	na	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	your
+2	sur	sur	NOUN	_	_	5	iobj	_	net
+3	in	in	ADP	_	_	2	discourse	_	with
+4	nga	nga	NOUN	_	_	5	obj	_	fish
+5	tlaih	tlaih	VERB	_	_	0	root	_	catch
+6	nak	nak	PART	_	_	5	discourse	_	nominalizer
+7	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 273
+# text = Na nam in thing kaa tan nak.
+# text_en = I cut wood with your knife.
+1	Na	na	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	your
+2	nam	nam	NOUN	_	_	6	iobj	_	knife
+3	in	in	ADP	_	_	2	discourse	_	with
+4	thing	thing	NOUN	_	_	6	obj	_	wood
+5	kaa	ka	PRON	_	Person=1|Number=Sing	6	nsubj	_	I
+6	tan	tan	VERB	_	_	0	root	_	chop
+7	nak	nak	PART	_	_	6	discourse	_	nominalizer
+8	.	PUNCT	PUNCT	_	_	6	punct	_	_
+

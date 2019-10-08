@@ -1339,7 +1339,7 @@
 # sent_id = 141
 # text = Amah nu nih a kan hmuh.
 # text_en = She saw us.
-1	Amah	amah	PRON	_	_	6	nsubj	_	she
+1	Amah	amah	PRON	_	Gender=Fem	6	nsubj	_	she
 2	nu	nu	PART	_	_	1	case	_	_	female
 3	nih	nih	PART	_	_	1	case	_	_	ERG
 4	a	a	PRON	_	_	6	expl	_	_	3SG
@@ -1720,7 +1720,7 @@
 # sent_id = 183
 # text = Amah cu ka ni a si.
 # text_en = She is my aunt.
-1	Amah	amah	PRON	_	Gender=Female	0	root	_	She
+1	Amah	amah	PRON	_	Gender=Fem	0	root	_	She
 2	cu	cu	PART	_	_	1	discourse	_	TOP
 3	ka	ka	PRON	_	Person=1|Number=Sing	4	nmod:poss	_	my
 4	ni	ni	NOUN	_	_	1	obj	_	aunt
@@ -2582,3 +2582,80 @@
 7	nak	nak	PART	_	_	6	discourse	_	nominalizer
 8	.	PUNCT	PUNCT	_	_	6	punct	_	_
 
+# sent_id = 274
+# text = Kan camipuai a nai cang
+# text_en = Our exam is near.
+1	Kan	kan	PRON	_	Person=1|Number=Plural	2	nmod:poss	_	our
+2	camipuai	camipuai	NOUN	_	_	4	nsubj	_	examination
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	nai	nai	VERB	ADV	_	_	0	root	_	near
+5	cang	cang	ADV	_	_	4	advmod	_	already
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 275
+# text = Rawl ei na duh ve maw?
+# text_en = Do you also want to eat?
+1	Rawl	rawl	NOUN	_	_	2	obj	_	food
+2	ei	ei	VERB	_	_	4	ccomp	_	eat
+3	na	na	PRON	_	Person=2|Number=Sing	4	nsubj	_	you
+4	duh	duh	VERB	_	_	0	root	_	want
+5	ve	ve	ADV	_	_	4	advmod	_	also
+6	maw	maw	PART	_	_	4	discourse	_	Q
+7	?	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 276
+# text = Mi ngong a si.
+# text_en = He is a stupid./He is a dull person.
+1	Mi	mi	NOUN	_	_	0	root	_	person
+2	ngong	ngong	ADJ	_	_	1	amod	_	stupid
+3	a	a	PRON	_	Person=3|Number=Sing	1	nsubj	_	he
+4	si	si	AUX	_	_	1	cop	_	is
+5	.	PUNCT	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 277
+# text = Inn pakhat ka ngei.
+# text_en = I have a house.
+1	Inn	inn	NOUN	_	_	4	obj	_	house
+2	pakhat	pakhat	DET	ART	Number=Sing	1	det	_	a
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	I
+4	ngei	ngei	VERB	_	_	0	root	_	have
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 278
+# text = Thingnge ah vate aa fu.
+# text = A bird perches on a branch.
+1	Thingnge	thingnge	NOUN	_	_	5	obj	_	sprig
+2	ah	ah	ADP	_	_	1	case	_	LOC
+3	vate	vate	NOUN	_	_	5	nsubj	_	bird
+4	aa	a	PRON	_	Person=3|Number=Sing	5	expl	_	expl
+5	fu	fu	VERB	_	_	0	root	_	perch
+
+# sent_id = 279
+# text = Phekah kaa ngol cang.
+# text_en = I have stopped gambling.
+1	Phekah	phekah	VERB	_	_	3	ccomp	_	gamble
+2	kaa	ka	PRON	_	Person=3|Number=Sing	3	nsubj	_	I
+3	ngol	ngol	VERB	_	_	0	root	_	stop
+4	cang	cang	ADV	_	_	3	advmod	_	already
+5	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 280
+# text = Zudin na ngol cang maw?
+# text_en = Have you stopped drinking?
+1	Zudin	zudin	VERB	_	_	3	ccomp	_	drink
+2	na	na	PRON	_	Person=2|Number=Sing	3	nsubj	_	you
+3	ngol	ngol	VERB	_	_	0	root	_	stop
+4	cang	cang	ADV	_	_	3	advmod	_	already
+5	maw	maw	PART	_	_	3	discourse	_	Q
+6	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 281
+# text = Amah cu mi ngan a si.
+# text_en = He is a great man.
+1	Amah	amah	PRON	_	Gender=Masc	3	nsubj	_	he
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	mi	mi	NOUN	_	_	0	root	_	person
+4	ngan	ngan	ADJ	_	_	3	amod	_	great
+5	a	a	PRON	_	Person=3|Number=Sing	3	expl	_	expl
+6	si	si	AUX	_	_	3	cop	_	is
+7	.	PUNCT	PUNCT	_	_	3	punct	_	_

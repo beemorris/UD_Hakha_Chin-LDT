@@ -679,7 +679,7 @@
 1	Ngakchiapa	ngakchia	NOUN	_	_	7	nsubj	_	male child
 2	nih	nih	PART	_	_	1	case	_	ERG
 3	darkio	darkio	NOUN	_	_	5	obl	_	spoon
-4	in	in	ADP	_	_	3	discourse	_	with
+4	in	in	ADP	_	_	3	case	_	with
 5	rol	rol	NOUN	_	_	7	obj	_	food
 6	a	a	PRON	_	Person=3|Number=Sing	7	expl	_	3SG
 7	ei	ei	VERB	_	_	0	root	_	eat
@@ -2564,7 +2564,7 @@
 # text_en = I caught a fish with your net.
 1	Na	na	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	your
 2	sur	sur	NOUN	_	_	5	iobj	_	net
-3	in	in	ADP	_	_	2	discourse	_	with
+3	in	in	ADP	_	_	2	case	_	with
 4	nga	nga	NOUN	_	_	5	obj	_	fish
 5	tlaih	tlaih	VERB	_	_	0	root	_	catch
 6	nak	nak	PART	_	_	5	discourse	_	nominalizer
@@ -2575,7 +2575,7 @@
 # text_en = I cut wood with your knife.
 1	Na	na	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	your
 2	nam	nam	NOUN	_	_	6	iobj	_	knife
-3	in	in	ADP	_	_	2	discourse	_	with
+3	in	in	ADP	_	_	2	case	_	with
 4	thing	thing	NOUN	_	_	6	obj	_	wood
 5	kaa	ka	PRON	_	Person=1|Number=Sing	6	nsubj	_	I
 6	tan	tan	VERB	_	_	0	root	_	chop
@@ -2659,3 +2659,73 @@
 5	a	a	PRON	_	Person=3|Number=Sing	3	expl	_	expl
 6	si	si	AUX	_	_	3	cop	_	is
 7	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 282
+# text = Hi si hi kaa ziak.
+# text_en = this medicine is good for me.
+1	Hi	hi	DET	_	_	2	det	_	this
+2	si	si	NOUN	_	_	5	nsubj	_	medicine
+3	hi	hi	DET	_	_	2	det	_	this
+4	kaa	ka	PRON	_	Person=1|Number=Sing	5	obj	_	me
+5	ziak	ziak	VERB	ADJ	_	0	root	_	agreeable
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 283
+# text = Na sualnak naa ngaichih maw?
+# text_en = Do you repent of your sin?
+1	Na	na	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	your
+2	sualnak	suaknak	NOUN	_	_	4	obj	_	crime
+3	naa	na	PRON	_	Person=2|Number=Sing	4	nsubj	_	you
+4	ngaichih	ngaichih	VERB	_	_	0	root	_	repent
+5	maw	maw	PART	_	_	4	discourse	_	Q
+6	?	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 284
+# text = Sur in nga kan tlaih.
+# text_en = We catch fish with net.
+1	Sur	sur	NOUN	_	_	5	iobj	_	fish net
+2	in	in	ADP	_	_	1	case	_	with
+3	nga	nga	NOUN	_	_	5	obj	_	fish
+4	kan	kan	PRON	_	Person=1|Number=Plural	5	nsubj	_	we
+5	tlaih	tlaih	VERB	_	_	0	root	_	capture
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 285
+# text = Inn ah a lawi cang.
+# text_en = He has gone back home.
+1	Inn	inn	NOUN	_	_	4	obj	_	house
+2	ah	ah	ADP	_	_	1	case	_	LOC
+3	a	a	PRON	_	Person=3|Number=Sing	4	nsubj	_	he
+4	lawi	lawi	VERB	_	_	0	root	_	go back home
+5	cang	cang	ADV	_	_	4	advmod	_	already
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 286
+# text = Rian cu na kal lai maw?
+# text_en = Are you going to work?
+1	Rian	rian	NOUN	_	_	3	obj	_	work
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	kal	kal	VERB	_	_	0	root	_	go
+4	lai	lai	AUX	_	Tense=Fut Progressive	3	aux	_	ing
+5	maw	maw	PART	_	_	3	discourse	_	Q
+6	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 287
+# text = Zaan cu a mui.
+# text_en = The night is dark.
+1	Zaan	zan	NOUN	_	_	4	nsubj	_	night
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	mui	mui	VERB	ADJ	_	0	root	_	dark
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 288
+# text = Ka hawipa cu a mui a chia.
+# text_en = my friend is not good looking.
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
+2	hawipa	hawipa	NOUN	_	_	5	nsubj	_	friend
+3	cu	cu	PART	_	_	2	discourse	_	TOP
+4	a	a	PRON	_	Person=3|Number=Sing	5	expl	_	expl
+5	mui	mui	VERB	NOUN	_	0	root	_	appearance
+6	a	a	PRON	_	Person=3|Number=Sing	7	expl	_	expl
+7	chia	chia	VERB	ADJ	_	5	ccomp	_	poor

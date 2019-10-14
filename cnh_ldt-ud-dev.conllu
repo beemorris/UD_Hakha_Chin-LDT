@@ -90,7 +90,7 @@
 1-2	khoi ka	_	_	_	_	_	_	_	_
 1	khoi	khoi	ADV	_	_	5	advmod	_	where
 2	ka	ka	PRON	_	Person=3|Number=Sing	1	flat	_	_
-3	dah	PART	PART	_	_	1	discourse	_	_
+3	dah	PART	PART	_	_	1	compound	_	WH
 4	naa	na	PRON	_	Person=2|Number=Sing	5	nsubj	_	you
 5	khwang	khwang	VERB	_	_	0	root	_	hurt
 6	.	punct	punct	_	_	5	punct	_	_
@@ -226,7 +226,7 @@
 # text = Zei dah na tuah?
 # text_en = What do you do?
 1	Zei	zei	NOUN	_	_	4	obj	_	what
-2	dah	dah	PART	_	_	1	discourse	_	WH
+2	dah	dah	PART	_	_	1	compound	_	WH
 3	na	na	PRON	_	Person=2|Number=Sing	4	nsubj	_	you
 4	tuah	tuah	VERB	AUX	_	0	root	_	do
 5	?	PUNCT	PUNCT	_	_	4	punct	_	_
@@ -628,7 +628,7 @@
 # text_en = Where is the book?
 1	Khoika	khoika	PRON	_	_	4	csubj	_	where
 2	ah	ah	ADP	_	_	1	discourse	_	LOC
-3	dah	dah	PART	_	_	1	discourse	_	WH
+3	dah	dah	PART	_	_	1	compound	_	WH
 4	cuak	cuak	NOUN	_	_	0	root	_	book
 5	a	a	PRON	_	Person=3|Number=Sing	6	obj	_	_
 6	um	um	AUX	_	_	4	ccomp	_	COP
@@ -952,7 +952,7 @@
 # text = Khoika dah naa khawng?
 # text_en = Where does it hurt?
 1	Khoika	khoika	PRON	_	_	4	obj	_	where
-2	dah	dah	PART	_	_	1	discourse	_	_
+2	dah	dah	PART	_	_	1	discourse	_	WH
 3	naa	naa	PRON	_	Person=2|Number=Sing	4	nsubj	_	it/you
 4	khawng	khawng	VERB	_	_	0	root	_	hurt
 5	?	PUNCT	PUNCT	_	_	4	punct	_	_
@@ -1751,7 +1751,7 @@
 # text_en = What food do you have?
 1	Zei	zei	NOUN	_	_	2	det	_	what
 2	rawl	rawl	NOUN	_	_	5	obj	_	food
-3	dah	dah	PART	_	_	1	compound	_	what
+3	dah	dah	PART	_	_	1	compound	_	WH
 4	na	na	PRON	_	Person=2|Number=Sing	5	nsubj	_	you
 5	neih	nei	VERB	_	_	0	root	_	have
 6	?	PUNCT	PUNCT	_	_	5	punct	_	_
@@ -2748,3 +2748,74 @@
 2	a	a	PRON	_	Person=3|Number=Sing	3	expl	_	expl
 3	min	min	VERB	_	_	0	root	_	landslide
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 291
+# text = Bawmh na herh maw?
+# text_en = Do you need help?
+1	Bawmh	bawmh	NOUN	VERB	_	3	obj	_	aid
+2	na	na	PRON	_	Person=2|Number=Sing	3	nsubj	_	you
+3	herh	herh	VERB	_	_	0	root	_	need
+4	maw	maw	PART	_	_	3	discourse	_	Q
+5	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 292
+# text = Hma na ngei maw?
+# text_en = Do you have an open wound?
+1	Hma	hma	NOUN	_	_	3	obj	_	sore
+2	na	na	PRON	_	Person=2|Number=Sing	3	nsubj	_	you
+3	ngei	ngei	VERB	_	_	0	root	_	have
+4	maw	maw	PART	_	_	3	discourse	_	Q
+
+# sent_id = 293
+# text = Nau na pawi maw?
+# text_en = Are you pregnant?
+1	Nau	nau	NOUN	_	_	3	obj	_	child
+2	na	na	PRON	_	Person=2|Number=Sing	3	nsubj	_	you
+3	pawi	pawi	VERB	_	_	0	root	_	conceive
+4	maw	maw	PART	_	_	3	discourse	_	Q
+5	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 294
+# text = Na sibawi min ahodah a si?
+# text_en = What is your doctor's (primary physician's) name?
+1	Na	na	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	your
+2	sibawi	sibawi	NOUN	_	_	3	nmod:poss	_	doctor
+3	min	min	NOUN	_	_	0	root	_	name
+4	ahodah	ahodah	DET	_	_	3	det	_	who
+5	a	a	PRON	_	Person=3|Number=Sing	3	expl	_	expl
+6	si	si	AUX	_	_	3	cop	_	is
+7	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 295
+# text = Na insurance min zei dah a si?
+# text_en = What is the name of your health insurance plan?
+1	Na	na	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	your
+2	insurance	insurance	NOUN	_	_	3	nmod:poss	_	health insurance
+3	min	min	NOUN	_	_	0	root	_	name
+4	zei	zei	PRON	_	_	3	det	_	what
+5	dah	dah	PART	_	_	4	compound	_	WH
+6	a	a	PRON	_	Person=3|Number=Sing	3	expl	_	expl
+7	si	si	AUX	_	_	3	cop	_	is
+8	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 296
+# text = Na pa rian zeidah a si?
+# text_en = What is your father's occupation?
+1	Na	na	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	your
+2	pa	pa	NOUN	_	_	3	nmod:poss	_	father
+3	rian	rian	NOUN	_	_	0	root	_	work
+4	zeidah	zeidah	PRON	_	_	3	det	_	what
+5	a	a	PRON	_	Person=3|Number=Sing	3	expl	_	expl
+6	si	si	AUX	_	_	3	cop	_	is
+7	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 297
+# text = Na nu rian zeidah a si?
+# text_en = What is your mother's occupation?
+1	Na	na	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	your
+2	nu	nu	NOUN	_	_	3	nmod:poss	_	mother
+3	rian	rian	NOUN	_	_	0	root	_	work
+4	zeidah	zeidah	PRON	_	_	3	det	_	what
+5	a	a	PRON	_	Person=3|Number=Sing	3	expl	_	expl
+6	si	si	AUX	_	_	3	cop	_	is
+7	.	PUNCT	PUNCT	_	_	3	punct	_	_

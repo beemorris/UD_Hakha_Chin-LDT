@@ -2729,3 +2729,22 @@
 5	mui	mui	VERB	NOUN	_	0	root	_	appearance
 6	a	a	PRON	_	Person=3|Number=Sing	7	expl	_	expl
 7	chia	chia	VERB	ADJ	_	5	ccomp	_	poor
+
+# sent_id = 289
+# text = Na angki a mui aa dawh.
+# text_en = The color of your coat is pretty/nice.
+1	Na	na	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	your
+2	angki	angki	NOUN	_	_	6	nsubj	_	coat
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	mui	mui	VERB	NOUN	_	6	ccomp	_	appearance
+5	aa	a	PRON	_	Person=3|Number=Sing	6	expl	_	expl
+6	dawh	dawh	VERB	_	_	0	root	_	handsome
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 290
+# text = Lam a min.
+# text_en = There is a landslide on the road.
+1	Lam	lam	NOUN	_	_	3	nsubj	_	road
+2	a	a	PRON	_	Person=3|Number=Sing	3	expl	_	expl
+3	min	min	VERB	_	_	0	root	_	landslide
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_

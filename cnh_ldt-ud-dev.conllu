@@ -19,7 +19,7 @@
 
 # sent_id = 3
 # text = Ka ke a faak.
-# text_en = My leg (it) hurts. 
+# text_en = My leg (it) hurts.
 1	Ka	ka	PRON	_	_	2	nmod:poss	_	my
 2	ke	ke	NOUN	_	_	4	_	leg
 3	a	a	PRON	_	Person=3|Number=Sing	4	nsubj	_	it
@@ -44,14 +44,13 @@
 5	.	PUNCT	PUNCT	_	_	4	PUNCT	_	_
 
 # sent_id = 6
-# text = Ka lu afak.
-# text_en =  My head (it) hurts.
+# text = Ka lu afak
+# text_en =  My head (it) hurts
 1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
 2	lu	lu	NOUN	_	_	3	nsubj	_	head
 3-4	afak	afak	_	_	_	_	_	_	_
 3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	it
 4	fak	faak	VERB	_	_	0	root	_	hurt
-5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 7
 # text = Lih a si!
@@ -71,21 +70,19 @@
 5	?	PUNCT	PUNCT	_	_	1	punct	_	_
 
 # sent+id = 9
-# text = Ka tli.
-# text_en = I ran. 
+# text = Ka tli
+# text_en = I ran.
 1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nsubj	_	I
 2	tli	tli	VERB	_	_	0	root	_	run
-3	.	PUNCT	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 10
-# text = Ka dir.
+# text = Ka dir
 # text_en = I stood up.
 1	Ka	ka	PRON	_	Person=2|Number=Sing	2	nsubj	_	I
 2	dir	dir	VERB	intr	_	0	root	_	stood up
-3	.	punct	punct	_	_	2	punct	_	_
 
 # sent_id = 11
-# text = Khoi ka dah naa khawng?
+# text = Khoika dah naa khawng?
 # text_en = Where does you/it hurt?
 1-2	khoi ka	_	_	_	_	_	_	_	_
 1	khoi	khoi	ADV	_	_	5	advmod	_	where
@@ -104,25 +101,24 @@
 4	?	PUNCT	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 13
-# tetextxt = Ka ruh a kiak.
+# tetextxt = Ka ruh a kiak
 # text_en = I broke a bone.
 1	Ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	I
 2	ruh	ruh	NOUN	_	_	4	obj	_	bone
 3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
 4	kiak	kiak	VERB	_	_	0	root	_	break/fracture
-5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 14
-# text = Ka raang.
+# text = Ka raang
 # tex[eng] = I'm white.
 1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nsubj	_	I
 2	raang	raang	VERB	_	_	0	root	_	white
 3	.	PUNCT	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 15
-# text = Mah chizawh hi a raang mi a si.
+# text = Mah chizawh hi a raang mi a si
 # text_en = This cat is white.
-1	Mah	mah	DET	_	_	2	det	_	DEM
+1	Mah	mah	DET	_	_	2	det	_	this
 2	chizawh	chizawh	NOUN	_	_	5	nsubj	_	cat
 3	hi	hi	DET	_	_	2	discourse	_	this
 4	a	a	PRON	_	Person=3|Number=Sing	5	expl	_	3SG
@@ -130,7 +126,6 @@
 6	mi	mi	DET	_	_	5	discourse	_	REL
 7	a	a	PRON	_	Person=3|Number=Sing	5	expl	_	3SG
 8	si	si	AUX	_	_	7	cop	_	is
-9	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 16
 # text = Uico nih chizawh a dawi.
@@ -150,24 +145,21 @@
 3	uico	uico	NOUN	_	_	5	obj	_	dog
 4	a	a	PRON	_	Person=3|Number=Sing	5	obj	_	3SG
 5	dawi	dawi	VERB	trans	_	0	root	_	chase
-6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 18
-# text = Bawibawi cauk ka pek.
+# text = Bawibawi cauk ka pek
 # text_en = I gave Bawibawi a book.
 1	Bawibawi	Bawibawi	PROPN	_	_	4	iobj	_	Bawibawi
 2	cuak	cuak	NOUN	_	_	4	obj	_	book
 3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	ka
 4	pek	pe	VERB	_	_	0	root	_	give
-5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 19
-# text = Ti a tle.
+# text = Ti a tle
 # text_en = The water (it) spilled.
 1	Ti	ti	NOUN	_	_	3	nsubj	_	water
-2	a	a	PRON	_	Person=3|Number=Sing	3	obj	_	it
+2	a	a	PRON	_	Person=3|Number=Sing	3	expl	_	expl
 3	tle	tle	VERB	_	_	0	root	_	spill
-4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 20
 # text = Kaa din lai.
@@ -175,7 +167,6 @@
 1	Kaa	ka	PRON	_	Person=1|Number=Sing|Reflexive	2	nsubj	_	I
 2	din	din	VERB	_	_	0	root	_	rest
 3	lai	lai	AUX	_	Tense=Fut	2	aux	_	will
-4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 #sent_id = 21
 # text = Ar a si.
@@ -195,23 +186,21 @@
 5	?	PUNCT	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 23
-# text = Uico pahnih an ngei.
+# text = Uico pahnih an ngei
 # text_en = They have two dogs.
 1	Uico	uico	NOUN	_	_	4	obj	_	dog
 2	pahnih	pahnih	NUM	_	Number=Plural	1	nummod	_	two
 3	an	an	PRON	_	_	4	nsubj	_	they
 4	ngei	ngei	VERB	_	_	0	root	_	have
-5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 24
-# text = Hi hlei cu a kiak.
+# text = Hi hlei cu a kiak
 # text_en = This ladder is broken.
 1	Hi	hi	DET	_	_	2	det	_	this
 2	hlei	hlei	NOUN	_	_	5	nsubj	_	ladder
 3	cu	cu	PART	_	_	2	discourse	_	TOP
 4	a	a	PRON	_	_	5	expl	_	3SG
 5	kiak	kiak	VERB	_	_	0	root	_	break
-6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 25
 # text = Ar a si maw?
@@ -232,75 +221,68 @@
 5	?	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 27
-# text = Hri a cat.
+# text = Hri a cat
 # text_en = A rope breaks.
 1	Hri	hri	NOUN	_	_	3	nsubj	_	rope
 2	a	a	PRON	_	Person=3|Number=Sing	3	obj	_	3SG
 3	cat	cat	VERB	_	_	0	root	_	break
-4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 28
-# text = Uico nih a ka dawi.
+# text = Uico nih a ka dawi
 # text_en = A dog chased me.
 1	Uico	uico	NOUN	_	_	5	nsubj	_	dog
 2	nih	nih	PART	_	_	1	case	_	ERG
 3	a	a	PRON	_	_	5	expl	_	3SG
 4	ka	ka	PRON	_	Person=1|Number=Sing	5	obj	_	I
 5	dawi	dawi	VERB	_	_	0	root	_	chase
-6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 29
-# text = Rawl kan ei lai.
+# text = Rawl kan ei lai
 # text_en = We will eat food.
 1	Rawl	rawl	NOUN	_	_	3	obj	_	food
 2	kan	kan	PRON	_	Person=1|Number=Plural	3	nsubj	_	we
 3	ei	ei	VERB	_	_	0	root	_	eat
 4	lai	lai	AUX	_	Tense=Fut	3	aux	_	will
-5	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 30
-# text = Sa kan em.
+# text = Sa kan em
 # text_en = We roast meat.
 1	Sa	sa	NOUN	_	_	3	obj	_	meat
 2	kan	kan	PRON	_	Person=1|Number=Plural	3	nsubj	_	we
 3	em	em	VERB	_	_	0	root	_	roast
-4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 31
-# text = Ka keng a fak.
+# text = Ka keng a fak
 # text_en = My back hurts (i.e., the lower part of my back is painful).
 1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
 2	keng	keng	NOUN	_	_	4	nsubj	_	back
 3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	3SG
 4	fak	faak	VERB	_	_	0	root	_	hurt
-5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
+# from field methods? it's not in common voice file
 # sent_id = 32
-# text = Ka keng a faak.
+# text = Ka keng a faak
 # text_en = I have backache.
 1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
 2	keng	keng	NOUN	_	_	4	nsubj	_	back
 3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	3SG
 4	faak	faak	VERB	_	_	0	root	_	hurt/ache
-5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 33
-# text = Ka ke a kik.
+# text = Ka ke a kik
 # text_en = My feet are cold.
 1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
 2	ke	ke	NOUN	_	_	4	nsubj	_	feet
 3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	3SG
 4	kik	kik	VERB	_	_	0	root	_	cold
-5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 34
-# text = Ngakchia hme a si.
+# text = Ngakchia hme a si
 # text_en = She is a small child.
 1	Ngakchia	ngakchia	NOUN	_	_	0	root	_	child
 2	hme	hme	ADJ	_	_	1	amod	_	small
 3	a	a	PRON	_	Person=3|Number=Sing	1	nsubj	_	she
 4	si	si	AUX	_	_	1	cop	_	is
-5	.	PUNCT	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 35
 # text = Na ra lai maw?
@@ -312,98 +294,90 @@
 5	?	PUNCT	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 36
-# text = Ka paang a faak.
-# text_en = My abdomen hurt(s)/aches.
+# text = Ka paang a faak
+# text_en = My abdomen hurt.
 1	Ka	ka	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	my
 2	paang	paang	NOUN	_	_	4	nsubj	_	abdomen
 3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	3SG
-4	faak	faak	VERB	_	_	0	root	_	hurt/aches
-5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+4	faak	faak	VERB	_	_	0	root	_	hurt
 
 # sent_id = 37
-# text = Fa a pawi.
+# text = Fa a pawi
 # text_en = She is pregnant.
 1	Fa	fal	NOUN	_	_	3	obj	_	child
 2	a	a	PRON	_	Person=3|Number=Sing	3	nsubj	_	she
 3	pawi	pawi	VERB	_	_	0	root	_	pregnant
-4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 38
-# text = Siangngakchia pawl sianginn an kai.
+# text = Siangngakchia pawl sianginn an kai
 # text_en = The students go to school.
 1	Siangngakchia	Siangngakchia	NOUN	_	_	5	nsubj	_	student
 2	pawl	pawl	PART	_	Number=Plural	1	nmod	_	PL
 3	sianginn	sianginn	NOUN	_	_	5	obj	_	school
 4	an	an	PART	_	Person=3|Number=Plural	5	expl	_	3PL
 5	kai	kai	VERB	_	_	0	root	_	go
-6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 39
-# text = Ka rang cu a pawl.
+# text = Ka rang cu a pawl
 # text_en = My horse is grey.
 1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
 2	rang	rang	NOUN	_	_	5	nsubj	_	horse
 3	cu	cu	PART	_	_	2	discourse	_	TOP
 4	a	a	PRON	_	Person=3|Number=Sing	5	expl	_	3SG
 5	pawl	pawl	VERB	_	_	0	root	_	grey
-6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 40
 # text = Ka hnar a ping.
-# text_en = My nose clogs (up).
+# text_en = My nose clogs up.
 1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
 2	hnar	hnar	NOUN	_	_	4	nsubj	_	nose
 3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	3SG
-4	ping	ping	VERB	_	_	0	root	_	clogs
+4	ping	ping	VERB	_	_	0	root	_	clogs up
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 41
-# text = Ka hngete a faak.
+# text = Ka hngete a faak
 # text_en = My little toe is in pain.
 1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
 2	hngete	hngete	NOUN	_	_	4	nsubj	_	little toe
 3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	3SG
 4	faak	faak	VERB	_	_	0	root	_	hurt
-5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 42
-# text = Ka hma a por.
+# text = Ka hma a por
 # text_en = My wound gets infected.
 1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
 2	hma	hma	NOUN	_	_	4	nsubj	_	wound
 3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	3SG
 4	por	por	VERB	_	_	0	root	_	infect
-5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 43
-# text = Cawhnuk a rawk.
+# text = Cawhnuk a rawk
 # text_en = Milk was spoiled.
 1	Cawhnuk	Cawhnuk	NOUN	_	_	3	nsubj	_	(cow) milk
 2	a	a	PRON	_	Person=3|Number=Sing	3	expl	_	3SG
 3	rawk	rawk	VERB	_	_	0	root	_	spoil
-4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 44
-# text = Sa an reu.
+# text = Sa an reu
 # text_en = They fried meat.
 1	Sa	sa	NOUN	_	_	3	obj	_	meat
 2	an	an	PRON	_	Person=3|Number=Plural	3	nsubj	_	they
 3	reu	reu	VERB	_	_	0	root	_	fry
-4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 45
-# text = Inn ah ka kal lai.
+# text = Inn ah ka kal lai
 # text_en = I shall go home.
 1	Inn	inn	NOUN	_	_	4	obj	_	home
 2	ah	ah	ADP	_	_	1	discourse	_	LOC
 3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	I
 4	kal	kal	VERB	_	_	0	root	_	go
 5	lai	lai	AUX	_	Tense=Fut	4	aux	_	shall
-5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
+# can't find this in common voice file
 # sent_id = 46
 # text = Mei kha an sen dih.
-# text_en = The lights were all red. 
+# text_en = The lights were all red.
 1	Mei	mei	NOUN	_	_	4	nsubj	_	light
 2	kha	kha	DET	_	_	1	det	_	DEM
 3	an	an	PRON	_	Person=3|Number=Plural	1	expl	_	they
@@ -411,6 +385,7 @@
 5	dih	dih	PART	_	_	4	discourse	_	COMPL
 6	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
+# can't find this in common voice file
 # sent_id = 47
 # text = Uico a rak rang tuk.
 # text_en = The dog was very fast.
@@ -421,19 +396,21 @@
 5	tuk	tuk	ADV	_	_	4	advmod	_	_	very
 6	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
+# can't find this in common voice file
 # sent_id = 48
 # text = Mei a vun sen.
-# text_en = The light immediately turned red. 
+# text_en = The light immediately turned red.
 1	Mei	mei	NOUN	_	_	4	nsubj	_	light
 2	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	3SG
 3	vun	vun	ADV	_	_	4	advmod	_	immediately
 4	sen	sen	VERB	_	_	0	root	_	red
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
+# can't find this in common voice file
 # sent_id = 49
 # text = Mah uico hi a ran pik mi a si lai.
 # text_en = This dog will (definitely) be fast.
-1	Mah	mah	DEM	_	_	2	det	_	DEM
+1	Mah	mah	DET	_	_	2	det	_	this
 2	uico	uico	NOUN	_	_	5	nsubj	_	dog
 3	hi	hi	DET	_	_	2	det	_	this
 4	a	a	PRON	_	Person=3|Number=Sing	5	expl	_	3SG
@@ -445,6 +422,7 @@
 10	lai	lai	AUX	_	Tense=Fut	5	aux	_	FUT
 11	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
+# can't find this in common voice file
 # sent_id = 50
 # text = Siizun i sibawi nih sii an pek.
 # text_en = The hospital’s doctor gave you medicine.
@@ -457,6 +435,7 @@
 7	pek	pe	VERB	_	_	0	root	_	give
 8	.	PUNCT	PUNCT	_	_	7	punct	_	_
 
+# can't find this in common voice file
 # sent_id = 51
 # text = Ka ei lio.
 # text_en = I am eating.
@@ -465,6 +444,7 @@
 3	lio	lio	ADV	_	_	2	advmod	_	PROG
 4	.	PUNCT	PUNCT	_	_	2	punct	_	_
 
+# can't find this in common voice file
 # sent_id = 52
 # text = Ka ei.
 # text_en = I eat.
@@ -472,6 +452,7 @@
 2	ei	ei	VERB	_	_	0	root	_	eat
 3	.	PUNCT	PUNCT	_	_	2	punct	_	_
 
+# can't find this in common voice file
 # sent_id = 53
 # text = Uico ka ngei.
 # text_en = I have a dog.
@@ -480,6 +461,7 @@
 3	ngei	ngei	VERB	_	_	0	root	_	have
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
+# can't find this in common voice file
 # sent_id = 54
 # text = A si lo.
 # text_en = It is not.
@@ -496,7 +478,7 @@
 3	chizawh	chizawh	NOUN	_	_	5	obj	_	cat
 4	a	a	PRON	_	Person=3|Number=Sing	5	expl	_	3SG
 5	dawi	dawi	VERB	_	_	0	root	_	chase
-6	hna	hna	PRON	_	Number=Plural	3	discourse	_	_	PL
+6	hna	hna	PRON	_	Number=Plural	4	expl	_	_	3PL
 7	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
 #sent_id = 56
@@ -509,6 +491,7 @@
 5	hmu	hmu	VERB	_	_	0	root	_	see
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
+# can't find this in common voice file
 #sent_id = 57
 # text = Bawi nih cawsa a chumh.
 # text_en = Bawi cooked the beef.
@@ -519,9 +502,10 @@
 5	chumh	chumh	VERB	_	_	0	root	_	cook
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
+# can't find this in common voice file
 # sent_id = 58
 # text = Ka tta pa nih sibawi pa biakinn ah ∅ hmu.
-# My brother saw the doctor at the church. 
+# My brother saw the doctor at the church.
 1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
 2	tta	tta	NOUN	_	_	9	nsubj	_	brother
 3	pa	pa	PART	_	_	2	case	_	male
@@ -533,6 +517,7 @@
 9	hmu	hmu	VERB	_	_	0	root	_	see
 10	.	PUNCT	PUNCT	_	_	9	punct	_	_
 
+# can't find this in common voice file
 # sent_id = 59
 # text = Sayamah nu nih ngakchia nu cauk a ∅ pe lo.
 # text_en = The teacher didn’t give a book to the girl.
@@ -547,9 +532,10 @@
 9	lo	lo	PART	_	_	8	discourse	_	not
 10	.	PUNCT	PUNCT	_	_	8	punct	_	_
 
+# can't find this in common voice file
 # sent_id = 60
 # text = Ka tta pa kha a niam tuk.
-# text_en = My brother is very short
+# text_en = My brother is very short.
 1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
 2	tta	tta	NOUN	_	_	6	nsubj	_	brother
 3	pa	pa	PART	_	_	2	case	_	male
@@ -559,6 +545,7 @@
 7	tuk	tuk	ADV	_	_	6	advmod	_	_
 8	.	PUNCT	PUNCT	_	_	6	punct	_	_
 
+# can't find this in common voice file
 # sent_id = 61
 # text = Ngakchia pa aa tthangh hnuin rawl a ∅ ei.
 # text_en = After the child woke up, he ate.
@@ -572,28 +559,31 @@
 8	ei	ei	VERB	_	_	4	ccomp	_	eat
 9	.	PUNCT	PUNCT	_	_	8	punct	_	_
 
+# can't find this in common voice file
 #sent_id = 62
-# text = s
+# text = A kum ka tei lo.
 # text_en = I don't know his age.
-1	a	a	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	his
+1	A	a	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	his
 2	kum	kum	NOUN	_	_	4	obj	_	age
 3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	I
 4	tei	tei	VERB	_	_	0	root	_	know
 5	lo	lo	PART	_	_	4	discourse	_	NEG
 6	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
+# can't find this in common voice file
 # sent_id = 63
 # text = Kum hleinga ka si.
-# text_en = I am fifteen years old. 
+# text_en = I am fifteen years old.
 1	Kum	kum	NOUN	_	_	2	nmod	_	age
 2	hleinga	hleinga	NUM	_	_	0	root	_	fifteen
 3	ka	ka	PRON	_	Person=1|Number-Sing	2	nsubj	_	I
 4	si	si	AUX	_	_	2	cop	_	am
 5	.	PUNCT	PUNCT	_	_	2	punct	_	_
 
+# can't find this in common voice file
 # sent_id = 64
 # text = Kacik ah inttun kan kal.
-# text_en = We go caroling in winter. 
+# text_en = We go caroling in winter.
 1	Kacik	kacick	NOUN	_	_	5	obj	_	winter
 2	ah	ah	ADP	_	_	1	discourse	_	in
 3	inttun	inttun	VERB	_	_	5	ccomp	_	caroling
@@ -601,9 +591,10 @@
 5	kal	kal	VERB	_	_	0	root	_	go
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
+# can't find this in common voice file
 # sent_id = 65
 # text = Thala cung a lin tok.
-# tex[eng] = In summer it's very hot.
+# text_en = In summer it's very hot.
 1	Thala	thala	NOUN	_	_	4	obj	_	summer
 2	cung	cung	ADP	_	_	1	discourse	_	in
 3	a	a	PRON	_	Person=3|Number=Sing	4	nsubj	_	it
@@ -611,6 +602,7 @@
 5	tok	tok	ADV	_	_	4	advmod	_	_	very
 6	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
+# can't find this in common voice file
 # sent_id = 66
 # text = Hi seh nih hi-n thil a ttawl.
 # text_en = This machine washes clothes.
@@ -1216,7 +1208,7 @@
 1	Rawl	rawl	NOUN	_	_	3	obj	_	food
 2	kan	kan	PRON	_	Person=1|Number=Plural	3	nsubj	_	we
 3	ei	ei	VERB	_	_	0	root	_	eat
-4	hna	hna	PRON	_	Number=Plural	2	discourse	_	PL
+4	hna	hna	PRON	_	Number=Plural	2	expl	_	3PL
 5	lai	lai	AUX	_	Tense=Fut	3	aux	_	will
 6	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
@@ -2819,3 +2811,94 @@
 5	a	a	PRON	_	Person=3|Number=Sing	3	expl	_	expl
 6	si	si	AUX	_	_	3	cop	_	is
 7	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 298
+# text = Kha cauk kha ka uar hna.
+# text_en = I like those books.
+1	Kha	kha	DET	PRON	_	2	det	_	that
+2	cuak	cuak	NOUN	_	_	5	obj	_	book
+3	kha	kha	DET	PRON	_	2	det	_	that
+4	ka	ka	PRON	_	Person=1|Number=Sing	5	nsubj	_	I
+5	uar	uar	VERB	_	_	0	root	_	like
+6	hna	hna	PRON	_	Number=PL	5	expl	_	3PL
+7	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 299
+# text = Peng cu a it cang.
+# text_en = Peng started to sleep.
+1	Peng	Peng	PROPN	_	_	4	nsubj	_	Peng
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	it	it	VERB	_	_	0	root	_	sleep
+5	cang	cang	ADV	_	_	4	advmod	_	completed action
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 300
+# text = Cabuai cungah cauk a um mi cu a sen.
+# text_en = The book on the desk is red.
+1	Cabuai	cabuai	NOUN	_	_	4	obj	_	table
+2	cungah	cungah	ADP	PREP	_	1	case	_	on
+3	cauk	cauk	NOUN	_	_	8	nsubj	_	book
+4	um	um	VERB	_	_	8	ccomp	_	lie
+5	mi	mi	PART	_	_	8	discourse	_	relativizer
+6	cu	cu	PART	_	_	8	discourse	_	TOP
+7	a	a	PRON	_	Person=3|Number=Sing	8	expl	_	expl
+8	sen	sen	VERB	ADJ	_	0	root	_	red
+
+# sent_id = 301
+# text = Eek naa lamh lai.
+# text_en = You are about to step in dung.
+1	Eek	ek	NOUN	_	_	3	obj	_	dung
+2	naa	na	PRON	_	Person=2|Number=Sing	3	nsubj	_	you
+3	lamh	lamh	VERB	_	_	0	root	_	stamp
+4	lai	lai	AUX	_	Tense=Fut	3	aux	_	will
+
+# sent_id = 302
+# text = Ka hnakhaw ah hma a um.
+# text_en = There is a wound on my ear.
+1	Ka	ka	PRON	_	_	2	nmod:poss	_	my
+2	hnakhaw	hnakhaw	NOUN	_	_	6	obj	_	ear
+3	ah	ah	ADP	_	_	2	case	_	in
+4	hma	hma	NOUN	_	_	6	nsubj	_	wound
+5	a	a	PRON	_	Person=3|Number=Sing	6	expl	_	expl
+6	um	um	VERB	_	_	0	root	_	am/exist
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 303
+# text = Nangmah nakin ka upa deuh.
+# text_en = I am older than you.
+1	Nangmah	nangmah	PRON	_	Person=2|Number=Sing	4	obj	_	you
+2	nakin	nakin	CONJ	_	_	4	conj	_	than
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	I
+4	upa	upa	VERB	ADJ	_	_	0	root	_	old
+5	deuh	deuh	ADV	_	_	4	advmod	_	more
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 304
+# text = Bawibawi cu a it cang.
+# text_en = Bawibawi started sleeping.
+1	Bawibawi	Bawibawi	PROPN	_	_	4	nsubj	_	Bawi
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	it	it	VERB	_	_	0	root	_	sleep
+5	cang	cang	ADV	_	_	4	advmod	_	completed action
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 305
+# text = Amah lawng a kal.
+# text_en = Only she went.
+1	Amah	amah	PRON	_	Person=3|Number=Sing|Gender=Fem	4	nsubj	_	she
+2	lawng	lawng	ADJ	_	_	1	amod	_	only
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	kal	kal	VERB	_	_	0	root	_	go
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 306
+# text = Ceuceu lawng nih aan hmuh.
+# text_en = Only Ceu saw you.
+1	Ceuceu	Ceuceu	PROPN	_	_	5	nsubj	_	Ceu
+2	lawng	lawng	ADJ	_	_	1	amod	_	only
+3	nih	nih	PART	_	_	1	case	_	ERG
+4	aan	aan	PRON	_	Person=2|Number=Sing	5	obj	_	you
+5	hmuh	hmuh	VERB	_	_	0	root	_	see
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_

@@ -87,7 +87,7 @@
 1-2	khoi ka	_	_	_	_	_	_	_	_
 1	khoi	khoi	ADV	_	_	5	advmod	_	where
 2	ka	ka	PRON	_	Person=3|Number=Sing	1	flat	_	_
-3	dah	PART	PART	_	_	1	compound	_	WH
+3	dah	dah	PART	_	_	1	compound	_	WH
 4	naa	na	PRON	_	Person=2|Number=Sing	5	nsubj	_	you
 5	khwang	khwang	VERB	_	_	0	root	_	hurt
 6	.	punct	punct	_	_	5	punct	_	_
@@ -828,8 +828,8 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 86
 # text = Chinchin cu cauk a pek
-# text_en = He gave Chinchin a book.
-1	Chinchin	Chinchin	PROPN	_	_	5	iobj	_	Chinchin
+# text_en = He gave Chin a book.
+1	Chinchin	Chinchin	PROPN	_	_	5	iobj	_	Chin
 2	cu	cu	PART	_	_	1	discourse	_	TOP
 3	cuak	cuak	NOUN	_	_	5	obj	_	book
 4	a	a	PRON	_	Person=3|Number=Sing	5	nsubj	_	He
@@ -2812,3 +2812,136 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 3	nih	nih	PART	_	_	1	case	_	ERG
 4	aan	aan	PRON	_	Person=2|Number=Sing	5	obj	_	you
 5	hmuh	hmuh	VERB	_	_	0	root	_	see
+
+# sent_id = 307
+# text = Ceuceu nih a hmuh lawng aan hmuh
+# text_en = Ceu only saw you.
+1	Ceuceu	Ceuceu	PROPN	_	_	7	nsubj	_	Ceu
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	a	a	PRON	_	Person=1|Number=Sing	4	expl	_	expl
+4	hmuh	hmuh	VERB	_	_	7	ccomp	_	see
+5	lawng	lawng	ADJ	_	_	6	amod	_	only
+6	aan	aan	PRON	_	Person=2|Number=Sing	7	obj	_	you
+7	humh	hmuh	VERB	_	_	0	root	_	see
+
+# sent_id = 308
+# text = Tii ka pek
+# text_en = I gave him water.
+1	Tii	tii	NOUN	_	_	3	obj	_	water
+2	ka	ka	PRON	_	Person=1|Number=Sing	3	nsubj	_	give
+3	pek	pek	VERB	_	_	0	root	_	give
+
+# sent_id = 309
+# text = Bawibawi cauk ka pek
+# text_en = I gave Bawi a book.
+1	Bawibawi	Bawibawi	PROPN	_	_	4	iobj	_	Bawi
+2	cauk	cauk	NOUN	_	_	4	obj	_	book
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	I
+4	pek	pek	VERB	_	_	0	root	_	give
+
+# sent_id = 310
+# text = Khoika ah dah caw na hren?
+# text_en = Where did you tie the cow?
+1	Khoika	khoika	PRON	_	_	6	csubj	_	where
+2	ah	ah	ADP	_	_	1	case	_	LOC
+3	dah	dah	PART	_	_	1	compound	_	WH
+4	caw	caw	NOUN	_	_	6	obj	_	cow
+5	na	na	PRON	_	Person=2|Number=Sing	6	nsubj	_	you
+6	hren	hren	VERB	_	_	0	root	_	tie
+7	?	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 311
+# text = Zei ruang ah dah caw na hren?
+# text_en = Why did you tie the cow?
+1	Zei	zei	PRON	_	_	2	det	_	what
+2	ruang	ruang	NOUN	_	_	7	iobj	_	reason
+3	ah	ah	PART	_	_	1	case	_	case
+4	dah	dah	PART	_	_	1	compound	_	WH
+5	caw	caw	NOUN	_	_	7	obj	_	cow
+6	na	na	PRON	_	Person=2|Number=Sing	7	nsubj	_	you
+7	hren	hren	VERB	_	_	0	root	_	cow
+8	?	PUNCT	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 312
+# text = Zei tik ah dah caw na hren?
+# text_en = When did you tie the cow?
+1	Zei	zei	PRON	_	_	2	det	_	what
+2	tik	tik	NOUN	_	_	7	iobj	_	time
+3	ah	ah	PART	_	_	1	case	_	case
+4	dah	dah	PART	_	_	1	compound	_	WH
+5	caw	caw	NOUN	_	_	7	obj	_	cow
+6	na	na	PRON	_	Person=2|Number=Sing	7	nsubj	_	you
+7	hren	hren	VERB	_	_	0	root	_	tie
+8	?	PUNCT	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 313
+# text = Aho nih dah caw a hren?
+# text_en = Who tied the cow?
+1	Aho	aho	PRON	_	_	6	nsubj	_	who
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	dah	dah	PART	_	_	1	compound	_	WH
+4	caw	caw	NOUN	_	_	6	obj	_	cow
+5	a	a	PRON	_	Person=3|Number=Sing	6	expl	_	expl
+6	hren	hren	VERB	_	_	0	root	_	tie
+7	?	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 314
+# text = Mutthai aan pek
+# text_en = He gave you a candy
+1	Mutthai	mutthai	NOUN	_	_	3	obj	_	candy
+2	aan	aan	PRON	_	Person=2|Number=Sing	3	iobj	_	you
+3	pek	pek	VERB	_	_	0	root	_	give
+
+# sent_id = 315
+# text = Mutthai an pek
+# text_en = They gave him a candy
+1	Mutthai	mutthai	NOUN	_	_	3	obj	_	candy
+2	an	an	PRON	_	Person=3|Number=Plural	3	nsubj	_	they
+3	pek	pek	VERB	_	_	0	root	_	give
+
+# sent_id = 316
+# text = Mutthai a pek hna
+# text_en = He gave them a candy
+1	Mutthai	mutthai	NOUN	_	_	3	obj	_	candy
+2	a	a	PRON	_	Person=3|Number=Sing	3	nsubj	_	he
+3	pek	pek	VERB	_	_	0	root	_	give
+5	hna	hna	PRON	_	Person=3|Number=Plural	3	iobj	_	them
+
+# sent_id = 317
+# text = Mutthai an in pek
+# text_en = They gave you a candy
+1	Mutthai	mutthai	NOUN	_	_	4	obj	_	candy
+2	an	an	PRON	_	Person=3|Number=Plural	4	nsubj	_	they
+3	in	in	PRON	_	Person=2|Number=Sing	4	iobj	_	you
+4	pek	pek	VERB	_	_	0	root	_	give
+
+# sent_id = 318
+# text = Mutthai kan in pek
+# text_en = We gave you a candy
+1	Mutthai	mutthai	NOUN	_	_	4	obj	_	candy
+2	kan	kan	PRON	_	Person=1|Number=Plural	4	nsubj	_	we
+3	in	in	PRON	_	Person=2|Number=Sing	4	iobj	_	you
+4	pek	pek	VERB	_	_	0	root	_	give
+
+# sent_id = 319
+# text = Mutthai nan kan pek
+# text_en = Y'all gave us a candy
+1	Mutthai	mutthai	NOUN	_	_	4	obj	_	candy
+2	nan	nan	PRON	_	Person=2|Number=Plural	4	nsubj	_	y'all
+3	kan	kan	PRON	_	Person=1|Number=Plural	4	iobj	_	us
+4	pek	pek	VERB	_	_	0	root	_	give
+
+# sent_id = 320
+# text = Kaan tuk hna
+# text_en = I hit y'all
+1	Kaan	kaan	PRON	_	Person=1|Number=Sing	2	nsubj	_	I
+2	tuk	tuk	VERB	_	_	0	root	_	hit
+3	hna	hna	PRON	_	Person=2|Number=Plural	2	obj	_	y'all
+
+# sent_id = 321
+# text = Kaan tuk hna lai
+# text_en = I am going to hit y'all
+1	Kaan	kaan	PRON	_	Person=1|Number=Sing	2	nsubj	_	I
+2	tuk	tuk	VERB	_	_	0	root	_	hit
+3	hna	hna	PRON	_	Person=2|Number=Plural	2	obj	_	y'all
+4	lai	lai	AUX	_	Tense=Fut	2	aux	_	am going to

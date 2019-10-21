@@ -3086,3 +3086,121 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 5	tuah	tuah	VERB	_	_	0	root	_	do
 6	lai	lai	AUX	_	_	5	aux	_	FUT
 7	?	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 336
+# text = Hmaikum ah Abawi nih inn a sak te lai
+# text_en = next year Abawi will build a house
+1	Hmaikum	hmaikum	ADV	_	_	7	advmod	_	next year
+2	ah	ah	ADP	_	_	1	case	_	TEMPORAL
+3	Abawi	Abawi	PROPN	_	_	7	nsubj	_	Abawi
+4	nih	nih	PART	_	_	3	case	_	ERG
+5	inn	inn	NOUN	_	_	7	obj	_	house
+6	a	a	PRON	_	Person=3|Number=Sing	7	expl	_	expl
+7	sak	sak	VERB	_	_	0	root	_	construct
+8	te	te	ADV	VERB	_	7	advmod	_	indicator of future
+9	lai	lai	AUX	_	_	7	aux	_	FUT
+
+# sent_id = 337
+# text = Hmaizarh ah sianginn kai ka dih lai
+# text_en = next week I will finish school
+1	Hmaizarh	hmaizarh	ADV	_	_	6	advmod	_	next week
+2	ah	ah	ADP	_	_	1	case	_	TEMPORAL
+3	sianginn	sianginn	NOUN	_	_	6	obj	_	school
+4	kai	kai	VERB	_	_	6	ccomp	_	go
+5	ka	ka	PRON	_	Person=1|Number=Sing	6	nsubj	_	I
+6	dih	dih	VERB	_	_	0	root	_	finish
+7	lai	lai	AUX	_	_	6	aux	_	will
+
+# sent_id = 338
+# text = Kam Lo nih hmaizarh ah inn a sak lai
+# text_en = Kam Lo will build a house next week
+1	Kam	Kam	PROPN	_	_	7	nsubj	_	Kam
+2	Lo	Lo	PROPN	_	_	1	flat:name	_	Lo
+3	hmaizarh	hmaizarh	ADV	_	_	7	advmod	_	next week
+4	ah	ah	PART	_	_	3	case	_	TEMPORAL
+5	inn	inn	NOUN	_	_	7	obj	_	house
+6	a	a	PRON	_	Person=3|Number=Sing	7	expl	_	expl
+7	sak	sak	VERB	_	_	0	root	_	construct
+8	lai	lai	AUX	_	_	7	aux	_	will
+
+# sent_id = 339
+# text = Rawl ka ei hnu ah ka it te lai
+# text_en = After I eat I will go to bed
+1	Rawl	rawl	NOUN	_	_	3	obj	_	food
+2	ka	ka	PRON	_	Person=1|Number=Sing	3	csubj	_	I
+3	ei	ei	VERB	_	_	7	ccomp	_	eat
+4	hnu	hnu	ADV	_	_	7	advmod	_	after
+5	ah	ah	ADP	_	_	4	case	_	TEMPORAL
+6	ka	ka	PRON	_	Person=1|Number=Sing	7	nsubj	_	I
+7	it	it	VERB	_	_	0	root	_	sleep
+8	te	te	ADV	VERB	_	_	7	advmod	_	indicator of future
+9	lai	lai	AUX	_	_	7	aux	_	will
+
+# sent_id = 340
+# text = Hai na ei bal maw?
+# text_en = have you ever eaten a mango?
+1	Hai	hai	NOUN	_	_	3	obj	_	mango
+2	na	na	PRON	_	Person=2|Number=Sing	3	nsubj	_	you
+3	ei	ei	VERB	_	_	0	root	_	eat
+4	bal	bal	ADV	_	_	3	advmod	_	ever
+5	maw	maw	PART	_	_	3	discourse	_	Q
+6	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 341
+# text = Hai na ei maw?
+# text_en = Did you eat mango?
+1	Hai	hai	NOUN	_	_	3	obj	_	mango
+2	na	na	PRON	_	Person=2|Number=Sing	3	nsubj	_	you
+3	ei	ei	VERB	_	_	0	root	_	eat
+4	maw	maw	PART	_	_	3	discourse	_	Q
+5	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 342
+# text = Nizaan ah cauk ka rel
+# text_en = I read a book yesterday
+1	Nizaan	nizaan	ADV	_	_	5	advmod	_	yesterday
+2	ah	ah	PART	_	_	1	case	_	TEMPORAL
+3	cauk	cauk	NOUN	_	_	5	obj	_	book
+4	ka	ka	PRON	_	Person=1|Number=Sing	5	nsubj	_	I
+5	rel	rel	VERB	_	_	0	root	_	read
+
+# sent_id = 343
+# text = Ka tthi ka thlak
+# text_en = I dropped my necklace
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
+2	tthi	tthi	NOUN	_	_	4	obj	_	necklace
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	I
+4	thlak	thlak	VERB	_	_	0	root	_	drop
+
+# sent_id = 344
+# text = Ca ka ttial
+# text_en = I wrote
+1	Ca	ca	NOUN	_	_	3	obj	_	writing
+2	ka	ka	PRON	_	Person=1|Number=Sing	3	nsubj	_	I
+3	ttial	ttial	VERB	_	_	0	root	_	write
+
+# sent_id = 345
+# text = Thli a hrang tuk
+# text_en = It's very windy
+1	Thli	thli	NOUN	_	_	3	obj	_	wind
+2	a	a	PRON	_	Person=3|Number=Sing	3	nsubj	_	it
+3	hrang	hrang	VERB	_	_	0	root	_	blow
+4	tuk	tuk	ADV	_	_	3	advmod	_	very
+
+# sent_id = 346
+# text = Ngaikuang tampi ka tleih hna
+# text_en = I caught a lot of lobsters
+1	Ngaikuang	ngaikuang	NOUN	_	_	4	obj	_	lobster/shrimp
+2	tampi	tampi	ADJ	NOUN	_	1	amod	_	a lot
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	I
+4	tleih	tleih	VERB	_	_	0	root	_	catch
+5	hna	hna	PRON	_	Person=3|Number=Plural	4	expl	_	expl
+
+# sent_id = 347
+# text = Ka thangtthat
+# text_en = I worshipped
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nsubj	_	I
+2	thangtthat	thangtthat	VERB	_	_	0	root	_	praise
+
+# sent_id = 348
+# text = 

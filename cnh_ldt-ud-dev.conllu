@@ -190,7 +190,7 @@
 # text_en = They have two dogs.
 1	Uico	uico	NOUN	_	_	4	obj	_	dog
 2	pahnih	pahnih	NUM	_	Number=Plural	1	nummod	_	two
-3	an	an	PRON	_	_	4	nsubj	_	they
+3	an	an	PRON	_	Person=3|Number=Plural	4	nsubj	_	they
 4	ngei	ngei	VERB	_	_	0	root	_	have
 
 # sent_id = 24
@@ -508,10 +508,10 @@
 # My brother saw the doctor at the church.
 1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
 2	tta	tta	NOUN	_	_	9	nsubj	_	brother
-3	pa	pa	PART	_	_	2	case	_	male
+3	pa	pa	PART	NOUN	Gender=Masc	2	case	_	male
 4	nih	nih	PART	_	-	2	case	_	ERG
 5	sibawi	sibawi	NOUN	_	_	9	obj	_	doctor
-6	pa	pa	PART	_	_	5	case	_	male
+6	pa	pa	PART	NOUN	Gender=Masc	5	case	_	male
 7	biakinn	biakinn	NOUN	_	_	9	iobj	_	church
 8	ah	ah	ADP	_	_	7	discourse	_	at
 9	hmu	hmu	VERB	_	_	0	root	_	see
@@ -538,7 +538,7 @@
 # text_en = My brother is very short.
 1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
 2	tta	tta	NOUN	_	_	6	nsubj	_	brother
-3	pa	pa	PART	_	_	2	case	_	male
+3	pa	pa	PART	NOUN	Gender=Masc	2	case	_	male
 4	kha	kha	PART	_	_	2	discourse	_	TOP
 5	a	a	PRON	_	Person=3|Number=Sing	6	expl	_	3SG
 6	niam	niam	VERB	_	_	0	root	_	short
@@ -550,7 +550,7 @@
 # text = Ngakchia pa aa tthangh hnuin rawl a ∅ ei.
 # text_en = After the child woke up, he ate.
 1	Ngakchia	ngakchia	NOUN	_	_	4	nsubj	_	child
-2	pa	pa	PART	_	_	1	case	_	male
+2	pa	pa	PART	NOUN	Gender=Masc	1	case	_	male
 3	aa	aa	PART	_	_	1	case	_	REFL
 4	tthangh	ttangh	VERB	_	_	0	root	_	woke up
 5	hnuin	hnuin	ADP	_	_	4	discourse	_	after
@@ -792,7 +792,7 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 # text = Na pa nih ruul a thah
 # text_en = Your father killed a snake.
 1	Na	na	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	your
-2	pa	pa	NOUN	_	_	6	nsubj	_	father
+2	pa	pa	NOUN	_	Gender=Masc	6	nsubj	_	father
 3	nih	nih	PART	_	_	2	case	_	ERG
 4	ruul	ruul	NOUN	_	_	6	obj	_	snake
 5	a	a	PRON	_	Person=3|Number=Sing	6	expl	_	3SG
@@ -911,8 +911,8 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 2	a	a	PRON	_	Person=3|Number=Sing	3	expl	_	3SG
 3	ttap	ttap	VERB	_	_	8	ccomp	_	cry
 4	lio	lio	ADV	_	_	8	advmod	_	during/while
-5	nizan	nizan	ADV	_	_	8	advmod	_	yesterday
-6	ah	ah	ADP	_	_	5	discourse	_	LOC
+5	nizaan	nizaan	ADV	_	_	8	advmod	_	yesterday
+6	ah	ah	ADP	_	_	5	discourse	_	TEMPORAL
 7	ka	ka	PRON	_	Person=1|Number=Sing	8	nsubj	_	I
 8	hmuh	hmuh	VERB	_	_	0	root	_	see
 9	.	PUNCT	PUNCT	_	_	8	punct	_	_
@@ -934,7 +934,7 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 1	Zeidah	zeidah	PRON	_	_	3	obj	_	what
 2	na	na	PRON	_	Person=2|Number=Sing	3	nsubj	_	you
 3	tuah	tuah	VERB	_	_	0	root	_	do
-4	lai	lai	AUX	_	Tense=Fut	3	aux	_	going to
+4	lai	lai	AUX	_	Tense=Fut	3	aux	_	FUT
 5	?	PUNCT	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 97
@@ -978,7 +978,7 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 # text = Mah pa hi sibawi a si
 # text_en = This man is a doctor.
 1	Mah	mah	DET	_	_	2	det	_	this
-2	pa	pa	PRON	_	Person=3|Number=Sing	4	nsubj	_	man
+2	pa	pa	NOUN	Gender=Masc	Person=3|Number=Sing	4	nsubj	_	man
 3	hi	hi	DET	_	_	2	det	_	this
 4	sibawi	sibawi	NOUN	_	_	0	root	_	doctor
 5	a	a	PRON	_	Person=3|Number=Sing	6	expl	_	3SG
@@ -1050,7 +1050,7 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 # text = Hi pa hi Sibawi a si lo.
 # text_en = This man is not a doctor.
 1	Mah	mah	DET	_	_	2	det	_	this
-2	pa	pa	PRON	_	Person=3|Number=Sing	4	nsubj	_	man
+2	pa	pa	PRON	Gender=Masc	Person=3|Number=Sing	4	nsubj	_	man
 3	hi	hi	DET	_	_	2	det	_	this
 4	Sibawi	Sibawi	NOUN	_	_	0	root	_	doctor
 5	a	a	PRON	_	Person=3|Number=Sing	6	expl	_	3SG
@@ -1302,7 +1302,7 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 # text_en = Yesterday morning I ran.
 1	Nizaan	Nizaan	ADV	_	_	5	advcl	_	yesterday
 2	zingka	zingka	NOUN	_	_	5	acl	_	morning
-3	ah	ah	ADP	_	_	2	discourse	_	TEMP
+3	ah	ah	ADP	_	_	2	discourse	_	TEMPORAL
 4	ka	ka	PRON	_	_	5	nsubj	_	I
 5	tli	tli	VERB	_	_	0	root	_	run
 
@@ -1975,7 +1975,7 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 # text = Ka pa nih ka min a ka sak
 # text_en = my father gave me my name
 1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
-2	pa	pa	NOUN	_	_	8	nsubj	_	father
+2	pa	pa	NOUN	_	Gender=Masc	8	nsubj	_	father
 3	nih	nih	PART	_	_	2	case	_	ERG
 4	ka	ka	PRON	_	_	5	nmod:poss	_	my
 5	min	min	NOUN	_	_	8	iobj	_	name
@@ -2299,7 +2299,7 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 # text = Ngakchia pa a it.
 # text_en = The little boy slept.
 1	Ngakchia	ngakchia	ADJ	NOUN	_	2	amod	_	child
-2	pa	pa	NOUN	_	_	4	nsubj	_	boy
+2	pa	pa	NOUN	_	Gender	4	nsubj	_	boy
 3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
 4	it	it	VERB	_	_	0	root	_	sleep
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
@@ -2392,7 +2392,7 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 # text = Ka pa nih sakhi a kah
 # text_en = my father shot and killed a deer
 1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
-2	pa	pa	NOUN	_	_	6	nsubj	_	father
+2	pa	pa	NOUN	_	Gender=Masc	6	nsubj	_	father
 3	nih	nih	PART	_	_	2	case	_	ERG
 4	sakhi	sakhi	NOUN	_	_	6	obj	_	deer
 5	a	a	PRON	_	Person=3|Number=Sing	6	expl	_	expl
@@ -2711,7 +2711,7 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 # text = Na pa rian zeidah a si?
 # text_en = What is your father's occupation?
 1	Na	na	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	your
-2	pa	pa	NOUN	_	_	3	nmod:poss	_	father
+2	pa	pa	NOUN	_	Gender=Masc	3	nmod:poss	_	father
 3	rian	rian	NOUN	_	_	0	root	_	work
 4	zeidah	zeidah	PRON	_	_	3	det	_	what
 5	a	a	PRON	_	Person=3|Number=Sing	3	expl	_	expl
@@ -2944,4 +2944,145 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 1	Kaan	kaan	PRON	_	Person=1|Number=Sing	2	nsubj	_	I
 2	tuk	tuk	VERB	_	_	0	root	_	hit
 3	hna	hna	PRON	_	Person=2|Number=Plural	2	obj	_	y'all
-4	lai	lai	AUX	_	Tense=Fut	2	aux	_	am going to
+4	lai	lai	AUX	_	Tense=Fut	2	aux	_	FUT
+
+# sent_id = 322
+# text = An in tuk
+# text_en = They hit you
+1	An	an	PRON	_	Person=3|Number=Plural	3	nsubj	_	they
+2	in	in	PRON	_	Person=2|Number=Sing	3	obj	_	you
+3	tuk	tuk	VERB	_	_	0	root	_	hit
+
+# sent_id = 323
+# text = An in tuk lai
+# text_en = They are going to hit you
+1	An	an	PRON	_	Person=3|Number=Plural	3	nsubj	_	they
+2	in	in	PRON	_	Person=2|Number=Sing	3	obj	_	you
+3	tuk	tuk	VERB	_	_	0	root	_	hit
+4	lai	lai	AUX	_	_	3	aux	_	FUT
+
+# sent_id = 324
+# text = Ngakchia pa nih na nu a puk
+# text_en = They boy kissed your mom
+1	Ngakchia	ngakchia	ADJ	NOUN	_	2	amod	_	child
+2	pa	pa	PART	NOUN	Gender=Masc	7	nsubj	_	male
+3	nih	nih	PART	_	_	1	case	_	ERG
+4	na	na	PRON	_	Person=2|Number=Sing	5	nmod:poss	_	your
+5	nu	nu	NOUN	_	_	7	obj	_	mother
+6	a	a	PRON	_	Person=3|Number=Sing	7	expl	_	expl
+7	puk	puk	VERB	_	_	0	root	_	kiss
+
+# sent_id = 325
+# text = Ngakchia pa nih na nu a puk lai
+# text_en = The boy is going to kiss your mom
+1	Ngakchia	ngakchia	ADJ	NOUN	_	2	amod	_	child
+2	pa	pa	NOUN	_	_	7	nsubj	_	boy
+3	nih	nih	PART	_	_	1	case	_	ERG
+4	na	na	PRON	_	Person=2|Number=Sing	5	nmod:poss	_	your
+5	nu	nu	NOUN	_	_	7	obj	_	mother
+6	a	a	PRON	_	Person=3|Number=Sing	7	expl	_	expl
+7	puk	puk	VERB	_	_	0	root	_	kiss
+8	lai	lai	AUX	_	_	7	aux	_	FUT
+
+# sent_id = 326
+# text = Na nu nih ngakchia pa a tuk
+# text_en = Your mom hit the boy
+1	Na	na	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	your
+2	nu	nu	NOUN	_	_	7	nsubj	_	mother
+3	nih	nih	PART	_	_	2	case	_	ERG
+4	ngakchia	ngakchia	ADJ	NOUN	_	5	amod	_	child
+5	pa	pa	PART	NOUN	_	7	obj	_	boy
+6	a	a	PRON	_	Person=3|Number=Sing	7	expl	_	expl
+7	tuk	tuk	VERB	_	_	0	root	_	hit
+
+# sent_id = 327
+# text = Na nu nih ngakchia pa a tuk lai
+# text_en = Your mom is going to hit the boy
+1	Na	na	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	your
+2	nu	nu	NOUN	_	_	7	nsubj	_	mother
+3	nih	nih	PART	_	_	2	case	_	ERG
+4	ngakchia	ngakchia	ADJ	NOUN	_	5	amod	_	child
+5	pa	pa	PART	NOUN	_	7	obj	_	boy
+6	a	a	PRON	_	Person=3|Number=Sing	7	expl	_	expl
+7	tuk	tuk	VERB	_	_	0	root	_	hit
+8	lai	lai	AUX	_	_	7	aux	_	FUT
+
+# sent_id = 328
+# text = Fung in na tuk hna
+# text_en = You hit them with a stick
+1	Fung	fung	NOUN	_	_	4	iobj	_	stick
+2	in	in	ADP	_	_	1	case	_	with
+3	na	na	PRON	_	Person=2|Number=Sing	4	nsubj	_	you
+4	tuk	tuk	VERB	_	_	0	root	_	hit
+5	hna	hna	PRON	_	Person=3|Number=Plural	4	obj	_	them
+
+# sent_id = 329
+# text = Fung in na tuk hna lai
+# text_en = You are going to hit them with a stick
+1	Fung	fung	NOUN	_	_	4	iobj	_	stick
+2	in	in	ADP	_	_	1	case	_	with
+3	na	na	PRON	_	Person=2|Number=Sing	4	nsubj	_	you
+4	tuk	tuk	VERB	_	_	0	root	_	hit
+5	hna	hna	PRON	_	Person=3|Number=Plural	4	obj	_	them
+6	lai	lai	AUX	_	_	4	aux	_	FUT
+
+# sent_id = 330
+# text = Amah nu nih mutthai a ka pek
+# text_en = She gave me a candy
+1	Amah	amah	PRON	_	Gender=Fem	7	nsubj	_	she
+2	nu	nu	ADJ	NOUN	Gender=Fem	1	case	_	female
+3	nih	nih	PART	_	_	1	case	_	ERG
+4	mutthai	mutthai	NOUN	_	_	7	obj	_	candy
+5	a	a	PRON	_	_	7	expl	_	expl
+6	ka	ka	PRON	_	Person=1|Number=Sing	7	iobj	_	me
+7	pek	pek	VERB	_	_	0	root	_	give
+
+# sent_id = 331
+# text = Uico nih chizawh raang pahnih a dawi hna
+# text_en = The dog is chasing two white cats
+1	Uico	uico	NOUN	_	_	7	nsubj	_	dog
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	chizawh	chizawh	NOUN	_	_	7	obj	_	cat
+4	raang	raang	ADJ	_	_	3	amod	_	white
+5	pahnih	pahnih	NUM	_	_	3	nummod	_	two
+6	a	a	PART	_	_	7	expl	_	expl
+7	dawi	dawi	VERB	_	_	0	root	_	chase
+8	hna	hna	PART	_	Person=3|Number=Plural	7	expl	_	expl
+
+# sent_id = 332
+# text = Zawng aa tthang
+# text_en = The monkey woke up
+1	Zawng	zawng	NOUN	_	_	3	nsubj	_	monkey
+2	aa	aa	PRON	_	Person=3|Number=Sing	3	expl	_	expl
+3	tthang	tthang	VERB	_	_	0	root	_	awaken
+
+# sent_id = 333
+# text = Nizaan ah zawng a tho
+# text_en = The monkey woke up yesterday
+1	Nizaan	nizaan	ADV	_	_	5	advmod	_	yesterday
+2	ah	ah	PART	_	_	1	case	_	TEMPORAL
+3	zawng	zawng	NOUN	_	_	5	nsubj	_	monkey
+4	a	a	PART	_	_	5	expl	_	expl
+5	tho	tho	VERB	_	_	0	root	_	rise
+
+# sent_id = 334
+# text = Nikum ah mipa nih inn a sak
+# text_en = Last year a man built a house
+1	Nikum	nikum	ADV	_	_	7	advmod	_	last year
+2	ah	ah	PART	_	_	1	case	_	TEMPORAL
+3	mipa	mipa	NOUN	_	_	7	nsubj	_	guy
+4	nih	nih	PART	_	_	3	case	_	ERG
+5	inn	inn	NOUN	_	_	7	obj	_	house
+6	a	a	PRON	_	Person=3|Number=Sing	7	expl	_	expl
+7	sak	sak	VERB	_	_	0	root	_	construct
+
+# sent_id = 335
+# text = Thaizing ah zeidah na tuah lai?
+# text_en = What are you going to do tomorrow?
+1	Thaizing	thaizing	ADV	_	_	5	advmod	_	tomorrow
+2	ah	ah	PART	_	_	1	case	_	TEMPORAL
+3	zeiadah	zeidah	PRON	_	_	5	obj	_	what
+4	na	na	PRON	_	Person=2|Number=Sing	5	nsubj	_	you
+5	tuah	tuah	VERB	_	_	0	root	_	do
+6	lai	lai	AUX	_	_	5	aux	_	FUT
+7	?	PUNCT	PUNCT	_	_	5	punct	_	_

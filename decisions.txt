@@ -17,3 +17,5 @@ Hakha Chin UD Decisions:
 	- It's being glossed as a PART but I'm unsure of its relation. It's usually given the discourse relation.
 
 7. Verbal adj are annotated as VERB with the XPOS = ADJ
+
+8. Punctuation that was not in the common voice file is not in the treebank.

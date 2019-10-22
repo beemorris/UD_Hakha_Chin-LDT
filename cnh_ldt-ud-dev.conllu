@@ -551,7 +551,7 @@
 # text_en = After the child woke up, he ate.
 1	Ngakchia	ngakchia	NOUN	_	_	4	nsubj	_	child
 2	pa	pa	PART	NOUN	Gender=Masc	1	case	_	male
-3	aa	aa	PART	_	_	1	case	_	REFL
+3	aa	a	PART	_	_	1	case	_	REFL
 4	tthangh	ttangh	VERB	_	_	0	root	_	woke up
 5	hnuin	hnuin	ADP	_	_	4	discourse	_	after
 6	rawl	rawl	NOUN	_	_	8	obj	_	food
@@ -784,7 +784,7 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 # text_en = He is scratching his nose.
 1	a	a	PRON	_	Person=2|Number=Sing	4	nsubj	_	he
 2	hnar	hnar	NOUN	_	_	4	obj	_	nose
-3	aa	aa	PRON	_	_	2	nmod:poss	_	his
+3	aa	a	PRON	_	_	2	nmod:poss	_	his
 4	kheuh	kheuh	VERB	_	_	0	root	_	scratch
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
@@ -811,7 +811,7 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 # text_en = He bit his tongue.
 1	a	a	PRON	_	Person=3|Number=Sing	4	nsubj	_	he
 2	lei	lei	NOUN	_	_	4	obj	_	tongue
-3	aa	aa	PRON	_	Person=3|Number=Sing	2	nmod:poss	_	his
+3	aa	a	PRON	_	Person=3|Number=Sing	2	nmod:poss	_	his
 4	seh	seh	VERB	_	_	0	root	_	bit
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
@@ -3053,7 +3053,7 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 # text = Zawng aa tthang
 # text_en = The monkey woke up
 1	Zawng	zawng	NOUN	_	_	3	nsubj	_	monkey
-2	aa	aa	PRON	_	Person=3|Number=Sing	3	expl	_	expl
+2	aa	a	PRON	_	Person=3|Number=Sing	3	expl	_	expl
 3	tthang	tthang	VERB	_	_	0	root	_	awaken
 
 # sent_id = 333
@@ -3203,4 +3203,91 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 2	thangtthat	thangtthat	VERB	_	_	0	root	_	praise
 
 # sent_id = 348
-# text = 
+# text = Zuri pa a tlu
+# text_en = A drunk fell over
+1	Zuri	zuri	NOUN	VERB	_	4	nsubj	_	be intoxicated
+2	pa	pa	NOUN	ADJ	Gender=Masc	1	compound	_	male
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	tlu	tlu	VERB	_	_	0	root	_	fall
+
+# sent_id = 349
+# text = Ti a thlet
+# text_en = He spilled water
+1	Ti	ti	NOUN	_	_	3	obj	_	water
+2	a	a	PRON	_	Person=3|Number=Sing	3	nsubj	_	he
+3	thlet	thlet	VERB	_	_	0	root	_	pour out water
+
+# sent_id = 350
+# text = A hawipa a hlen
+# text_en = he lied to his friend
+1	A	a	PRON	_	Person=3|Number=Sing	2	nmod:poss	_	his
+2	hawipa	hawipa	NOUN	_	_	4	obj	_	friend
+3	a	a	PRON	_	Person=3|Number=Sing	4	nsubj	_	he
+4	hlen	hlen	VERB	_	_	0	root	_	delude
+
+# sent_id = 351
+# text = Ka hawipa ka tthangh
+# text_en = I woke up my friend
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
+2	hawipa	hawipa	NOUN	_	_	4	obj	_	friend
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	I
+4	tthang	tthang	VERB	_	_	0	root	_	awaken
+
+# sent_id = 352
+# text = Hla ka sa
+# text_en = I sang a song
+1	Hla	hla	NOUN	_	_	3	obj	_	song
+2	ka	ka	PRON	_	Person=1|Number=Sing	3	nsubj	_	I
+3	sa	sa	VERB	_	_	0	root	_	sing
+
+# sent_id = 353
+# text = Buh cu a thaw tuk
+# text_en = the rice is delicious
+1	Buh	buh	NOUN	_	_	4	obj	_	rice
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	thaw	thaw	VERB	ADJ	_	0	root	_	delicious
+5	tuk	tuk	ADV	_	_	4	advmod	_	very
+
+# sent_id = 354
+# text = Ngakchiapa aa tthang nain a mit a ku rih ko
+# text = the child woke up but was still sleepy
+1	Ngakchiapa	ngakchiapa	NOUN	_	Gender=Masc	3	csubj	_	child
+2	aa	a	PRON	_	Person=3|Number=Sing	3	expl	_	expl
+3	tthang	tthang	VERB	_	_	8	ccomp	_	awaken
+4	nain	nain	CCONJ	_	_	8	conj	_	although
+5	a	a	PRON	_	Person=3|Number=Sing	8	nmod:poss	_	his
+6	mit	mit	NOUN	_	_	8	obj	_	eye
+7	a	a	PRON	_	_	8	expl	_	expl
+8	ku	ku	VERB	_	_	0	root	_	be sleepy
+9	rih	rih	ADV	_	_	8	advmod	_	yet
+10	ko	ko	ADV	_	_	8	advmod	_	something like of course
+
+# sent_id = 355
+# text = Thlalangawng a khar maw?
+# text_en = did he shut the window?
+1	Thlalangawng	thlalangawng	NOUN	_	_	3	obj	_	window
+2	a	a	PRON	_	Person=3|Number=Sing	3	nsubj	_	he
+3	khar	khar	VERB	_	_	0	root	_	shut
+4	maw	maw	PART	_	_	3	discourse	_	Q
+5	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 356
+# text = Thlalangawng a khuai maw?
+# text_en = did he shatter the window?
+1	Thlalangawng	thlalangawng	NOUN	_	_	3	obj	_	window
+2	a	a	PRON	_	Person=3|Number=Sing	3	nsubj	_	he
+3	khuai	khuai	VERB	_	_	0	root	_	smash
+4	maw	maw	PART	_	_	3	discourse	_	Q
+5	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 357
+# text = Saveh a tlau i Ngakchiapa a ttap
+# text_en = the rabbit disappeared and the child cried
+1	Saveh	saveh	NOUN	_	_	3	csubj	_	rabbit
+2	a	a	PRON	_	Person=3|Number=Sing	3	expl	_	expl
+3	tlau	tlau	VERB	ADJ	_	7	ccomp	_	lost
+4	i	i	CCONJ	_	_	7	conj	_	and
+5	Ngakchiapa	Ngakchiapa	NOUN	_	Gender=Masc	7	nsubj	_	child
+6	a	a	PRON	_	Person=3|Number=Sing	7	expl	_	expl
+7	ttap	ttap	VERB	_	_	0	root	_	cry

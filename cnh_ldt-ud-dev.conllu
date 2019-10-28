@@ -552,7 +552,7 @@
 1	Ngakchia	ngakchia	NOUN	_	_	4	nsubj	_	child
 2	pa	pa	PART	NOUN	Gender=Masc	1	case	_	male
 3	aa	a	PART	_	_	1	case	_	REFL
-4	tthangh	ttangh	VERB	_	_	0	root	_	woke up
+4	tthangh	ttangh	VERB	_	_	0	root	_	awaken
 5	hnuin	hnuin	ADP	_	_	4	discourse	_	after
 6	rawl	rawl	NOUN	_	_	8	obj	_	food
 7	a	a	PRON	_	Person=3|Number=Sing	8	csubj	_	he
@@ -1333,7 +1333,7 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 # sent_id = 141
 # text = Amah nu nih a kan hmuh.
 # text_en = She saw us.
-1	Amah	amah	PRON	_	Gender=Fem	6	nsubj	_	she
+1	Amah	amah	PRON	_	Gender=Fem|Person=3|Number=Sing	6	nsubj	_	she
 2	nu	nu	PART	_	_	1	case	_	_	female
 3	nih	nih	PART	_	_	1	case	_	_	ERG
 4	a	a	PRON	_	_	6	expl	_	_	3SG
@@ -1710,7 +1710,7 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 # sent_id = 183
 # text = Amah cu ka ni a si
 # text_en = she is my aunt
-1	Amah	amah	PRON	_	Gender=Fem	0	root	_	She
+1	Amah	amah	PRON	_	Gender=Fem|Person=3|Number=3	0	root	_	She
 2	cu	cu	PART	_	_	1	discourse	_	TOP
 3	ka	ka	PRON	_	Person=1|Number=Sing	4	nmod:poss	_	my
 4	ni	ni	NOUN	_	_	1	obj	_	aunt
@@ -2568,7 +2568,7 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 # sent_id = 281
 # text = Amah cu mi ngan a si
 # text_en = he is a great man
-1	Amah	amah	PRON	_	Gender=Masc	3	nsubj	_	he
+1	Amah	amah	PRON	_	Gender=Masc|Person=3|Number=Sing	3	nsubj	_	he
 2	cu	cu	PART	_	_	1	discourse	_	TOP
 3	mi	mi	NOUN	_	_	0	root	_	person
 4	ngan	ngan	ADJ	_	_	3	amod	_	great
@@ -3029,7 +3029,7 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 # sent_id = 330
 # text = Amah nu nih mutthai a ka pek
 # text_en = She gave me a candy
-1	Amah	amah	PRON	_	Gender=Fem	7	nsubj	_	she
+1	Amah	amah	PRON	_	Person=3|Number=Sing|Gender=Fem	7	nsubj	_	she
 2	nu	nu	ADJ	NOUN	Gender=Fem	1	case	_	female
 3	nih	nih	PART	_	_	1	case	_	ERG
 4	mutthai	mutthai	NOUN	_	_	7	obj	_	candy
@@ -3291,3 +3291,88 @@ PUNCT	PUNCT	_	_	4	punct	_	_
 5	Ngakchiapa	Ngakchiapa	NOUN	_	Gender=Masc	7	nsubj	_	child
 6	a	a	PRON	_	Person=3|Number=Sing	7	expl	_	expl
 7	ttap	ttap	VERB	_	_	0	root	_	cry
+
+# sent_id = 358
+# text = A inn a kangh ruangah a ttap
+1	A	a	PRON	_	Person=3|Number=Sing	2	nmod:poss	_	his
+2	inn	inn	NOUN	_	_	4	obj	_	house
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	kangh	kangh	VERB	_	_	7	ccomp	_	burn
+5	ruangah	ruangah	CCONJ	_	_	7	conj	_	because
+6	a	a	PRON	_	Person=3|Number=Sing	7	nsubj	_	he
+7	ttap	ttap	VERB	_	_	0	root	_	cry
+
+# sent_id = 359
+# text = Bawlung a ril nain uico nih a dawi lo
+# text_en = the ball was rolling but the dog didn't chase it
+1	Bawlung	bawlung	NOUN	_	_	3	csubj	_	ball
+2	a	a	PRON	_	_	3	expl	_	expl
+3	ril	ril	VERB	_	_	8	ccomp	_	roll
+4	nain	nain	CCONJ	_	_	8	conj	_	although
+5	uico	uico	NOUN	_	_	8	nsubj	_	dog
+6	nih	nih	PART	_	_	5	case	_	ERG
+7	a	a	PRON	_	Person=3|Number=Sing	8	expl	_	expl
+8	dawi	dawi	VERB	_	_	0	root	_	chase
+9	lo	lo	PART	_	_	8	case	_	not
+
+# sent_id = 360
+# text = A kedan a tlak ruangah a ttap
+# text_en = because his sandals fell he cried
+1	A	a	PRON	_	Person=3|Number=Sing	2	nmod:poss	_	his
+2	kedan	kedan	NOUN	_	_	4	csubj	_	shoe
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	tlak	tlak	VERB	_	_	7	ccomp	_	tumble
+5	ruangah	ruangah	CCONJ	_	_	7	conj	_	because
+6	a	a	PRON	_	Person=3|Number=Sing	7	nsubj	_	he
+7	ttap	ttap	VERB	_	_	0	root	_	cry
+
+# sent_id = 361
+# text = A ke a bei ruangah a ttap
+# text_en = because he limped he cried
+1	A	a	PRON	_	Person=3|Number=Sing	2	nmod:poss	_	his
+2	ke	ke	NOUN	_	_	4	obj	_	foot
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	bei	bei	VERB	_	_	7	ccomp	_	limp
+5	ruangah	ruangah	CCONJ	_	_	7	conj	_	because
+6	a	a	PRON	_	Person=3|Number=Sing	7	nsubj	_	he
+7	ttap	ttap	VERB	_	_	0	root	_	cry
+
+# sent_id = 362
+# text = Thingkung a hau maw?
+# text_en = did he cut down the tree?
+1	Thingkung	thingkung	NOUN	_	_	3	obj	_	tree
+2	a	a	PRON	_	Person=2|Number=Sing	3	nsubj	_	you
+3	hau	hau	VERB	_	_	0	root	_	chop
+4	maw	maw	PART	_	_	3	discourse	_	Q
+5	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 363
+# text = Amah pa nih inn a khaang maw?
+# text_en = did he burn the house down?
+1	Amah	amah	PRON	_	Gender=Masc	6	nsubj	_	he
+2	pa	pa	PART	_	_	1	case	_	male
+3	nih	nih	PART	_	_	1	case	_	ERG
+4	inn	inn	NOUN	_	_	6	obj	_	house
+5	a	a	PRON	_	Person=3|Number=Sing	6	expl	_	expl
+6	khaang	khang	VERB	_	_	0	root	_	burn
+7	maw	maw	PART	_	_	6	discourse	_	Q
+8	?	PUNCT	PUNCT	_	_	6	punct	_	_	
+
+# sent_id = 364
+# text = Bawlung a hrilh maw?
+# text_en = did he roll the ball?
+1	Bawlung	bawlung	NOUN	_	_	3	obj	_	ball
+2	a	a	PRON	_	Perosn=3|Number=Sing	3	nsubj	_	he
+3	hrilh	hrilh	VERB	_	_	0	root	_	roll
+4	maw	maw	PART	_	_	3	discourse	_	Q
+5	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 365
+# text = A suimilam a thla maw?
+# text_en = did he drop his watch?
+1	A	a	PRON	_	Person=3|Number=Sing	2	nmod:poss	_	his
+2	suimilam	suimilam	NOUN	_	_	4	obj	_	watch
+3	a	a	PRON	_	Person=3|Number=Sing	4	nsubj	_	he
+4	thla	thla	VERB	_	_	0	root	_	drop
+5	maw	maw	PART	_	_	4	discourse	_	Q
+6	?	PUNCT	PUNCT	_	_	4	punct	_	_

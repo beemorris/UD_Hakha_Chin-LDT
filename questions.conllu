@@ -1,0 +1,359 @@
+# not in common voice
+# sent_id = 93
+# text = Keimah ka min cu Chinchin a si.
+# text_en = My name is Chinchin.
+1	Keimah	keimah	PRON	_	Person=1|Number=Sing	3	nsubj	_	I
+2	ka	ka	PRON	_	Person=1|Number=Sing	3	iobj	_	me
+3	min	min	VERB	_	_	0	root	_	name
+4	cu	cu	PART	_	_	3	discourse	_	TOP
+5	Chinchin	Chin	PROPN	_	_	7	obj	_	Chin
+6	a	a	PRON	_	Person=3|Number=Sing	7	expl	_	it
+7	si	si	AUX	_	_	3	ccomp	_	is
+8	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 94
+# text = Mipa a ttap lio nizaan ah ka hmuh.
+# text_en = I saw a man crying yestersday.
+1	Mipa	mipa	NOUN	_	_	3	csubj	_	man
+2	a	a	PRON	_	Person=3|Number=Sing	3	expl	_	3SG
+3	ttap	ttap	VERB	_	_	8	ccomp	_	cry
+4	lio	lio	ADV	_	_	8	advmod	_	during/while
+5	nizaan	nizaan	ADV	_	_	8	advmod	_	yesterday
+6	ah	ah	ADP	_	_	5	discourse	_	TEMPORAL
+7	ka	ka	PRON	_	Person=1|Number=Sing	8	nsubj	_	I
+8	hmuh	hmuh	VERB	_	_	0	root	_	see
+9	.	PUNCT	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 101
+# text = Mah pa hi sibawi a si
+# text_en = This man is a doctor.
+1	Mah	mah	DET	_	_	2	det	_	this
+2	pa	pa	NOUN	Gender=Masc	Person=3|Number=Sing	4	nsubj	_	man
+3	hi	hi	DET	_	_	2	det	_	this
+4	sibawi	sibawi	NOUN	_	_	0	root	_	doctor
+5	a	a	PRON	_	Person=3|Number=Sing	6	expl	_	3SG
+6	si	si	AUX	_	_	4	COP	_	is
+
+# unsure about plural modifier
+# sent_id = 128
+# text = Rawl kan ei hna lai.
+# text_en = Let's eat!
+1	Rawl	rawl	NOUN	_	_	3	obj	_	food
+2	kan	kan	PRON	_	Person=1|Number=Plural	3	nsubj	_	we
+3	ei	ei	VERB	_	_	0	root	_	eat
+4	hna	hna	PRON	_	Number=Plural	2	expl	_	3PL
+5	lai	lai	AUX	_	Tense=Fut	3	aux	_	will
+6	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 130
+# text = Uico pawl nih chizawh an dawi
+# text_en = The dogs chased the cat.
+1	Uico	uico	NOUN	_	_	6	nsubj	_	dog
+2	pawl	pawl	PART	_	_	1	case	_	PL
+3	nih	nih	PART	_	_	1	case	_	ERG
+4	chizawh	chizawh	NOUN	_	_	6	obj	_	cat
+5	an	an	PART	_	_	6	expl	_	3PL
+6	dawi	dawi	VERB	_	_	0	root	_	chase
+
+# sent_id = 131
+# text = Chizawh pawl nih uico an dawi
+# text_en = The cats chased the dog.
+1	Chizawh	chizawh	NOUN	_	_	6	nsubj	_	cat
+2	pawl	pawl	PART	_	_	1	case	_	PL
+3	nih	nih	PART	_	_	1	case	_	ERG
+4	uico	uico	NOUN	_	_	6	obj	_	dog
+5	an	an	PART	_	_	6	expl	_	3PL
+6	dawi	dawi	VERB	_	_	0	root	_	chase
+
+# sent_id = 177
+# text = Rawl kan ei caah kan nung
+# text_en = We live because we eat food.
+1	Rawl	rawl	NOUN	_	_	3	obj	_	food
+2	kan	kan	PRON	_	Person=1|Number=Plural	3	csubj	_	we
+3	ei	ei	VERB	_	_	4	conj	_	eat
+4	caah	caah	cconj	_	_	6	ccomp	_	because
+5	kan	kan	PRON	_	Person=1|Number=Plural	6	nsubj	_	we
+6	nung	nung	VERB	_	_	0	root	_	live
+
+# sent_id = 186
+# text = Zei rawl dah na neih?
+# text_en = what food do you have?
+1	Zei	zei	NOUN	_	_	2	det	_	what
+2	rawl	rawl	NOUN	_	_	5	obj	_	food
+3	dah	dah	PART	_	_	1	compound	_	WH
+4	na	na	PRON	_	Person=2|Number=Sing	5	nsubj	_	you
+5	neih	nei	VERB	_	_	0	root	_	have
+6	?	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 187
+# text = Chang a ka nawnh
+# text_en = he makes bread for me
+1	Chang	chang	VERB	_	_	4	aux	_	knead
+2	a	a	PRON	_	Person=3|Number=Sing	4	nsubj	_	he
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	obj	_	me
+4	nawnh	nawnh	VERB	_	_	0	root	_	make bread for someone
+
+# sent_id = 227
+# text = Mawttaw a mawng thiam lo
+# text_en = he does not know how to drive a car
+1	Mawttaw	mawttaw	NOUN	_	_	3	obj	_	car
+2	a	a	PRON	_	Person=3|Number=Sing	3	nsubj	_	he
+3	mawng	mawng	VERB	_	_	0	root	_	drive
+4	thiam	thiam	ADV	VERB	_	3	advmod	_	know
+5	lo	lo	ADV	_	_	4	advmod	_	not
+
+# sent_id = 229
+# text = Tuzing cu kaa mah lo
+# text = this morning I am not as usual
+1	Tuzing	tuzing	NOUN	_	_	4	obj	_	this morning
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	kaa	ka	PRON	_	Person=1|Number=Sing|Reflexive	4	nsubj	_	I
+4	mah	mah	VERB	ADJ	_	0	root	_	usual
+5	lo	lo	ADV	_	_	4	advmod	_	not
+
+# sent_id = 254
+# text = Inn ah ka um
+# text_en = I am in my house
+1	Inn	inn	NOUN	_	_	0	root	_	house
+2	ah	ah	ADP	_	_	1	case	_	in
+3	ka	ka	PRON	_	Person=1|Number=Sing	1	nsubj	_	I
+4	um	um	VERB	_	_	1	cop	_	am
+
+# idk how to deal with spelling errors in the source sentence, ma is supposed to be maw
+# sent_id = 257
+# text = Nan dam ma?
+# text_en = How are y'all?
+1	Nan	nan	PRON	_	Person=2|Number=Plural	2	nsubj	_	y'all
+2	dam	dam	VERB	ADJ	_	0	root	_	fine
+3	ma	maw	PART	_	_	2	discourse	_	Q
+4	?	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 272
+# text = Na sur in nga ka tlaih nak
+# text_en = I caught a fish with your net
+1	Na	na	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	your
+2	sur	sur	NOUN	_	_	5	iobj	_	net
+3	in	in	ADP	_	_	2	case	_	with
+4	nga	nga	NOUN	_	_	5	obj	_	fish
+5	tlaih	tlaih	VERB	_	_	0	root	_	catch
+6	nak	nak	PART	_	_	5	discourse	_	nominalizer
+
+# think aa is different form of a PRON
+# sent_id = 278
+# text = Thingnge ah vate aa fu
+# text = a bird perches on a branch
+1	Thingnge	thingnge	NOUN	_	_	5	obj	_	sprig
+2	ah	ah	ADP	_	_	1	case	_	LOC
+3	vate	vate	NOUN	_	_	5	nsubj	_	bird
+4	aa	a	PRON	_	Person=3|Number=Sing	5	expl	_	expl
+5	fu	fu	VERB	_	_	0	root	_	perch
+
+# unsure on cang, this is closest def in dictionary file
+# sent_id = 299
+# text = Peng cu a it cang
+# text_en = Peng started to sleep
+1	Peng	Peng	PROPN	_	_	4	nsubj	_	Peng
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	a	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	it	it	VERB	_	_	0	root	_	sleep
+5	cang	cang	ADV	_	_	4	advmod	_	completed action
+
+# ehhhh on mi, I think it's a relativizer; nonprojective
+# sent_id = 300
+# text = Cabuai cungah cauk a um mi cu a sen
+# text_en = The book on the desk is red
+1	Cabuai	cabuai	NOUN	_	_	4	obj	_	table
+2	cungah	cungah	ADP	PREP	_	1	case	_	on
+3	cauk	cauk	NOUN	_	_	8	nsubj	_	book
+4	um	um	VERB	_	_	8	ccomp	_	lie
+5	mi	mi	PART	_	_	8	discourse	_	relativizer
+6	cu	cu	PART	_	_	8	discourse	_	TOP
+7	a	a	PRON	_	Person=3|Number=Sing	8	expl	_	expl
+8	sen	sen	VERB	ADJ	_	0	root	_	red
+
+# sent_id = 303
+# text = Nangmah nakin ka upa deuh
+# text_en = I am older than you.
+1	Nangmah	nangmah	PRON	_	Person=2|Number=Sing	4	obj	_	you
+2	nakin	nakin	CONJ	_	_	4	conj	_	than
+3	ka	ka	PRON	_	Person=1|Number=Sing	4	nsubj	_	I
+4	upa	upa	VERB	ADJ	_	_	0	root	_	old
+5	deuh	deuh	ADV	_	_	4	advmod	_	more
+
+# really iffy, Zei ruang ah dah is a conj in the dict meaning "for what reason"; nonprojective
+# sent_id = 311
+# text = Zei ruang ah dah caw na hren?
+# text_en = Why did you tie the cow?
+1	Zei	zei	PRON	_	_	2	det	_	what
+2	ruang	ruang	NOUN	_	_	7	iobj	_	reason
+3	ah	ah	PART	_	_	1	case	_	case
+4	dah	dah	PART	_	_	1	compound	_	WH
+5	caw	caw	NOUN	_	_	7	obj	_	cow
+6	na	na	PRON	_	Person=2|Number=Sing	7	nsubj	_	you
+7	hren	hren	VERB	_	_	0	root	_	cow
+8	?	PUNCT	PUNCT	_	_	7	punct	_	_
+
+# really iffy; non-projective
+# sent_id = 312
+# text = Zei tik ah dah caw na hren?
+# text_en = When did you tie the cow?
+1	Zei	zei	PRON	_	_	2	det	_	what
+2	tik	tik	NOUN	_	_	7	iobj	_	time
+3	ah	ah	PART	_	_	1	case	_	case
+4	dah	dah	PART	_	_	1	compound	_	WH
+5	caw	caw	NOUN	_	_	7	obj	_	cow
+6	na	na	PRON	_	Person=2|Number=Sing	7	nsubj	_	you
+7	hren	hren	VERB	_	_	0	root	_	tie
+8	?	PUNCT	PUNCT	_	_	7	punct	_	_
+
+# no overt obj; aan could be a+an for he+you; ask fran
+# sent_id = 314
+# text = Mutthai aan pek
+# text_en = He gave you a candy
+1	Mutthai	mutthai	NOUN	_	_	3	obj	_	candy
+2	aan	aan	PRON	_	Person=2|Number=Sing	3	iobj	_	you
+3	pek	pek	VERB	_	_	0	root	_	give
+
+# no overt obj; aan could be a+an for he+you; ask fran
+# sent_id = 315
+# text = Mutthai an pek
+# text_en = They gave him a candy
+1	Mutthai	mutthai	NOUN	_	_	3	obj	_	candy
+2	an	an	PRON	_	Person=3|Number=Plural	3	nsubj	_	they
+3	pek	pek	VERB	_	_	0	root	_	give
+
+# kaan = I based on context, look up source?
+# sent_id = 320
+# text = Kaan tuk hna
+# text_en = I hit y'all
+1	Kaan	kaan	PRON	_	Person=1|Number=Sing	2	nsubj	_	I
+2	tuk	tuk	VERB	_	_	0	root	_	hit
+3	hna	hna	PRON	_	Person=2|Number=Plural	2	obj	_	y'all
+
+# nikum is based on context from following def in dictionary
+# sent_id = 334
+# text = Nikum ah mipa nih inn a sak
+# text_en = Last year a man built a house
+1	Nikum	nikum	ADV	_	_	7	advmod	_	last year
+2	ah	ah	PART	_	_	1	case	_	TEMPORAL
+3	mipa	mipa	NOUN	_	_	7	nsubj	_	guy
+4	nih	nih	PART	_	_	3	case	_	ERG
+5	inn	inn	NOUN	_	_	7	obj	_	house
+6	a	a	PRON	_	Person=3|Number=Sing	7	expl	_	expl
+7	sak	sak	VERB	_	_	0	root	_	construct
+
+# sent_id = 345
+# text = Thli a hrang tuk
+# text_en = It's very windy
+1	Thli	thli	NOUN	_	_	3	obj	_	wind
+2	a	a	PRON	_	Person=3|Number=Sing	3	nsubj	_	it
+3	hrang	hrang	VERB	_	_	0	root	_	blow
+4	tuk	tuk	ADV	_	_	3	advmod	_	very
+
+# double check with fran
+# sent_id = 354
+# text = Ngakchiapa aa tthang nain a mit a ku rih ko
+# text = the child woke up but was still sleepy
+1	Ngakchiapa	ngakchiapa	NOUN	_	Gender=Masc	3	csubj	_	child
+2	aa	a	PRON	_	Person=3|Number=Sing	3	expl	_	expl
+3	tthang	tthang	VERB	_	_	8	ccomp	_	awaken
+4	nain	nain	CCONJ	_	_	8	conj	_	although
+5	a	a	PRON	_	Person=3|Number=Sing	8	nmod:poss	_	his
+6	mit	mit	NOUN	_	_	8	obj	_	eye
+7	a	a	PRON	_	_	8	expl	_	expl
+8	ku	ku	VERB	_	_	0	root	_	be sleepy
+9	rih	rih	ADV	_	_	8	advmod	_	yet
+10	ko	ko	ADV	_	_	8	advmod	_	something like of course
+
+# ask fran about conjs
+# sent_id = 357
+# text = Saveh a tlau i Ngakchiapa a ttap
+# text_en = the rabbit disappeared and the child cried
+1	Saveh	saveh	NOUN	_	_	3	csubj	_	rabbit
+2	a	a	PRON	_	Person=3|Number=Sing	3	expl	_	expl
+3	tlau	tlau	VERB	ADJ	_	7	ccomp	_	lost
+4	i	i	CCONJ	_	_	7	conj	_	and
+5	Ngakchiapa	Ngakchiapa	NOUN	_	Gender=Masc	7	nsubj	_	child
+6	a	a	PRON	_	Person=3|Number=Sing	7	expl	_	expl
+7	ttap	ttap	VERB	_	_	0	root	_	cry
+
+# verb might be spelled wrong
+# sent_id = 370
+# text = Amah pa nih cafung a khiak maw?
+# text_en = did he snap the pencil?
+1	Amah	amah	PRON	_	Person=3|Number=Sing|Gender=Masc	6	nsubj	_	he
+2	pa	pa	PART	_	Gender=Masc	1	case	_	male
+3	nih	nih	PART	_	_	1	case	_	ERG
+4	cafung	cafung	NOUN	_	_	6	obj	_	pen
+5	a	a	PRON	_	Person=3|Number=Sing	6	expl	_	expl
+6	khiak	khiah	VERB	_	_	0	root	_	break
+7	maw	maw	PART	_	_	6	discourse	_	Q
+8	?	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# is ah case or discourse?
+# sent_id = 372
+# text = Ka pa lo ah a kal
+# text_en = my father goes to the field
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
+2	pa	pa	NOUN	_	_	6	nsubj	_	father
+3	lo	lo	NOUN	_	_	6	obj	_	field
+4	ah	ah	ADP	_	_	3	case	_	LOC
+5	a	a	PRON	_	Person=3|Number=Sing	6	expl	_	expl
+6	kal	kal	VERB	_	_	0	root	_	go
+
+# verb might be spelled wrong
+# sent_id = 373
+# text = A ka a aang kho lo
+# text_en he cannot open his mouth
+1	A	a	PRON	_	Person=3|Number=Sing	2	nmod:poss	_	his
+2	ka	ka	NOUN	_	_	4	obj	_	mouth
+3	a	a	PRON	_	Person=3|Number=Sing	4	nsubj	_	he
+4	aang	ang	VERB	_	_	0	root	_	open the mouth
+5	kho	kho	ADV	_	_	4	advmod	_	able
+6	lo	lo	ADV	_	_	4	advmod	_	not
+
+# sent_id = 376
+# text = A kaa aa aang i a ka zoh
+# text_en = he looked at me with his open mouth
+1	A	a	PRON	_	Person=3|Number=Sing	2	nmod:poss	_	his
+2	kaa	kaa	NOUN	_	_	4	csubj	_	mouth
+3	aa	a	PRON	_	Person=3|Number=Sing	4	expl	_	expl
+4	aang	ang	VERB	_	_	8	ccomp	_	open the mouth
+5	i	i	PART	_	_	4	case	_	REFL
+6	a	a	PRON	_	Person=3|Number=Sing	8	nsubj	_	he
+7	ka	ka	PRON	_	Person=1|Number=Sing	8	obj	_	me
+8	zoh	zoh	VERB	_	_	0	root	_	look
+
+# Ehhhh, non-projective
+# sent_id = 378
+# text = Na vok kha au ter tuk hlah
+# text_en = don't let your pig make too much noise
+1	Na	na	PRON	_	Person=2|Number=Sing	2	nmod:poss	_	your
+2	vok	vok	NOUN	_	_	4	nsubj	_	pig
+3	kha	kha	DET	_	_	2	det	_	that
+4	au	au	VERB	_	_	5	ccomp	_	shout
+5	ter	ter	VERB	_	_	0	root	_	let
+6	tuk	tuk	ADV	_	_	4	advmod	_	too
+7	hlah	hlah	PART	_	_	5	case	_	imperative negative don't
+
+# unsure about compounding
+# sent_id = 383
+# text = Ka nu thla a cam
+# text_en =  my mother is praying
+1	Ka	ka	PRON	_	Person=1|Number=Sing	2	nmod:poss	_	my
+2	nu	nu	NOUN	_	_	5	nsubj	_	mother
+3	thla	thla	VERB	_	_	5	compound	_	pray
+4	a	a	PRON	_	Person=3|Number=Sing	5	expl	_	expl
+5	cam	cam	VERB	_	_	0	root	_	pray
+
+# unsure about compounding
+# sent_id = 384
+# text = Pastor nih thla a kan cam piak
+# text_en = the pastor prayed for us
+1	Pastor	pastor	NOUN	_	_	6	nsubj	_	parson
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	thla	thla	VERB	_	_	6	compound	_	pray
+4	a	a	PRON	_	_	6	expl	_	expl
+5	kan	kan	PRON	_	Person=1|Number=Plural	6	obj	_	us
+6	cam	cam	VERB	_	_	0	root	_	pray
+7	piak	piak	ADP	PREP	_	6	case	_	action towards

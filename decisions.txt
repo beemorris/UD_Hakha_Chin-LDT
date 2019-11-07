@@ -14,8 +14,4 @@ Hakha Chin UD Decisions:
 
 5. Verbs are not usually annotated with tense unless there is a verbal modifier indicating tense.
 
-6. How to annotate neg marker 'lo'?
-	- It's being glossed as a PART but I'm unsure of its relation. It's usually given the discourse relation.
-	- The dictionary has it as an ADV so now that's how I'm tagging it and I'm using the advmod dep relation 11/5 BM
-
-7. Punctuation that was not in the common voice file is not in the treebank.
+6. Punctuation that was not in the common voice file is not in the treebank.

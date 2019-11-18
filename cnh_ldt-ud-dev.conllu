@@ -566,7 +566,7 @@
 2	pa	pa	NOUN	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	man
 3	hi	hi	DET	_	_	2	det	_	this
 4	sibawi	sibawi	NOUN	_	_	0	root	_	doctor
-5	a	a	PRON	_	Number=Sing|Person=3	6	expl	_	3SG
+5	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	3SG
 6	si	si	AUX	_	_	4	cop	_	is
 
 # sent_id = 66
@@ -638,7 +638,7 @@
 2	pa	pa	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	man
 3	hi	hi	DET	_	_	2	det	_	this
 4	Sibawi	Sibawi	NOUN	_	_	0	root	_	doctor
-5	a	a	PRON	_	Number=Sing|Person=3	6	expl	_	3SG
+5	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	3SG
 6	si	si	AUX	_	_	4	cop	_	is
 7	lo	lo	ADV	_	_	4	advmod	_	not|SpaceAfter=No
 8	.	PUNCT	PUNCT	_	_	4	punct	_	_
@@ -1345,7 +1345,7 @@
 2	cu	cu	PART	_	_	1	discourse	_	TOP
 3	ngatlai	ngatlai	NOUN	_	_	0	root	_	fisherman
 4	a	a	PRON	_	Number=Sing|Person=3	3	expl	_	expl
-5	rak	rak	ADV	_	_	6	advmod	_	Past Tense
+5	rak	rak	ADV	_	_	3	advmod	_	Past Tense
 6	si	si	AUX	_	_	3	cop	_	is
 
 # sent_id = 155
@@ -1565,8 +1565,8 @@
 3	cauk	cauk	NOUN	_	_	0	root	_	book
 4	a	a	PRON	_	Number=Sing|Person=3	3	expl	_	expl
 5	si	si	AUX	_	_	3	cop	_	is
-6	lo	lo	ADV	_	_	5	advmod	_	not
-7	mei	mei	ADV	_	_	5	advmod	_	isn't it|SpaceAfter=No
+6	lo	lo	ADV	_	_	3	advmod	_	not
+7	mei	mei	ADV	_	_	3	advmod	_	isn't it|SpaceAfter=No
 8	?	PUNCT	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 180

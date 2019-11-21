@@ -1,0 +1,372 @@
+# sent_id = 225
+# text = Saruak kha a nam
+# text_en = the carcass has bad smell
+1	Saruak	saruak	NOUN	_	_	4	obj	_	carcass
+2	kha	kha	DET	_	_	1	det	_	that
+3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
+4	nam	nam	VERB	_	_	0	root	_	stink/smell bad
+
+# sent_id = 171
+# text = Na min ahodah a si?
+# text_en = what is your name? ("who is your name?")
+1	Na	na	PRON	_	Number=Sing|Person=2	2	nmod:poss	_	your
+2	min	min	NOUN	_	_	0	root	_	name
+3	ahodah	ahodah	PRON	_	_	2	nsubj	_	who
+4	a	a	PRON	_	Number=Sing|Person=3	2	expl	_	expl
+5	si	si	AUX	_	_	2	cop	_	is|SpaceAfter=No
+6	?	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 141
+# text = Zei rawl dah na neih?
+# text_en = what food do you have?
+1	Zei	zei	PRON	_	_	2	det	_	what
+2	rawl	rawl	NOUN	_	_	5	obj	_	food
+3	dah	dah	PART	_	_	1	compound	_	WH
+4	na	na	PRON	_	Number=Sing|Person=2	5	nsubj	_	you
+5	neih	nei	VERB	_	_	0	root	_	have|SpaceAfter=No
+6	?	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 177
+# text = Mai na met cang maw?
+# text_en = have you peeled the pumpkin?
+1	Mai	mai	NOUN	_	_	3	obj	_	pumpkin
+2	na	na	PRON	_	Number=Sing|Person=2	3	nsubj	_	you
+3	met	met	VERB	_	_	0	root	_	peel
+4	cang	cang	ADV	_	_	3	advmod	_	already
+5	maw	maw	PART	_	_	3	discourse	_	Q|SpaceAfter=No
+6	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 157
+# text = Ka nu ka ngai
+# text_en = I miss my mother
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
+2	nu	nu	NOUN	_	_	4	obj	_	mother
+3	ka	ka	PRON	_	Number=Sing|Person=1	4	nsubj	_	I
+4	ngai	ngai	VERB	_	_	0	root	_	miss
+
+# sent_id = 68
+# text = Ruah a sur lo.
+# text_en = It is not raining.
+1	Ruah	ruah	NOUN	_	_	3	nsubj	_	rain
+2	a	a	PRON	_	Number=Sing|Person=3	3	expl	_	3SG
+3	sur	sur	VERB	_	_	0	root	_	fall
+4	lo	lo	ADV	_	_	3	advmod	_	not|SpaceAfter=No
+5	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 192
+# text = Bawlung puai an sung
+# text_en = they lost a soccer game
+1	Bawlung	bawlung	NOUN	_	_	2	nmod	_	soccer
+2	puai	puai	NOUN	_	_	4	obj	_	game (festival)
+3	an	an	PRON	_	Number=Plur|Person=3	4	nsubj	_	they
+4	sung	sung	VERB	_	_	0	root	_	lose
+
+# sent_id = 238
+# text = Na sualnak naa ngaichih maw?
+# text_en = do you repent of your sin?
+1	Na	na	PRON	_	Number=Sing|Person=2	2	nmod:poss	_	your
+2	sualnak	suaknak	NOUN	_	_	4	obj	_	crime
+3	naa	na	PRON	_	Number=Sing|Person=2	4	nsubj	_	you
+4	ngaichih	ngaichih	VERB	_	_	0	root	_	repent
+5	maw	maw	PART	_	_	4	discourse	_	Q|SpaceAfter=No
+6	?	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 18
+# text = Bawibawi cauk ka pek
+# text_en = I gave Bawibawi a book.
+1	Bawibawi	Bawibawi	PROPN	_	_	4	obj	_	Bawibawi
+2	cauk	cauk	NOUN	_	_	4	iobj	_	book
+3	ka	ka	PRON	_	Number=Sing|Person=1	4	nsubj	_	ka
+4	pek	pe	VERB	_	_	0	root	_	give
+
+# sent_id = 245
+# text = Lam a min
+# text_en = there is a landslide on the road
+1	Lam	lam	NOUN	_	_	3	nsubj	_	road
+2	a	a	PRON	_	Number=Sing|Person=3	3	expl	_	expl
+3	min	min	VERB	_	_	0	root	_	landslide
+
+# sent_id = 111
+# text = Hi vok hi a lian lo.
+# text_en = This pig is not big.
+1	Hi	hi	DET	_	_	2	discourse	_	this
+2	vok	vok	NOUN	_	_	5	nsubj	_	pig
+3	hi	hi	DET	_	_	2	discourse	_	this
+4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
+5	lian	lian	VERB	_	_	0	root	_	big
+6	lo	lo	ADV	_	_	5	advmod	_	not|SpaceAfter=No
+7	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 160
+# text = Artimu na duh maw?
+# text_en = do you like egg yolk?
+1	Artimu	artimu	NOUN	_	_	3	obj	_	egg yolk
+2	na	na	PRON	_	Number=Sing|Person=2	3	nsubj	_	you
+3	duh	duh	VERB	_	_	0	root	_	like
+4	maw	maw	PART	_	_	3	discourse	_	Q|SpaceAfter=No
+5	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 299
+# text = Ca ka ttial
+# text_en = I wrote
+1	Ca	ca	NOUN	_	_	3	obj	_	writing
+2	ka	ka	PRON	_	Number=Sing|Person=1	3	nsubj	_	I
+3	ttial	ttial	VERB	_	_	0	root	_	write
+
+# sent_id = 29
+# text = Rawl kan ei lai
+# text_en = We will eat food.
+1	Rawl	rawl	NOUN	_	_	3	obj	_	food
+2	kan	kan	PRON	_	Number=Plur|Person=1	3	nsubj	_	we
+3	ei	ei	VERB	_	_	0	root	_	eat
+4	lai	lai	AUX	_	_	3	aux	_	will
+
+# sent_id = 354
+# text = Ka ei.
+# text_en = I eat.
+# comment = from field methods
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nsubj	_	I
+2	ei	ei	VERB	_	_	0	root	_	eat|SpaceAfter=No
+3	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 183
+# text = Na manh cang maw?
+# text_en = are you ready yet?
+1	Na	na	PRON	_	Number=Sing|Person=2	2	nsubj	_	you
+2	manh	manh	VERB	ADJ	_	0	root	_	ready
+3	cang	cang	ADV	_	_	2	advmod	_	yet
+4	maw	maw	PART	_	_	2	discourse	_	Q|SpaceAfter=No
+5	?	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 194
+# text = Ka angki ka su lai
+# text_en = I shall wash my shirt
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
+2	angki	angki	NOUN	_	_	4	obj	_	shirt
+3	ka	ka	PRON	_	Number=Sing|Person=1	4	nsubj	_	I
+4	su	su	VERB	_	_	0	root	_	wash
+5	lai	lai	AUX	_	_	4	aux	_	shall
+
+# sent_id = 146
+# text = Rawl nan ei cang maw?
+# text_en = have you taken your meal?
+1	Rawl	rawl	NOUN	_	_	3	obj	_	food
+2	nan	nan	PRON	_	Number=Plur|Person=2	3	nsubj	_	you
+3	ei	ei	VERB	_	_	0	root	_	eat
+4	cang	cang	ADV	_	_	3	advmod	_	already
+5	maw	maw	PART	_	_	3	discourse	_	Q|SpaceAfter=No
+6	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 355
+# text = Uico ka ngei.
+# text_en = I have a dog.
+# comment = from field methods
+1	Uico	uico	NOUN	_	_	3	obj	_	dog
+2	ka	ka	PRON	_	Number=Sing|Person=2	3	nsubj	_	I
+3	ngei	ngei	VERB	_	_	0	root	_	have|SpaceAfter=No
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 349
+# text = Uico a rak rang tuk.
+# text_en = The dog was very fast.
+# comment = from field methods
+1	Uico	uico	NOUN	_	_	4	nsubj	_	dog
+2	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	3SG
+3	rak	rak	PART	_	_	4	discourse	_	PERF
+4	rang	rang	VERB	_	_	0	root	_	fast
+5	tuk	tuk	ADV	_	_	4	advmod	_	very|SpaceAfter=No
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 55
+# text = A cauk cu Chinchin a pek
+# text_en = He gave Chinchin his book.
+1	A	a	PRON	_	Number=Sing|Person=3	2	nmod:poss	_	his
+2	cauk	cauk	NOUN	_	_	6	obj	_	book
+3	cu	cu	PART	_	_	2	discourse	_	TOP
+4	Chinchin	Chinchin	PROPN	_	_	6	iobj	_	Chinchin
+5	a	a	PRON	_	Number=Sing|Person=3	6	nsubj	_	he
+6	pek	pe	VERB	_	_	0	root	_	give
+
+# sent_id = 195
+# text = Chuntlung a so
+# text_en = an anthill bulges
+1	Chuntlung	chuntlung	NOUN	_	_	3	nsubj	_	anthill
+2	a	a	PRON	_	Number=Sing|Person=3	3	expl	_	expl
+3	so	so	VERB	_	_	0	root	_	bulges
+
+# sent_id = 251
+# text = Na pa rian zeidah a si?
+# text_en = What is your father's occupation?
+1	Na	na	PRON	_	Number=Sing|Person=2	2	nmod:poss	_	your
+2	pa	pa	NOUN	_	Gender=Masc	3	nmod:poss	_	father
+3	rian	rian	NOUN	_	_	0	root	_	work
+4	zeidah	zeidah	PRON	_	_	3	det	_	what
+5	a	a	PRON	_	Number=Sing|Person=3	3	expl	_	expl
+6	si	si	AUX	_	_	3	cop	_	is|SpaceAfter=No
+7	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 221
+# text = Amah cu ka naute a si
+# text_en = he is a much younger person than me
+1	Amah	amah	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	he
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	ka	ka	PRON	_	Number=Sing|Person=1	4	obj	_	me
+4	naute	naute	VERB	ADJ	_	0	root	_	much younger
+5	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
+6	si	si	AUX	_	_	4	cop	_	is
+
+# sent_id = 310
+# text = Thlalangawng a khar maw?
+# text_en = did he shut the window?
+1	Thlalangawng	thlalangawng	NOUN	_	_	3	obj	_	window
+2	a	a	PRON	_	Number=Sing|Person=3	3	nsubj	_	he
+3	khar	khar	VERB	_	_	0	root	_	shut
+4	maw	maw	PART	_	_	3	discourse	_	Q|SpaceAfter=No
+5	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 357
+# text = Bawi nih cawsa a chumh.
+# text_en = Bawi cooked the beef.
+# comment = from field methods
+1	Bawi	Bawi	PROPN	_	_	5	nsubj	_	Bawi
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	cawsa	cawsa	NOUN	_	_	5	obj	_	beef
+4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
+5	chumh	chumh	VERB	_	_	0	root	_	cook|SpaceAfter=No
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 391
+# text = Uico pawl nih caw an hmuh hna.
+# text_en = The dogs saw the cows.
+# comment = from field methods
+1	Uico	uico	NOUN	_	_	6	nsubj	_	dog
+2	pawl	pawl	PART	_	_	1	case	_	PL
+3	nih	nih	PART	_	_	1	case	_	ERG
+4	caw	caw	NOUN	_	_	6	obj	_	cow
+5	an	an	PART	_	Number=Plur|Person=3	6	expl	_	_3PL
+6	hmuh	hmuh	VERB	_	_	0	root	_	chase
+7	hna	hna	PART	_	Number=Plur|Person=3	6	expl	_	3PL|SpaceAfter=No
+8	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 174
+# text = Miruak cu thlan ah an vui
+# text_en = they buried the corpse in the grave
+1	Miruak	miruak	NOUN	_	_	6	obj	_	obj
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	thlan	thlan	NOUN	_	_	6	iobj	_	grave
+4	ah	ah	PART	_	_	3	discourse	_	LOC
+5	an	an	PRON	_	Number=Plur|Person=3	6	nsubj	_	they
+6	vui	vui	VERB	_	_	0	root	_	bury
+
+# sent_id = 385
+# text = Ngakchia nang dawi hna.
+# text_en = Y'all chased the children.
+# comment = from field methods
+1	Ngakchia	ngakchia	NOUN	_	_	3	obj	_	children
+2	nang	nang	PRON	_	Number=Plur|Person=3	3	nsubj	_	y'all
+3	dawi	dawi	VERB	_	_	0	root	_	chase
+4	hna	hna	PART	_	_	3	expl	_	3PL|SpaceAfter=No
+5	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 331
+# text = A kaa aa aang i a ka zoh
+# text_en = he looked at me with his open mouth
+1	A	a	PRON	_	Number=Sing|Person=3	2	nmod:poss	_	his
+2	kaa	kaa	NOUN	_	_	4	csubj	_	mouth
+3	aa	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
+4	aang	ang	VERB	_	_	8	ccomp	_	open the mouth
+5	i	i	PART	_	_	4	case	_	REFL
+6	a	a	PRON	_	Number=Sing|Person=3	8	nsubj	_	he
+7	ka	ka	PRON	_	Number=Sing|Person=1	8	obj	_	me
+8	zoh	zoh	VERB	_	_	0	root	_	look
+
+# sent_id = 188
+# text = A orhlei ah a tthu
+# text_en = he sits on his right side
+1	A	a	PRON	_	Number=Sing|Person=3	2	nmod:poss	_	his
+2	orhlei	orhlei	NOUN	_	_	5	obj	_	right (side)
+3	ah	ah	PART	_	_	2	case	_	LOC
+4	a	a	PRON	_	Number=Sing|Person=1	5	nsubj	_	he
+5	tthu	tthu	VERB	_	_	0	root	_	sit
+
+# sent_id = 165
+# text = Ngaknu nih a ka mirh
+# text_en = a young girl smiles at me
+1	Ngaknu	ngaknu	NOUN	_	_	5	nsubj	_	young girl
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	expl
+4	ka	ka	PRON	_	Number=Sing|Person=1	5	obj	_	me
+5	mirh	mirh	VERB	_	_	0	root	_	smile
+
+# sent_id = 332
+# text = Na au tuk ruangah nau na tthangh
+# text_en = you woke up the baby because you shouted too much
+1	Na	na	PRON	_	Number=Sing|Person=2	2	nsubj	_	you
+2	au	au	VERB	_	_	0	root	_	shout
+3	tuk	tuk	ADV	_	_	2	advmod	_	too
+4	ruangah	ruangah	CCONJ	_	_	2	conj	_	because
+5	nau	nau	NOUN	_	_	7	obj	_	child
+6	na	na	PRON	_	Number=Sing|Person=2	7	csubj	_	you
+7	tthangh	tthangh	VERB	_	_	2	ccomp	_	awaken
+
+# sent_id = 116
+# text = Ka it.
+# text_en = I slept.
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nsubj	_	I
+2	it	it	VERB	_	_	0	root	_	slept|SpaceAfter=No
+3	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 40
+# text = Ka hngete a faak
+# text_en = My little toe is in pain.
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
+2	hngete	hngete	NOUN	_	_	4	nsubj	_	little toe
+3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	3SG
+4	faak	faak	VERB	_	_	0	root	_	hurt
+
+# sent_id = 318
+# text = Amah pa nih inn a khaang maw?
+# text_en = did he burn the house down?
+1	Amah	amah	PRON	_	Gender=Masc	6	nsubj	_	he
+2	pa	pa	PART	_	Gender=Masc	1	case	_	male
+3	nih	nih	PART	_	_	1	case	_	ERG
+4	inn	inn	NOUN	_	_	6	obj	_	house
+5	a	a	PRON	_	Number=Sing|Person=3	6	expl	_	expl
+6	khaang	khang	VERB	_	_	0	root	_	burn
+7	maw	maw	PART	_	_	6	discourse	_	Q|SpaceAfter=No
+8	?	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 203
+# text = Ka ra kho tthan lai lo
+# text_en = I will not be able to come, again.
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nsubj	_	I
+2	ra	ra	VERB	_	_	0	root	_	come
+3	kho	kho	ADV	_	_	2	advmod	_	able
+4	tthan	tthan	ADV	_	_	2	advmod	_	again
+5	lai	lai	AUX	_	_	2	aux	_	will
+6	lo	lo	ADV	_	_	2	advmod	_	not
+
+# sent_id = 267
+# text = Zei tik ah dah caw na hren?
+# text_en = When did you tie the cow?
+1	Zei	zei	PRON	_	_	2	det	_	what
+2	tik	tik	NOUN	_	_	7	iobj	_	time
+3	ah	ah	PART	_	_	1	case	_	case
+4	dah	dah	PART	_	_	1	compound	_	WH
+5	caw	caw	NOUN	_	_	7	obj	_	cow
+6	na	na	PRON	_	Number=Sing|Person=2	7	nsubj	_	you
+7	hren	hren	VERB	_	_	0	root	_	tie|SpaceAfter=No
+8	?	PUNCT	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 291
+# text = Hmaikum ah Abawi nih inn a sak te lai
+# text_en = next year Abawi will build a house
+1	Hmaikum	hmaikum	ADV	_	_	7	advmod	_	next year
+2	ah	ah	ADP	_	_	1	case	_	TEMPORAL
+3	Abawi	Abawi	PROPN	_	_	7	nsubj	_	Abawi
+4	nih	nih	PART	_	_	3	case	_	ERG
+5	inn	inn	NOUN	_	_	7	obj	_	house
+6	a	a	PRON	_	Number=Sing|Person=3	7	expl	_	expl
+7	sak	sak	VERB	_	_	0	root	_	construct
+8	te	te	ADV	VERB	_	7	advmod	_	indicator of future
+9	lai	lai	AUX	_	_	7	aux	_	FUT

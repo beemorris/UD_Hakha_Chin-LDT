@@ -1,0 +1,373 @@
+# sent_id = 162
+# text = Ka mit ah hnawm a lut
+# text_en = a dirt gets into my eye
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
+2	mit	mit	NOUN	_	_	6	obj	_	eye
+3	ah	ah	PART	_	_	2	discourse	_	LOC
+4	hnawm	hnawm	NOUN	_	_	6	nsubj	_	dust
+5	a	a	PRON	_	_	6	expl	_	expl
+6	lut	lut	VERB	_	_	0	root	_	enter
+
+# sent_id = 15
+# text = Mah chizawh hi a raang mi a si
+# text_en = This cat is white.
+1	Mah	mah	DET	_	_	2	det	_	this
+2	chizawh	chizawh	NOUN	_	_	5	nsubj	_	cat
+3	hi	hi	DET	_	_	2	discourse	_	this
+4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
+5	raang	raang	VERB	_	_	0	root	_	white
+6	mi	mi	DET	_	_	5	discourse	_	REL
+7	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
+8	si	si	AUX	_	_	7	cop	_	is
+
+# sent_id = 98
+# text = Ngakchia nu rawl a ei.
+# text_en = The girl eats food.
+1	Ngakchia	ngakchia	NOUN	_	_	5	nsubj	_	child
+2	nu	nu	PART	_	_	1	case	_	female
+3	rawl	rawl	NOUN	_	_	5	obj	_	food
+4	a	a	PRON	_	_	5	expl	_	3SG
+5	ei	ei	VERB	_	_	0	root	_	eat|SpaceAfter=No
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 176
+# text = Mi rethei kan si
+# text_en = we are poor people
+1	Mi	mi	NOUN	_	_	0	root	_	people
+2	rethei	rethei	ADJ	_	_	1	amod	_	poor
+3	kan	kan	PRON	_	Number=Plur|Person=1	1	nsubj	_	we
+4	si	si	AUX	_	_	1	cop	_	are
+
+# sent_id = 255
+# text = Cabuai cungah cauk a um mi cu a sen
+# text_en = The book on the desk is red
+1	Cabuai	cabuai	NOUN	_	_	5	obj	_	table
+2	cungah	cungah	ADP	PREP	_	1	case	_	on
+3	cauk	cauk	NOUN	_	_	9	nsubj	_	book
+4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	expl
+5	um	um	VERB	_	_	9	ccomp	_	lie
+6	mi	mi	PART	_	_	9	discourse	_	relativizer
+7	cu	cu	PART	_	_	9	discourse	_	TOP
+8	a	a	PRON	_	Number=Sing|Person=3	9	expl	_	expl
+9	sen	sen	VERB	ADJ	_	0	root	_	red
+
+# sent_id = 199
+# text = Ka kut ka sik hlah
+# text_en = do not pinch me at my hand
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
+2	kut	kut	NOUN	_	_	4	iobj	_	hand
+3	ka	ka	PRON	_	Number=Sing|Person=1	4	obj	_	me
+4	sik	sik	VERB	_	_	0	root	_	pinch
+5	hlah	hlah	PART	_	_	4	case	_	not
+
+# sent_id = 311
+# text = Thlalangawng a khuai maw?
+# text_en = did he shatter the window?
+1	Thlalangawng	thlalangawng	NOUN	_	_	3	obj	_	window
+2	a	a	PRON	_	Number=Sing|Person=3	3	nsubj	_	he
+3	khuai	khuai	VERB	_	_	0	root	_	smash
+4	maw	maw	PART	_	_	3	discourse	_	Q|SpaceAfter=No
+5	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 209
+# text = Inn ah ka um
+# text_en = I am in my house
+1	Inn	inn	NOUN	_	_	0	root	_	house
+2	ah	ah	ADP	_	_	1	case	_	in
+3	ka	ka	PRON	_	Number=Sing|Person=1	1	nsubj	_	I
+4	um	um	AUX	VERB	_	1	cop	_	am
+
+# sent_id = 268
+# text = Aho nih dah caw a hren?
+# text_en = Who tied the cow?
+1	Aho	aho	PRON	_	_	6	nsubj	_	who
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	dah	dah	PART	_	_	1	compound	_	WH
+4	caw	caw	NOUN	_	_	6	obj	_	cow
+5	a	a	PRON	_	Number=Sing|Person=3	6	expl	_	expl
+6	hren	hren	VERB	_	_	0	root	_	tie|SpaceAfter=No
+7	?	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 175
+# text = Nichin cu mi umthiam a si
+# text_en = Nichin is a well behaved woman
+1	Nichin	Nichin	PROPN	_	_	3	nsubj	_	Nichin
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	mi	mi	NOUN	_	_	0	root	_	person
+4	umthiam	umthiam	ADJ	_	_	3	amod	_	well behaved
+5	a	a	PRON	_	Number=Sing|Person=3	3	expl	_	expl
+6	si	si	AUX	_	_	3	cop	_	is
+
+# sent_id = 269
+# text = Mutthai aan pek
+# text_en = He gave you a candy
+1	Mutthai	mutthai	NOUN	_	_	3	obj	_	candy
+2	aan	aan	PRON	_	Number=Sing|Person=2	3	iobj	_	you
+3	pek	pek	VERB	_	_	0	root	_	give
+
+# sent_id = 110
+# text = Hi vok hi a fa lo.
+# text_en = This pig is not small.
+1	Hi	hi	DET	_	_	2	discourse	_	this
+2	vok	vok	NOUN	_	_	5	nsubj	_	pig
+3	hi	hi	DET	_	_	2	discourse	_	this
+4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
+5	fa	fa	VERB	_	_	0	root	_	small
+6	lo	lo	ADV	_	_	5	advmod	_	not|SpaceAfter=No
+7	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 53
+# text = Chinchin cu cauk ka pek lai
+# text_en = I will give Chinchin a book.
+1	Chinchin	Chinchin	PROPN	_	_	5	iobj	_	Chinchin
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	cauk	cauk	NOUN	_	_	5	obj	_	book
+4	ka	ka	PRON	_	Number=Sing|Person=1	5	nsubj	_	I
+5	pek	pe	VERB	_	_	0	root	_	give
+6	lai	lai	AUX	_	_	5	aux	_	FUT
+
+# sent_id = 345
+# text = Na dahmei nih a ka ceuh lo
+# text_en = your flashlight does not give me enough light
+1	Na	na	PRON	_	Number=Sing|Person=2	2	nmod:poss	_	your
+2	dahmei	dahmei	NOUN	_	_	6	nsubj	_	torchlight
+3	nih	nih	PART	_	_	2	case	_	ERG
+4	a	a	PRON	_	Number=Sing|Person=2	6	expl	_	expl
+5	ka	ka	PRON	_	Number=Sing|Person=1	6	obj	_	me
+6	ceuh	ceuh	VERB	_	_	0	root	_	gleam
+7	lo	lo	ADV	_	_	6	advmod	_	not
+
+# sent_id = 309
+# text = Ngakchiapa aa tthang nain a mit a ku rih ko
+# text_en = the child woke up but was still sleepy
+1	Ngakchiapa	ngakchiapa	NOUN	_	Gender=Masc	3	csubj	_	child
+2	aa	a	PRON	_	Number=Sing|Person=3	3	expl	_	expl
+3	tthang	tthang	VERB	_	_	0	root	_	awaken
+4	nain	nain	CCONJ	_	_	3	conj	_	although
+5	a	a	PRON	_	Number=Sing|Person=3	8	nmod:poss	_	his
+6	mit	mit	NOUN	_	_	8	obj	_	eye
+7	a	a	PRON	_	_	8	expl	_	expl
+8	ku	ku	VERB	_	_	3	ccomp	_	be sleepy
+9	rih	rih	ADV	_	_	8	advmod	_	yet
+10	ko	ko	ADV	_	_	8	advmod	_	something like of course
+
+# sent_id = 273
+# text = Mutthai kan in pek
+# text_en = We gave you a candy
+1	Mutthai	mutthai	NOUN	_	_	4	obj	_	candy
+2	kan	kan	PRON	_	Number=Plur|Person=1	4	nsubj	_	we
+3	in	in	PRON	_	Number=Sing|Person=2	4	iobj	_	you
+4	pek	pek	VERB	_	_	0	root	_	give
+
+# sent_id = 208
+# text = Ngakchia nu a it.
+# text_en = The little girl slept.
+1	Ngakchia	ngakchia	NOUN	ADJ	_	2	amod	_	child
+2	nu	nu	NOUN	_	_	4	nsubj	_	girl
+3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
+4	it	it	VERB	_	_	0	root	_	sleep|SpaceAfter=No
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 305
+# text = A hawipa a hlen
+# text_en = he lied to his friend
+1	A	a	PRON	_	Number=Sing|Person=3	2	nmod:poss	_	his
+2	hawipa	hawipa	NOUN	_	_	4	obj	_	friend
+3	a	a	PRON	_	Number=Sing|Person=3	4	nsubj	_	he
+4	hlen	hlen	VERB	_	_	0	root	_	delude
+
+# sent_id = 164
+# text = A mit a kau
+# text_en = she has big eyes
+1	A	a	PRON	_	Number=Sing|Person=3	2	nmod:poss	_	her
+2	mit	mit	NOUN	_	_	4	nsubj	_	eyes
+3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
+4	kau	kau	VERB	ADJ	_	0	root	_	big
+
+# sent_id = 107
+# text = Hi uico cu a lian.
+# text_en = This dog is big.
+1	Hi	hi	DET	_	_	2	det	_	this
+2	uico	uico	NOUN	_	_	5	nsubj	_	dog
+3	cu	cu	PART	_	_	2	discourse	_	TOP
+4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
+5	lian	lian	VERB	_	_	0	root	_	big|SpaceAfter=No
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 124
+# text = Zahan ka hmuh.
+# text_en = I saw you yesterday.
+1	Zahan	zahan	ADV	_	_	3	advmod	_	yesterday/last night
+2	ka	ka	PRON	_	Number=Sing|Person=1	3	nsubj	_	i
+3	hmuh	hmuh	VERB	_	_	0	root	_	saw|SpaceAfter=No
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 279
+# text = Ngakchia pa nih na nu a puk
+# text_en = They boy kissed your mom
+1	Ngakchia	ngakchia	ADJ	NOUN	_	2	amod	_	child
+2	pa	pa	PART	NOUN	Gender=Masc	7	nsubj	_	male
+3	nih	nih	PART	_	_	1	case	_	ERG
+4	na	na	PRON	_	Number=Sing|Person=2	5	nmod:poss	_	your
+5	nu	nu	NOUN	_	_	7	obj	_	mother
+6	a	a	PRON	_	Number=Sing|Person=3	7	expl	_	expl
+7	puk	puk	VERB	_	_	0	root	_	kiss
+
+# sent_id = 215
+# text = Ka lu a ri
+# text_en = I am dizzy (lit: my head is drunk)
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
+2	lu	lu	NOUN	_	_	4	nsubj	_	head
+3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
+4	ri	ri	VERB	_	_	0	root	_	drunk
+
+# sent_id = 381
+# text = Keimah ka min cu Chinchin a si.
+# text_en = My name is Chinchin.
+# comment = from field methods
+1	Keimah	keimah	PRON	_	Number=Sing|Person=1	3	nsubj	_	I
+2	ka	ka	PRON	_	Number=Sing|Person=1	3	iobj	_	me
+3	min	min	VERB	_	_	0	root	_	name
+4	cu	cu	PART	_	_	3	discourse	_	TOP
+5	Chinchin	Chin	PROPN	_	_	7	obj	_	Chin
+6	a	a	PRON	_	Number=Sing|Person=3	7	expl	_	it
+7	si	si	AUX	_	_	3	ccomp	_	is|SpaceAfter=No
+8	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 16
+# text = Uico nih chizawh a dawi.
+# text_en = The dog chased the cat.
+1	Uico	uico	NOUN	_	_	5	nsubj	_	dog
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	chizawh	chizawh	NOUN	_	_	5	obj	_	cat
+4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
+5	dawi	dawi	VERB	_	_	0	root	_	chase|SpaceAfter=No
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 93
+# text = Uico nih a dawi.
+# text_en = The dog chased it.
+1	Uico	uico	NOUN	_	_	4	nsubj	_	dog
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	a	a	PRON	_	Number=Sing|Person=3	4	obj	_	it
+4	dawi	dawi	VERB	_	_	0	root	_	chase|SpaceAfter=No
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 50
+# text = A lei aa seh.
+# text_en = He bit his tongue.
+1	A	a	PRON	_	Number=Sing|Person=3	4	nsubj	_	he
+2	lei	lei	NOUN	_	_	4	obj	_	tongue
+3	aa	a	PRON	_	Number=Sing|Person=3	2	nmod:poss	_	his
+4	seh	seh	VERB	_	_	0	root	_	bit|SpaceAfter=No
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 28
+# text = Uico nih a ka dawi
+# text_en = A dog chased me.
+1	Uico	uico	NOUN	_	_	5	nsubj	_	dog
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	a	a	PRON	_	_	5	expl	_	3SG
+4	ka	ka	PRON	_	Number=Sing|Person=1	5	obj	_	I
+5	dawi	dawi	VERB	_	_	0	root	_	chase
+
+# sent_id = 120
+# text = Nan it.
+# text_en = Y'all slept.
+1	Nan	nan	PRON	_	Number=Plur|Person=2	2	nsubj	_	we
+2	it	it	VERB	_	_	0	root	_	slept|SpaceAfter=No
+3	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 64
+# text = Ka lu kaa sut
+# text_en = I hit my head.
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
+2	lu	lu	NOUN	_	_	4	obj	_	head
+3	kaa	ka	PRON	_	Number=Sing|Person=1	4	nsubj	_	I
+4	sut	sut	VERB	_	_	0	root	_	hit
+
+# sent_id = 254
+# text = Peng cu a it cang
+# text_en = Peng started to sleep
+1	Peng	Peng	PROPN	_	_	4	nsubj	_	Peng
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
+4	it	it	VERB	_	_	0	root	_	sleep
+5	cang	cang	ADV	_	_	4	advmod	_	completed action
+
+# sent_id = 360
+# text = Ka tta pa kha a niam tuk.
+# text_en = My brother is very short.
+# comment = from field methods
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
+2	tta	tta	NOUN	_	_	6	nsubj	_	brother
+3	pa	pa	PART	NOUN	Gender=Masc	2	case	_	male
+4	kha	kha	PART	_	_	2	discourse	_	TOP
+5	a	a	PRON	_	Number=Sing|Person=3	6	expl	_	3SG
+6	niam	niam	VERB	_	_	0	root	_	short
+7	tuk	tuk	ADV	_	_	6	advmod	_	SpaceAfter=No
+8	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 39
+# text = Ka hnar a ping.
+# text_en = My nose clogs up.
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
+2	hnar	hnar	NOUN	_	_	4	nsubj	_	nose
+3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	3SG
+4	ping	ping	VERB	_	_	0	root	_	clogs up|SpaceAfter=No
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 320
+# text = A suimilam a thla maw?
+# text_en = did he drop his watch?
+1	A	a	PRON	_	Number=Sing|Person=3	2	nmod:poss	_	his
+2	suimilam	suimilam	NOUN	_	_	4	obj	_	watch
+3	a	a	PRON	_	Number=Sing|Person=3	4	nsubj	_	he
+4	thla	thla	VERB	_	_	0	root	_	drop
+5	maw	maw	PART	_	_	4	discourse	_	Q|SpaceAfter=No
+6	?	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 227
+# text = Na sur in nga ka tlaih nak
+# text_en = I caught a fish with your net
+1	Na	na	PRON	_	Number=Sing|Person=2	2	nmod:poss	_	your
+2	sur	sur	NOUN	_	_	6	iobj	_	net
+3	in	in	ADP	_	_	2	case	_	with
+4	nga	nga	NOUN	_	_	6	obj	_	fish
+5	ka	ka	PRON	_	Number=Sing|Person=1	6	nsubj	_	I
+6	tlaih	tlaih	VERB	_	_	0	root	_	catch
+7	nak	nak	PART	_	_	6	discourse	_	nominalizer
+
+# sent_id = 172
+# text = Mileng nan ngei
+# text_en = you have a visitor
+1	Mileng	mileng	NOUN	_	_	3	obj	_	visitor
+2	nan	nan	PRON	_	Number=Plur|Person=2	3	nsubj	_	you PL
+3	ngei	ngei	VERB	_	_	0	root	_	have
+
+# sent_id = 390
+# text = Uico nih caw a hmuh.
+# text_en = The dog saw the cow.
+# comment = from field methods
+1	Uico	uico	NOUN	_	_	5	nsubj	_	dog
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	caw	caw	NOUN	_	_	5	obj	_	cow
+4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
+5	hmuh	hmuh	VERB	_	_	0	root	_	see|SpaceAfter=No
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 77
+# text = Sibawi a si lo.
+# text_en = He is not a doctor.
+1	Sibawi	sibawi	NOUN	_	_	0	root	_	doctor
+2	a	a	PRON	_	Number=Sing|Person=3	1	nsubj	_	he
+3	si	si	AUX	_	_	1	cop	_	is
+4	lo	lo	ADV	_	_	1	advmod	_	not|SpaceAfter=No
+5	.	PUNCT	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 207
+# text = Palik na si
+# text_en = You are a police officer
+1	Palik	palik	NOUN	_	_	0	root	_	police officer
+2	na	na	PRON	_	Number=Sing|Person=2	1	nsubj	_	you
+3	si	si	AUX	_	_	1	cop	_	is

@@ -149,8 +149,8 @@
 # sent_id = 18
 # text = Bawibawi cauk ka pek
 # text_en = I gave Bawibawi a book.
-1	Bawibawi	Bawibawi	PROPN	_	_	4	iobj	_	Bawibawi
-2	cauk	cauk	NOUN	_	_	4	obj	_	book
+1	Bawibawi	Bawibawi	PROPN	_	_	4	obj	_	Bawibawi
+2	cauk	cauk	NOUN	_	_	4	iobj	_	book
 3	ka	ka	PRON	_	Number=Sing|Person=1	4	nsubj	_	ka
 4	pek	pe	VERB	_	_	0	root	_	give
 
@@ -409,8 +409,8 @@
 # text = Kan inn ah kal
 # text_en = Go to our house.
 1	Kan	kan	PRON	_	Number=Plur|Person=1	2	nmod:poss	_	our
-2	inn	inn	NOUN	_	_	4	nsubj	_	house
-3	ah	ah	ADP	_	_	2	discourse	_	LOC
+2	inn	inn	NOUN	_	_	4	obl	_	house
+3	ah	ah	ADP	_	_	2	case	_	LOC
 4	kal	kal	VERB	_	_	0	root	_	go
 
 # sent_id = 50
@@ -425,7 +425,7 @@
 # sent_id = 51
 # text = Dawr ah na kal lai maw?
 # text_en = Are you going to the store?
-1	Dawr	dawr	NOUN	_	_	4	obj	_	store
+1	Dawr	dawr	NOUN	_	_	4	obl	_	store
 2	ah	ah	ADP	_	_	1	discourse	_	to
 3	na	na	PRON	_	Number=Sing|Person=2	4	nsubj	_	you
 4	kal	kal	VERB	_	_	0	root	_	go
@@ -3157,4 +3157,508 @@
 2	ka	ka	PRON	_	Number=Sing|Person=2	3	obj	_	me
 3	hmuh	hmuh	VERB	_	_	0	root	_	see/saw|SpaceAfter=No
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+#field method ones:
+# from field methods? it's not in common voice file
+# sent_id = 347
+# text = Ka keng a faak
+# text_en = I have backache.
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
+2	keng	keng	NOUN	_	_	4	nsubj	_	back
+3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	3SG
+4	faak	faak	VERB	_	_	0	root	_	hurt/ache
+
+# can't find this in common voice file
+# sent_id = 348
+# text = Mei kha an sen dih.
+# text_en = The lights were all red.
+1	Mei	mei	NOUN	_	_	4	nsubj	_	light
+2	kha	kha	DET	_	_	1	det	_	DEM
+3	an	an	PRON	_	Number=Plur|Person=3	1	expl	_	they
+4	sen	sen	VERB	_	_	0	root	_	red
+5	dih	dih	PART	_	_	4	discourse	_	COMPL|SpaceAfter=No
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 349
+# text = Uico a rak rang tuk.
+# text_en = The dog was very fast.
+1	Uico	uico	NOUN	_	_	4	nsubj	_	dog
+2	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	3SG
+3	rak	rak	PART	_	_	4	discourse	_	PERF
+4	rang	rang	VERB	_	_	0	root	_	fast
+5	tuk	tuk	ADV	_	_	4	advmod	_	very|SpaceAfter=No
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 350
+# text = Mei a vun sen.
+# text_en = The light immediately turned red.
+1	Mei	mei	NOUN	_	_	4	nsubj	_	light
+2	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	3SG
+3	vun	vun	ADV	_	_	4	advmod	_	immediately
+4	sen	sen	VERB	_	_	0	root	_	red|SpaceAfter=No
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 351
+# text = Mah uico hi a ran pik mi a si lai.
+# text_en = This dog will (definitely) be fast.
+1	Mah	mah	DET	_	_	2	det	_	this
+2	uico	uico	NOUN	_	_	5	nsubj	_	dog
+3	hi	hi	DET	_	_	2	det	_	this
+4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
+5	ran	ran	VERB	_	_	0	root	_	fast
+6	pik	pik	PART	_	_	5	ccomp	_	COMPL
+7	mi	mi	PART	_	_	5	discourse	_	REL
+8	a	a	PRON	_	Number=Sing|Person=3	2	expl	_	expl
+9	si	si	AUX	_	_	5	cop	_	is
+10	lai	lai	AUX	_	_	5	aux	_	FUT|SpaceAfter=No
+11	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 352
+# text = Siizun i sibawi nih sii an pek.
+# text_en = The hospital’s doctor gave you medicine.
+1	Siizun	siizun	NOUN	_	_	2	nmod:poss	_	hospital
+2	i	i	PART	_	_	3	nmod:poss	_	POSS
+3	sibawi	sibawi	NOUN	_	_	7	nsubj	_	doctor
+4	nih	nih	PART	_	_	3	case	_	ERG
+5	sii	sii	NOUN	_	_	7	obj	_	medicine
+6	an	an	PRON	_	Number=Sing|Person=2	7	iobj	_	you
+7	pek	pe	VERB	_	_	0	root	_	give|SpaceAfter=No
+8	.	PUNCT	PUNCT	_	_	7	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 353
+# text = Ka ei lio.
+# text_en = I am eating.
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nsubj	_	I
+2	ei	ei	VERB	_	_	0	root	_	eat
+3	lio	lio	ADV	_	_	2	advmod	_	PROG|SpaceAfter=No
+4	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 354
+# text = Ka ei.
+# text_en = I eat.
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nsubj	_	I
+2	ei	ei	VERB	_	_	0	root	_	eat|SpaceAfter=No
+3	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 355
+# text = Uico ka ngei.
+# text_en = I have a dog.
+1	Uico	uico	NOUN	_	_	3	obj	_	dog
+2	ka	ka	PRON	_	Number=Sing|Person=2	3	nsubj	_	I
+3	ngei	ngei	VERB	_	_	0	root	_	have|SpaceAfter=No
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 356
+# text = A si lo.
+# text_en = It is not.
+1	A	a	PRON	_	Number=Sing|Person=3	0	root	_	it
+2	si	si	AUX	_	_	1	cop	_	is
+3	lo	lo	ADV	_	_	1	advmod	_	not|SpaceAfter=No
+4	.	PUNCT	PUNCT	_	_	1	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 357
+# text = Bawi nih cawsa a chumh.
+# text_en = Bawi cooked the beef.
+1	Bawi	Bawi	PROPN	_	_	5	nsubj	_	Bawi
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	cawsa	cawsa	NOUN	_	_	5	obj	_	beef
+4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
+5	chumh	chumh	VERB	_	_	0	root	_	cook|SpaceAfter=No
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 358
+# text = Ka tta pa nih sibawi pa biakinn ah hmu.
+# My brother saw the doctor at the church.
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
+2	tta	tta	NOUN	_	_	9	nsubj	_	brother
+3	pa	pa	PART	NOUN	Gender=Masc	2	case	_	male
+4	nih	nih	PART	_	_	2	case	_	ERG
+5	sibawi	sibawi	NOUN	_	_	9	obj	_	doctor
+6	pa	pa	PART	NOUN	Gender=Masc	5	case	_	male
+7	biakinn	biakinn	NOUN	_	_	9	iobj	_	church
+8	ah	ah	ADP	_	_	7	discourse	_	at
+9	hmu	hmu	VERB	_	_	0	root	_	see|SpaceAfter=No
+10	.	PUNCT	PUNCT	_	_	9	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 359
+# text = Sayamah nu nih ngakchia nu cauk a pe lo.
+# text_en = The teacher didn’t give a book to the girl.
+1	Sayamah	sayamah	NOUN	_	_	8	nsubj	_	teacher
+2	nu	nu	PART	_	_	1	case	_	female
+3	nih	nih	PART	_	_	1	case	_	ERG
+4	ngakchia	ngakchia	NOUN	_	_	8	iobj	_	child
+5	nu	nu	PART	_	_	4	case	_	_
+6	cauk	cauk	NOUN	_	_	8	obj	_	book
+7	a	a	PRON	_	Number=Sing|Person=3	8	expl	_	_
+8	pe	pe	VERB	_	_	0	root	_	_
+9	lo	lo	ADV	_	_	8	advmod	_	not|SpaceAfter=No
+10	.	PUNCT	PUNCT	_	_	8	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 360
+# text = Ka tta pa kha a niam tuk.
+# text_en = My brother is very short.
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
+2	tta	tta	NOUN	_	_	6	nsubj	_	brother
+3	pa	pa	PART	NOUN	Gender=Masc	2	case	_	male
+4	kha	kha	PART	_	_	2	discourse	_	TOP
+5	a	a	PRON	_	Number=Sing|Person=3	6	expl	_	3SG
+6	niam	niam	VERB	_	_	0	root	_	short
+7	tuk	tuk	ADV	_	_	6	advmod	_	SpaceAfter=No
+8	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 361
+# text = Ngakchia pa aa tthangh hnuin rawl a ei.
+# text_en = After the child woke up, he ate.
+1	Ngakchia	ngakchia	NOUN	_	_	4	nsubj	_	child
+2	pa	pa	PART	NOUN	Gender=Masc	1	case	_	male
+3	aa	a	PART	_	_	1	case	_	REFL
+4	tthangh	ttangh	VERB	_	_	0	root	_	awaken
+5	hnuin	hnuin	ADP	_	_	4	discourse	_	after
+6	rawl	rawl	NOUN	_	_	8	obj	_	food
+7	a	a	PRON	_	Number=Sing|Person=3	8	csubj	_	he
+8	ei	ei	VERB	_	_	4	ccomp	_	eat|SpaceAfter=No
+9	.	PUNCT	PUNCT	_	_	8	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 362
+# text = A kum ka tei lo.
+# text_en = I don't know his age.
+1	A	a	PRON	_	Number=Sing|Person=2	2	nmod:poss	_	his
+2	kum	kum	NOUN	_	_	4	obj	_	age
+3	ka	ka	PRON	_	Number=Sing|Person=1	4	nsubj	_	I
+4	tei	tei	VERB	_	_	0	root	_	know
+5	lo	lo	ADV	_	_	4	advmod	_	not|SpaceAfter=No
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 363
+# text = Kum hleinga ka si.
+# text_en = I am fifteen years old.
+1	Kum	kum	NOUN	_	_	2	nmod	_	age
+2	hleinga	hleinga	NUM	_	_	0	root	_	fifteen
+3	ka	ka	PRON	_	Number=Sing|Person=1	2	nsubj	_	I
+4	si	si	AUX	_	_	2	cop	_	am|SpaceAfter=No
+5	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 364
+# text = Kacik ah inttun kan kal.
+# text_en = We go caroling in winter.
+1	Kacik	kacick	NOUN	_	_	5	obj	_	winter
+2	ah	ah	ADP	_	_	1	discourse	_	in
+3	inttun	inttun	VERB	_	_	5	ccomp	_	caroling
+4	kan	kan	PRON	_	Number=Plur|Person=1	5	nsubj	_	we
+5	kal	kal	VERB	_	_	0	root	_	go|SpaceAfter=No
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 365
+# text = Thala cung a lin tok.
+# text_en = In summer it's very hot.
+1	Thala	thala	NOUN	_	_	4	obj	_	summer
+2	cung	cung	ADP	_	_	1	discourse	_	in
+3	a	a	PRON	_	Number=Sing|Person=3	4	nsubj	_	it
+4	lin	lin	VERB	_	_	0	root	_	hot
+5	tok	tok	ADV	_	_	4	advmod	_	very|SpaceAfter=No
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 366
+# text = Hi seh nih hin thil a ttawl.
+# text_en = This machine washes clothes.
+1	Hi	hi	PART	_	_	2	discourse	_	this
+2	seh	seh	NOUN	_	_	7	nsubj	_	machine
+3	nih	nih	PART	_	_	2	case	_	ERG
+4	hin	hin	PART	_	_	2	discourse	_	DEM
+5	thil	thil	NOUN	_	_	7	obj	_	clothes
+6	a	a	PRON	_	Number=Sing|Person=3	7	expl	_	3SG
+7	ttawl	ttawl	VERB	_	_	0	root	_	wash|SpaceAfter=No
+8	.	PUNCT	PUNCT	_	_	7	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 367
+# text = Khoika ah dah cauk a um?
+# text_en = Where is the book?
+1	Khoika	khoika	PRON	_	_	4	csubj	_	where
+2	ah	ah	ADP	_	_	1	discourse	_	LOC
+3	dah	dah	PART	_	_	1	compound	_	WH
+4	cauk	cauk	NOUN	_	_	0	root	_	book
+5	a	a	PRON	_	Number=Sing|Person=3	6	obj	_	_
+6	um	um	AUX	_	_	4	ccomp	_	COP|SpaceAfter=No
+7	?	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 368
+# text = Lung nih hi ka ha ah hin a ka peh.
+# text_en = A rock hit me on this tooth.
+1	Lung	lung	NOUN	_	_	10	nsubj	_	rock
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	hi	hi	PART	_	_	1	discourse	_	DEM
+4	ka	ka	PRON	_	Number=Sing|Person=1	5	nmod	_	my
+5	ha	ha	NOUN	_	_	10	obj	_	tooth
+6	ah	ah	ADP	_	_	5	discourse	_	on
+7	hin	hin	PART	_	_	5	discourse	_	DEM
+8	a	a	PRON	_	Number=Sing|Person=3	10	expl	_	3SG
+9	ka	ka	PRON	_	Number=Sing|Person=1	10	iobj	_	I
+10	peh	peh	VERB	_	_	0	root	_	hit|SpaceAfter=No
+11	.	PUNCT	PUNCT	_	_	10	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 369
+# text = Hi cauk hi i hlang ve na duh maw?
+# text_en = Do you want to borrow this book?
+1	Hi	Hi	DET	_	_	2	det	_	This
+2	cauk	cauk	NOUN	_	_	5	obj	_	book
+3	hi	hi	DET	_	_	2	det	_	this
+4	i	i	PART	_	_	5	case	_	REFL
+5	hlang	hlang	VERB	_	_	8	ccomp	_	borrow
+6	ve	ve	ADV	_	_	5	advmod	_	also
+7	na	na	PRON	_	Number=Sing|Person=1	8	nsubj	_	you
+8	duh	duh	VERB	_	_	0	root	_	want
+9	maw	maw	PART	_	_	8	discourse	_	Q|SpaceAfter=No
+10	?	PUNCT	PUNCT	_	_	8	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 370
+# text = Nizan ah caw ka hmuh.
+# text_en = I saw a cow yesterday.
+1	Nizan	nizan	ADV	_	_	5	advmod	_	yesterday
+2	ah	ah	ADP	_	_	1	discourse	_	LOC
+3	caw	caw	NOUN	_	_	5	obj	_	cow
+4	ka	ka	PRON	_	Number=Sing|Person=1	5	nsubj	_	I
+5	hmuh	hmuh	VERB	_	_	0	root	_	see|SpaceAfter=No
+6	.	PUNCY	PUNCT	_	_	5	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 371
+# text = Ngakchiapa nih darkio in rol a ei.
+# text_en = The boy ate food with a spoon.
+1	Ngakchiapa	ngakchia	NOUN	_	_	7	nsubj	_	male child
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	darkio	darkio	NOUN	_	_	5	obl	_	spoon
+4	in	in	ADP	_	_	3	case	_	with
+5	rol	rol	NOUN	_	_	7	obj	_	food
+6	a	a	PRON	_	Number=Sing|Person=3	7	expl	_	3SG
+7	ei	ei	VERB	_	_	0	root	_	eat|SpaceAfter=No
+8	.	PUNCT	PUNCT	_	_	7	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 372
+# text = Mei nih lo cu a khangh.
+# text_en = The fire burned the field.
+1	Mei	mei	NOUN	_	_	6	nsubj	_	fire
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	lo	lo	NOUN	_	_	6	obj	_	field
+4	cu	cu	PART	_	_	3	discourse	_	TOP
+5	a	a	PRON	_	Number=Sing|Person=3	6	expl	_	3SG
+6	khangh	khang	VERB	_	_	0	root	_	burn|SpaceAfter=No
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 373
+# text = Ka hmuh mi ka duh.
+# text_en = I like what I see.
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nsubj	_	I
+2	hmuh	hmuh	VERB	_	_	5	ccomp	_	see
+3	mi	mi	DET	_	_	2	discourse	_	REL
+4	ka	ka	PRON	_	Number=Sing|Person=1	5	nsubj	_	I
+5	duh	duh	VERB	_	_	0	root	_	like|SpaceAfter=No
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 374
+# text = Mipa nih a ka chuih.
+# text_en = The man kicked me.
+1	Mipa	mipa	PRON	_	_	5	nsubj	_	male person
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
+4	ka	ka	PRON	_	Number=Sing|Person=1	5	obj	_	me
+5	chuih	chuih	VERB	_	_	0	root	_	kick|SpaceAfter=No
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 375
+# text = Ka nuamh tikah hla a sa.
+# text_en = When I’m happy, she sings a song.
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	csubj	_	I
+2	nuamh	nuamh	VERB	_	_	6	ccomp	_	happy
+3	tikah	tikah	ADV	_	_	2	advmod	_	when
+4	hla	hla	NOUN	_	_	6	obj	_	song
+5	a	a	PRON	_	Number=Sing|Person=1	6	nsubj	_	she
+6	sa	sa	VERB	_	_	0	root	_	sing|SpaceAfter=No
+7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 376
+# text = Mei a mit.
+# text_en = The fire went out.
+1	Mei	mei	NOUN	_	_	3	nsubj	_	fire
+2	a	a	PRON	_	Number=Sing|Person=3	3	expl	_	3SG
+3	mit	mit	VERB	_	_	0	root	_	extinguish|SpaceAfter=No
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 377
+# text = Mei ka hmit.
+# text_en = I put the fire out.
+1	Mei	mei	NOUN	_	_	3	obj	_	fire
+2	ka	ka	PRON	_	Number=Sing|Person=1	3	nsubj	_	I
+3	hmit	hmit	VERB	_	_	0	root	_	extinguish|SpaceAfter=No
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 378
+# text = Ka paw a ttam.
+# text_en = I'm hungry.
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
+2	paw	paw	NOUN	_	_	4	nsubj	_	stomach
+3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	3SG
+4	ttam	ttam	VERB	_	_	0	root	_	hunger|SpaceAfter=No
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 379
+# text = Van cu a pia.
+# text_en = The sky is blue.
+1	Van	van	NOUN	_	_	4	nsubj	_	sky
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	3SG
+4	pia	pia	VERB	_	_	0	root	_	blue|SpaceAfter=No
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# can't find this in common voice file
+# sent_id = 380
+# text = A tung a sang deu maw?
+# text_en = Is he taller (than before)?
+1	A	a	PRON	_	Number=Sing|Person=2	2	nmod:poss	_	his
+2	tung	tung	NOUN	_	_	4	nsubj	_	stature
+3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	3SG
+4	sang	sang	VERB	_	_	0	root	_	tall
+5	deu	deu	ADV	_	_	4	advmod	_	more
+6	maw	maw	PART	_	_	4	discourse	_	Q|SpaceAfter=No
+7	?	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# not in common voice
+# sent_id = 381
+# text = Keimah ka min cu Chinchin a si.
+# text_en = My name is Chinchin.
+1	Keimah	keimah	PRON	_	Number=Sing|Person=1	3	nsubj	_	I
+2	ka	ka	PRON	_	Number=Sing|Person=1	3	iobj	_	me
+3	min	min	VERB	_	_	0	root	_	name
+4	cu	cu	PART	_	_	3	discourse	_	TOP
+5	Chinchin	Chin	PROPN	_	_	7	obj	_	Chin
+6	a	a	PRON	_	Number=Sing|Person=3	7	expl	_	it
+7	si	si	AUX	_	_	3	ccomp	_	is|SpaceAfter=No
+8	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# not in common voice
+# sent_id = 382
+# text = Mawttaw kaa tteih.
+# text_en = I was in an accident.
+1	Mawttaw	mawttaw	ADV	_	_	3	advmod	_	car
+2	kaa	ka	PRON	_	Number=Sing|Person=1	3	nsubj	_	I
+3	tteih	tteih	VERB	_	_	0	root	_	accident/collision|SpaceAfter=No
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# not in common voice file
+# sent_id = 383
+# text = Ngakchia nang dawi.
+# text_en = Y'all chased the child.
+1	Ngakchia	ngakchia	NOUN	_	_	3	obj	_	child
+2	nang	nang	PRON	_	Number=Plur|Person=3	3	nsubj	_	y'all
+3	dawi	dawi	VERB	_	_	0	root	_	chase|SpaceAfter=No
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# not in common voice file
+# sent_id = 384
+# text = Ngakchia na dawi hna.
+# text_en = You chased the children.
+1	Ngakchia	ngakchia	NOUN	_	_	3	obj	_	children
+2	na	na	PRON	_	Number=Sing|Person=2	3	nsubj	_	you
+3	dawi	dawi	VERB	_	_	0	root	_	chase
+4	hna	hna	PART	_	_	3	expl	_	3PL|SpaceAfter=No
+5	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# not in common voice file
+# sent_id = 385
+# text = Ngakchia nang dawi hna.
+# text_en = Y'all chased the children.
+1	Ngakchia	ngakchia	NOUN	_	_	3	obj	_	children
+2	nang	nang	PRON	_	Number=Plur|Person=3	3	nsubj	_	y'all
+3	dawi	dawi	VERB	_	_	0	root	_	chase
+4	hna	hna	PART	_	_	3	expl	_	3PL|SpaceAfter=No
+5	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# not in common voice file
+# sent_id = 386
+# text = Caw ka hmuh.
+# text_en = I saw the cow.
+1	Caw	caw	NOUN	_	_	3	obj	_	cow
+2	ka	ka	PRON	_	Number=Sing|Person=1	3	nsubj	_	I
+3	hmuh	hmuh	VERB	_	_	0	root	_	see|SpaceAfter=No
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# not in common voice file
+# sent_id = 387
+# text = Caw na hmuh.
+# text_en = You saw the cow.
+1	Caw	caw	NOUN	_	_	3	obj	_	cow
+2	na	na	PRON	_	Number=Sing|Person=2	3	nsubj	_	you
+3	hmuh	hmuh	VERB	_	_	0	root	_	see|SpaceAfter=No
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# not in common voice file
+# sent_id = 388
+# text = Caw a hmuh.
+# text_en = S/he/it saw a cow.
+1	Caw	caw	NOUN	_	_	3	obj	_	cow
+2	a	a	PRON	_	Number=Sing|Person=3	3	nsubj	_	S/he/it
+3	hmuh	hmuh	VERB	_	_	0	root	_	see|SpaceAfter=No
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# not in common voice file
+# sent_id = 389
+# text = Caw an hmuh.
+# text_en = They saw the cow.
+1	Caw	caw	NOUN	_	_	3	obj	_	cow
+2	an	an	PRON	_	Number=Plur|Person=3	3	nsubj	_	they
+3	hmuh	hmuh	VERB	_	_	0	root	_	see|SpaceAfter=No
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# not in common voice file
+# sent_id = 390
+# text = Uico nih caw a hmuh.
+# text_en = The dog saw the cow.
+1	Uico	uico	NOUN	_	_	5	nsubj	_	dog
+2	nih	nih	PART	_	_	1	case	_	ERG
+3	caw	caw	NOUN	_	_	5	obj	_	cow
+4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
+5	hmuh	hmuh	VERB	_	_	0	root	_	see|SpaceAfter=No
+6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# not in common voice file
+# sent_id = 391
+# text = Uico pawl nih caw an hmuh hna.
+# text_en = The dogs saw the cows.
+1	Uico	uico	NOUN	_	_	6	nsubj	_	dog
+2	pawl	pawl	PART	_	_	1	case	_	PL
+3	nih	nih	PART	_	_	1	case	_	ERG
+4	caw	caw	NOUN	_	_	6	obj	_	cow
+5	an	an	PART	_	Number=Plur|Person=3	6	expl	_	_3PL
+6	hmuh	hmuh	VERB	_	_	0	root	_	chase
+7	hna	hna	PART	_	Number=Plur|Person=3	6	expl	_	3PL|SpaceAfter=No
+8	.	PUNCT	PUNCT	_	_	6	punct	_	_
 

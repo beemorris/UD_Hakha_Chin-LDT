@@ -120,10 +120,10 @@
 # text_en = This cat is white.
 1	Mah	mah	DET	_	_	2	det	_	this
 2	chizawh	chizawh	NOUN	_	_	5	nsubj	_	cat
-3	hi	hi	DET	_	_	2	discourse	_	this
+3	hi	hi	DET	_	_	2	det	_	this
 4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
 5	raang	raang	VERB	_	_	0	root	_	white
-6	mi	mi	DET	_	_	5	discourse	_	REL
+6	mi	mi	DET	_	_	5	det	_	REL
 7	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
 8	si	si	AUX	_	_	7	cop	_	is
 
@@ -360,7 +360,7 @@
 # text = Inn ah ka kal lai
 # text_en = I shall go home.
 1	Inn	inn	NOUN	_	_	4	obj	_	home
-2	ah	ah	ADP	_	_	1	discourse	_	LOC
+2	ah	ah	ADP	_	_	1	case	_	LOC
 3	ka	ka	PRON	_	Number=Sing|Person=1	4	nsubj	_	I
 4	kal	kal	VERB	_	_	0	root	_	go
 5	lai	lai	AUX	_	_	4	aux	_	shall
@@ -426,7 +426,7 @@
 # text = Dawr ah na kal lai maw?
 # text_en = Are you going to the store?
 1	Dawr	dawr	NOUN	_	_	4	obl	_	store
-2	ah	ah	ADP	_	_	1	discourse	_	to
+2	ah	ah	ADP	_	_	1	case	_	to
 3	na	na	PRON	_	Number=Sing|Person=2	4	nsubj	_	you
 4	kal	kal	VERB	_	_	0	root	_	go
 5	lai	lai	AUX	_	_	4	aux	_	FUT
@@ -506,7 +506,7 @@
 3	ttap	ttap	VERB	_	_	8	ccomp	_	cry
 4	lio	lio	ADV	_	_	8	advmod	_	during/while
 5	nizaan	nizaan	ADV	_	_	8	advmod	_	yesterday
-6	ah	ah	ADP	_	_	5	discourse	_	TEMPORAL
+6	ah	ah	ADP	_	_	5	case	_	TEMPORAL
 7	ka	ka	PRON	_	Number=Sing|Person=1	8	nsubj	_	I
 8	hmuh	hmuh	VERB	_	_	0	root	_	see|SpaceAfter=No
 9	.	PUNCT	PUNCT	_	_	8	punct	_	_
@@ -624,9 +624,9 @@
 # sent_id = 72
 # text = Hi vok hi a lian.
 # text_en = This pig is big.
-1	Hi	hi	DET	_	_	2	discourse	_	this
+1	Hi	hi	DET	_	_	2	det	_	this
 2	vok	vok	NOUN	_	_	5	nsubj	_	pig
-3	hi	hi	DET	_	_	2	discourse	_	this
+3	hi	hi	DET	_	_	2	det	_	this
 4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
 5	lian	lian	VERB	_	_	0	root	_	big|SpaceAfter=No
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
@@ -765,7 +765,7 @@
 # text = Dawr ah a kal.
 # text_en = She goes to the store.
 1	Dawr	dawr	NOUN	_	_	4	obj	_	store
-2	ah	ah	PART	_	_	1	discourse	_	LOC
+2	ah	ah	PART	_	_	1	case	_	LOC
 3	a	a	PRON	_	Number=Sing|Person=3	4	nsubj	_	she
 4	kal	ka	VERB	_	_	0	root	_	go|SpaceAfter=No
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
@@ -808,7 +808,7 @@
 # text = Uico nih a dawi.
 # text_en = The dog chased it.
 1	Uico	uico	NOUN	_	_	4	nsubj	_	dog
-2	nih	nih	PAADPRT	_	_	1	case	_	ERG
+2	nih	nih	ADP	_	_	1	case	_	ERG
 3	a	a	PRON	_	Number=Sing|Person=3	4	obj	_	it
 4	dawi	dawi	VERB	_	_	0	root	_	chase|SpaceAfter=No
 5	.	PUNCT	PUNCT	_	_	4	punct	_	_
@@ -887,7 +887,7 @@
 # text_en = Yesterday morning I ran.
 1	Nizaan	Nizaan	ADV	_	_	5	advcl	_	yesterday
 2	zingka	zingka	NOUN	_	_	5	acl	_	morning
-3	ah	ah	ADP	_	_	2	discourse	_	TEMPORAL
+3	ah	ah	ADP	_	_	2	case	_	TEMPORAL
 4	ka	ka	PRON	_	_	5	nsubj	_	I
 5	tli	tli	VERB	_	_	0	root	_	run
 
@@ -955,9 +955,9 @@
 # sent_id = 109
 # text = Hi vok hi a fa.
 # text_en = This pig is small.
-1	Hi	hi	DET	_	_	2	discourse	_	this
+1	Hi	hi	DET	_	_	2	det	_	this
 2	vok	vok	NOUN	_	_	5	nsubj	_	pig
-3	hi	hi	DET	_	_	2	discourse	_	this
+3	hi	hi	DET	_	_	2	det	_	this
 4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
 5	fa	fa	VERB	_	_	0	root	_	small|SpaceAfter=No
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
@@ -965,9 +965,9 @@
 # sent_id = 110
 # text = Hi vok hi a fa lo.
 # text_en = This pig is not small.
-1	Hi	hi	DET	_	_	2	discourse	_	this
+1	Hi	hi	DET	_	_	2	det	_	this
 2	vok	vok	NOUN	_	_	5	nsubj	_	pig
-3	hi	hi	DET	_	_	2	discourse	_	this
+3	hi	hi	DET	_	_	2	det	_	this
 4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
 5	fa	fa	VERB	_	_	0	root	_	small
 6	lo	lo	ADV	_	_	5	advmod	_	not|SpaceAfter=No
@@ -976,9 +976,9 @@
 # sent_id = 111
 # text = Hi vok hi a lian lo.
 # text_en = This pig is not big.
-1	Hi	hi	DET	_	_	2	discourse	_	this
+1	Hi	hi	DET	_	_	2	det	_	this
 2	vok	vok	NOUN	_	_	5	nsubj	_	pig
-3	hi	hi	DET	_	_	2	discourse	_	this
+3	hi	hi	DET	_	_	2	det	_	this
 4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
 5	lian	lian	VERB	_	_	0	root	_	big
 6	lo	lo	ADV	_	_	5	advmod	_	not|SpaceAfter=No
@@ -1073,7 +1073,7 @@
 # text = Zahan ah ka hmuh hna.
 # text_en = I saw them yesterday.
 1	Zahan	zahan	ADV	_	_	4	advmod	_	yesterday/last night
-2	ah	ah	ADP	_	_	1	discourse	_	LOC
+2	ah	ah	ADP	_	_	1	case	_	LOC
 3	ka	ka	PRON	_	Number=Sing|Person=1	4	nsubj	_	I
 4	hmuh	hmuh	VERB	_	_	0	root	_	see
 5	hna	hna	PRON	_	Number=Plur|Person=3	4	obj	_	them|SpaceAfter=No
@@ -1125,7 +1125,7 @@
 # text = Dawr ah kan kal hna lai
 # text_en = Let's go to the store.
 1	Dawr	dawr	NOUN	_	_	4	obj	_	store
-2	ah	ah	PART	_	_	1	discourse	_	LOC
+2	ah	ah	PART	_	_	1	case	_	LOC
 3	kan	kan	PRON	_	Number=Plur|Person=1	4	nsubj	_	us/we
 4	kal	kal	VERB	_	_	0	root	_	go
 5	hna	hna	PRON	_	Number=Plur|Person=3	4	expl	_	3PL
@@ -1135,7 +1135,7 @@
 # text = Sianginn ah ka kal lai
 # text_en = I am going to school.
 1	Sianginn	Sianginn	NOUN	_	_	4	obj	_	school
-2	ah	ah	PART	_	_	1	discourse	_	LOC
+2	ah	ah	PART	_	_	1	case	_	LOC
 3	ka	ka	PRON	_	Number=Sing|Person=1	4	nsubj	_	I
 4	kal	kal	VERB	_	_	0	root	_	go
 5	lai	lai	AUX	_	_	4	aux	_	ing
@@ -1412,7 +1412,7 @@
 # text_en = a dirt gets into my eye
 1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
 2	mit	mit	NOUN	_	_	6	obj	_	eye
-3	ah	ah	PART	_	_	2	discourse	_	LOC
+3	ah	ah	PART	_	_	2	case	_	LOC
 4	hnawm	hnawm	NOUN	_	_	6	nsubj	_	dust
 5	a	a	PRON	_	_	6	expl	_	expl
 6	lut	lut	VERB	_	_	0	root	_	enter
@@ -1517,7 +1517,7 @@
 1	Miruak	miruak	NOUN	_	_	6	iobj	_	obj
 2	cu	cu	PART	_	_	1	discourse	_	TOP
 3	thlan	thlan	NOUN	_	_	6	obj	_	grave
-4	ah	ah	PART	_	_	3	discourse	_	LOC
+4	ah	ah	PART	_	_	3	case	_	LOC
 5	an	an	PRON	_	Number=Plur|Person=3	6	nsubj	_	they
 6	vui	vui	VERB	_	_	0	root	_	bury
 
@@ -1828,7 +1828,7 @@
 # text_en = I am in my house
 1	Inn	inn	NOUN	_	_	0	root	_	house
 2	ah	ah	ADP	_	_	1	case	_	in
-3	ka	ka	PRON	_	Number=Sing|Person=1	1	nsubj	_	I|SpaceAfter=No
+3	ka	ka	PRON	_	Number=Sing|Person=1	1	nsubj	_	I
 4	um	um	AUX	_	_	1	cop	_	am
 
 # sent_id = 210
@@ -3285,7 +3285,7 @@
 5	sibawi	sibawi	NOUN	_	_	9	iobj	_	doctor
 6	pa	pa	PART	NOUN	Gender=Masc	5	case	_	male
 7	biakinn	biakinn	NOUN	_	_	9	obj	_	church
-8	ah	ah	ADP	_	_	7	discourse	_	at
+8	ah	ah	ADP	_	_	7	case	_	at
 9	hmu	hmu	VERB	_	_	0	root	_	see|SpaceAfter=No
 10	.	PUNCT	PUNCT	_	_	9	punct	_	_
 
@@ -3325,7 +3325,7 @@
 2	pa	pa	PART	NOUN	Gender=Masc	1	case	_	male
 3	aa	a	PART	_	_	1	case	_	REFL
 4	tthangh	ttangh	VERB	_	_	0	root	_	awaken
-5	hnuin	hnuin	ADP	_	_	4	discourse	_	after
+5	hnuin	hnuin	ADP	_	_	4	case	_	after
 6	rawl	rawl	NOUN	_	_	8	obj	_	food
 7	a	a	PRON	_	Number=Sing|Person=3	8	csubj	_	he
 8	ei	ei	VERB	_	_	4	ccomp	_	eat|SpaceAfter=No
@@ -3357,7 +3357,7 @@
 # text_en = We go caroling in winter.
 # comment = from field methods
 1	Kacik	kacick	NOUN	_	_	5	obj	_	winter
-2	ah	ah	ADP	_	_	1	discourse	_	in
+2	ah	ah	ADP	_	_	1	case	_	in
 3	inttun	inttun	VERB	_	_	5	ccomp	_	caroling
 4	kan	kan	PRON	_	Number=Plur|Person=1	5	nsubj	_	we
 5	kal	kal	VERB	_	_	0	root	_	go|SpaceAfter=No
@@ -3368,7 +3368,7 @@
 # text_en = In summer it's very hot.
 # comment = from field methods
 1	Thala	thala	NOUN	_	_	4	obj	_	summer
-2	cung	cung	ADP	_	_	1	discourse	_	in
+2	cung	cung	ADP	_	_	1	case	_	in
 3	a	a	PRON	_	Number=Sing|Person=3	4	nsubj	_	it
 4	lin	lin	VERB	_	_	0	root	_	hot
 5	tok	tok	ADV	_	_	4	advmod	_	very|SpaceAfter=No
@@ -3378,10 +3378,10 @@
 # text = Hi seh nih hin thil a ttawl.
 # text_en = This machine washes clothes.
 # comment = from field methods
-1	Hi	hi	PART	_	_	2	discourse	_	this
+1	Hi	hi	DET	_	_	2	det	_	this
 2	seh	seh	NOUN	_	_	7	nsubj	_	machine
 3	nih	nih	ADP	_	_	2	case	_	ERG
-4	hin	hin	PART	_	_	2	discourse	_	DEM
+4	hin	hin	DET	_	_	2	det	_	DEM
 5	thil	thil	NOUN	_	_	7	obj	_	clothes
 6	a	a	PRON	_	Number=Sing|Person=3	7	expl	_	3SG
 7	ttawl	ttawl	VERB	_	_	0	root	_	wash|SpaceAfter=No
@@ -3392,7 +3392,7 @@
 # text_en = Where is the book?
 # comment = from field methods
 1	Khoika	khoika	PRON	_	_	4	csubj	_	where
-2	ah	ah	ADP	_	_	1	discourse	_	LOC
+2	ah	ah	ADP	_	_	1	case	_	LOC
 3	dah	dah	PART	_	_	1	compound	_	WH
 4	cauk	cauk	NOUN	_	_	0	root	_	book
 5	a	a	PRON	_	Number=Sing|Person=3	6	obj	_	_
@@ -3405,11 +3405,11 @@
 # comment = from field methods
 1	Lung	lung	NOUN	_	_	10	nsubj	_	rock
 2	nih	nih	ADP	_	_	1	case	_	ERG
-3	hi	hi	PART	_	_	1	discourse	_	DEM
+3	hi	hi	DET	_	_	1	det	_	DEM
 4	ka	ka	PRON	_	Number=Sing|Person=1	5	nmod	_	my
 5	ha	ha	NOUN	_	_	10	iobj	_	tooth
-6	ah	ah	ADP	_	_	5	discourse	_	on
-7	hin	hin	PART	_	_	5	discourse	_	DEM
+6	ah	ah	ADP	_	_	5	case	_	on
+7	hin	hin	DET	_	_	5	det	_	DEM
 8	a	a	PRON	_	Number=Sing|Person=3	10	expl	_	3SG
 9	ka	ka	PRON	_	Number=Sing|Person=1	10	obj	_	I
 10	peh	peh	VERB	_	_	0	root	_	hit|SpaceAfter=No
@@ -3435,7 +3435,7 @@
 # text_en = I saw a cow yesterday.
 # comment = from field methods
 1	Nizan	nizan	ADV	_	_	5	advmod	_	yesterday
-2	ah	ah	ADP	_	_	1	discourse	_	LOC
+2	ah	ah	ADP	_	_	1	case	_	LOC
 3	caw	caw	NOUN	_	_	5	obj	_	cow
 4	ka	ka	PRON	_	Number=Sing|Person=1	5	nsubj	_	I
 5	hmuh	hmuh	VERB	_	_	0	root	_	see|SpaceAfter=No
@@ -3472,7 +3472,7 @@
 # comment = from field methods
 1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nsubj	_	I
 2	hmuh	hmuh	VERB	_	_	5	ccomp	_	see
-3	mi	mi	DET	_	_	2	discourse	_	REL
+3	mi	mi	DET	_	_	2	det	_	REL
 4	ka	ka	PRON	_	Number=Sing|Person=1	5	nsubj	_	I
 5	duh	duh	VERB	_	_	0	root	_	like|SpaceAfter=No
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_

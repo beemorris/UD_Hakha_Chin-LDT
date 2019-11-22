@@ -18,6 +18,7 @@ i = 0
 for part in range(0, len(trees)-batch, batch):
 	f = open(prefix + str(i).zfill(2)+'.conllu', 'w+')
 	f.write('\n\n'.join(trees[part:part+batch]))
+	f.write('\n\n')
 	print(i, part, part+batch)
 	f.close()
 	i += 1

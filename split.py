@@ -2,7 +2,7 @@ import sys, random
 
 trees = sys.stdin.read().split('\n\n')
 
-#print(trees[:2])
+print(trees[:2])
 
 print(len(trees))
 

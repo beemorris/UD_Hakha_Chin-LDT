@@ -149,8 +149,8 @@
 # sent_id = 18
 # text = Bawibawi cauk ka pek
 # text_en = I gave Bawibawi a book.
-1	Bawibawi	Bawibawi	PROPN	_	_	4	obj	_	Bawibawi
-2	cauk	cauk	NOUN	_	_	4	iobj	_	book
+1	Bawibawi	Bawibawi	PROPN	_	_	4	iobj	_	Bawibawi
+2	cauk	cauk	NOUN	_	_	4	obj	_	book
 3	ka	ka	PRON	_	Number=Sing|Person=1	4	nsubj	_	ka
 4	pek	pe	VERB	_	_	0	root	_	give
 
@@ -436,18 +436,18 @@
 # sent_id = 52
 # text = Chinchin cu cauk a pek
 # text_en = He gave Chin a book.
-1	Chinchin	Chinchin	PROPN	_	_	5	iobj	_	Chin
+1	Chinchin	Chinchin	PROPN	_	_	5	obj	_	Chin
 2	cu	cu	PART	_	_	1	discourse	_	TOP
-3	cauk	cauk	NOUN	_	_	5	obj	_	book
+3	cauk	cauk	NOUN	_	_	5	iobj	_	book
 4	a	a	PRON	_	Number=Sing|Person=3	5	nsubj	_	He
 5	pek	pe	VERB	_	_	0	root	_	give
 
 # sent_id = 53
 # text = Chinchin cu cauk ka pek lai
 # text_en = I will give Chinchin a book.
-1	Chinchin	Chinchin	PROPN	_	_	5	obj	_	Chinchin
+1	Chinchin	Chinchin	PROPN	_	_	5	iobj	_	Chinchin
 2	cu	cu	PART	_	_	1	discourse	_	TOP
-3	cauk	cauk	NOUN	_	_	5	iobj	_	book
+3	cauk	cauk	NOUN	_	_	5	obj	_	book
 4	ka	ka	PRON	_	Number=Sing|Person=1	5	nsubj	_	I
 5	pek	pe	VERB	_	_	0	root	_	give
 6	lai	lai	AUX	_	_	5	aux	_	FUT
@@ -455,9 +455,9 @@
 # sent_id = 54
 # text = Chinchin cu cauk an pek
 # text_en = They gave Chinchin a book./Chinchin was given a book.
-1	Chinchin	Chinchin	PROPN	_	_	5	obj	_	Chinchin
+1	Chinchin	Chinchin	PROPN	_	_	5	iobj	_	Chinchin
 2	cu	cu	PART	_	_	1	discourse	_	TOP
-3	cauk	cauk	NOUN	_	_	5	iobj	_	book
+3	cauk	cauk	NOUN	_	_	5	obj	_	book
 4	an	an	PRON	_	Number=Plur|Person=3	5	nsubj	_	they
 5	pek	pe	VERB	_	_	0	root	_	give
 
@@ -465,9 +465,9 @@
 # text = A cauk cu Chinchin a pek
 # text_en = He gave Chinchin his book.
 1	A	a	PRON	_	Number=Sing|Person=3	2	nmod:poss	_	his
-2	cauk	cauk	NOUN	_	_	6	iobj	_	book
+2	cauk	cauk	NOUN	_	_	6	obj	_	book
 3	cu	cu	PART	_	_	2	discourse	_	TOP
-4	Chinchin	Chinchin	PROPN	_	_	6	obj	_	Chinchin
+4	Chinchin	Chinchin	PROPN	_	_	6	iobj	_	Chinchin
 5	a	a	PRON	_	Number=Sing|Person=3	6	nsubj	_	he
 6	pek	pe	VERB	_	_	0	root	_	give
 
@@ -484,10 +484,10 @@
 # sent_id = 57
 # text = Bawibawi cu Chinchin cauk ka pek
 # text_en = I gave Bawi Chin's book.
-1	Bawibawi	Bawibawi	PROPN	_	_	6	obj	_	Bawi
+1	Bawibawi	Bawibawi	PROPN	_	_	6	iobj	_	Bawi
 2	cu	cu	PART	_	_	1	discourse	_	TOP
 3	Chinchin	Chin	PROPN	_	_	4	nmod:poss	_	Chin's
-4	cauk	cauk	NOUN	_	_	6	iobj	_	book
+4	cauk	cauk	NOUN	_	_	6	obj	_	book
 5	ka	ka	PRON	_	Number=Sing|Person=1	6	nsubj	_	I
 6	pek	pek	VERB	_	_	0	root	_	give
 
@@ -858,7 +858,7 @@
 # text = Ngakchia nu rawl a ei.
 # text_en = The girl eats food.
 1	Ngakchia	ngakchia	NOUN	_	_	5	nsubj	_	child
-2	nu	nu	PART	_	_	1	case	_	female
+2	nu	nu	PART	_	Gender=Fem	1	nmod	_	female
 3	rawl	rawl	NOUN	_	_	5	obj	_	food
 4	a	a	PRON	_	_	5	expl	_	3SG
 5	ei	ei	VERB	_	_	0	root	_	eat|SpaceAfter=No
@@ -919,7 +919,7 @@
 # text = Amah nu nih a kan hmuh.
 # text_en = She saw us.
 1	Amah	amah	PRON	_	Gender=Fem|Number=Sing|Person=3	6	nsubj	_	she
-2	nu	nu	PART	_	_	1	case	_	female
+2	nu	nu	PART	_	Gender=Fem	1	nmod	_	female
 3	nih	nih	ADP	_	_	1	case	_	ERG
 4	a	a	PRON	_	_	6	expl	_	3SG
 5	kan	kan	PRON	_	Number=Plur|Person=1	6	obj	_	us
@@ -1361,7 +1361,7 @@
 # text = Ngakchia nu a ttap
 # text_en = a girl cries
 1	Ngakchia	ngakchia	NOUN	_	_	4	nsubj	_	child
-2	nu	nu	PART	_	_	1	case	_	female
+2	nu	nu	PART	_	Gender=Fem	1	nmod	_	female
 3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
 4	ttap	ttap	VERB	_	_	0	root	_	cry
 
@@ -1472,9 +1472,9 @@
 2	pa	pa	NOUN	_	Gender=Masc	8	nsubj	_	father
 3	nih	nih	ADP	_	_	2	case	_	ERG
 4	ka	ka	PRON	_	_	5	nmod:poss	_	my
-5	min	min	NOUN	_	_	8	obj	_	name
+5	min	min	NOUN	_	_	8	iobj	_	name
 6	a	a	PRON	_	Number=Sing|Person=3	8	expl	_	expl
-7	ka	ka	PRON	_	Number=Sing|Person=1	8	iobj	_	me
+7	ka	ka	PRON	_	Number=Sing|Person=1	8	obj	_	me
 8	sak	sak	VERB	_	_	0	root	_	give/build
 
 # sent_id = 170
@@ -1514,9 +1514,9 @@
 # sent_id = 174
 # text = Miruak cu thlan ah an vui
 # text_en = they buried the corpse in the grave
-1	Miruak	miruak	NOUN	_	_	6	iobj	_	obj
+1	Miruak	miruak	NOUN	_	_	6	obj	_	corpse
 2	cu	cu	PART	_	_	1	discourse	_	TOP
-3	thlan	thlan	NOUN	_	_	6	obj	_	grave
+3	thlan	thlan	NOUN	_	_	6	iobj	_	grave
 4	ah	ah	PART	_	_	3	case	_	LOC
 5	an	an	PRON	_	Number=Plur|Person=3	6	nsubj	_	they
 6	vui	vui	VERB	_	_	0	root	_	bury
@@ -1728,17 +1728,17 @@
 # text = Ka kut a ka sih
 # text_en = she pinched me at my hand
 1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
-2	kut	kut	NOUN	_	_	5	obj	_	hand
+2	kut	kut	NOUN	_	_	5	iobj	_	hand
 3	a	a	PRON	_	Number=Sing|Person=3	5	nsubj	_	she
-4	ka	ka	PRON	_	Number=Sing|Person=1	5	iobj	_	me
+4	ka	ka	PRON	_	Number=Sing|Person=1	5	obj	_	me
 5	sih	sih	VERB	_	_	0	root	_	pinch
 
 # sent_id = 199
 # text = Ka kut ka sik hlah
 # text_en = do not pinch me at my hand
 1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
-2	kut	kut	NOUN	_	_	4	obj	_	hand
-3	ka	ka	PRON	_	Number=Sing|Person=1	4	iobj	_	me
+2	kut	kut	NOUN	_	_	4	iobj	_	hand
+3	ka	ka	PRON	_	Number=Sing|Person=1	4	obj	_	me
 4	sik	sik	VERB	_	_	0	root	_	pinch
 5	hlah	hlah	PART	_	_	4	case	_	not
 
@@ -1982,9 +1982,9 @@
 # text = Na sur in nga ka tlaih nak
 # text_en = I caught a fish with your net
 1	Na	na	PRON	_	Number=Sing|Person=2	2	nmod:poss	_	your
-2	sur	sur	NOUN	_	_	6	obj	_	net
+2	sur	sur	NOUN	_	_	6	iobj	_	net
 3	in	in	ADP	_	_	2	case	_	with
-4	nga	nga	NOUN	_	_	6	iobj	_	fish
+4	nga	nga	NOUN	_	_	6	obj	_	fish
 5	ka	ka	PRON	_	Number=Sing|Person=1	6	nsubj	_	I
 6	tlaih	tlaih	VERB	_	_	0	root	_	catch
 7	nak	nak	PART	_	_	6	discourse	_	nominalizer
@@ -1993,9 +1993,9 @@
 # text = Na nam in thing kaa tan nak
 # text_en = I cut wood with your knife
 1	Na	na	PRON	_	Number=Sing|Person=2	2	nmod:poss	_	your
-2	nam	nam	NOUN	_	_	6	obj	_	knife
+2	nam	nam	NOUN	_	_	6	iobj	_	knife
 3	in	in	ADP	_	_	2	case	_	with
-4	thing	thing	NOUN	_	_	6	iobj	_	wood
+4	thing	thing	NOUN	_	_	6	obj	_	wood
 5	kaa	ka	PRON	_	Number=Sing|Person=1	6	nsubj	_	I
 6	tan	tan	VERB	_	_	0	root	_	chop
 7	nak	nak	PART	_	_	6	discourse	_	nominalizer
@@ -2095,9 +2095,9 @@
 # sent_id = 239
 # text = Sur in nga kan tlaih
 # text_en = we catch fish with net
-1	Sur	sur	NOUN	_	_	5	obj	_	fish net
+1	Sur	sur	NOUN	_	_	5	iobj	_	fish net
 2	in	in	ADP	_	_	1	case	_	with
-3	nga	nga	NOUN	_	_	5	iobj	_	fish
+3	nga	nga	NOUN	_	_	5	obj	_	fish
 4	kan	kan	PRON	_	Number=Plur|Person=1	5	nsubj	_	we
 5	tlaih	tlaih	VERB	_	_	0	root	_	capture
 
@@ -2279,7 +2279,6 @@
 5	a	a	PRON	_	Number=Sing|Person=3	6	expl	_	expl
 6	um	um	VERB	_	_	0	root	_	am/exist
 
-# real unsure about this one
 # sent_id = 258
 # text = Nangmah nakin ka upa deuh
 # text_en = I am older than you.
@@ -2334,12 +2333,13 @@
 3	pek	pek	VERB	_	_	0	root	_	give
 
 # sent_id = 264
-# text = Bawibawi cauk ka pek
-# text_en = I gave Bawi a book.
-1	Bawibawi	Bawibawi	PROPN	_	_	4	obj	_	Bawi
-2	cauk	cauk	NOUN	_	_	4	iobj	_	book
-3	ka	ka	PRON	_	Number=Sing|Person=1	4	nsubj	_	I
-4	pek	pek	VERB	_	_	0	root	_	give
+# text = Na hmuh hna.
+# text_en = You see/saw them.
+# comment = Bedell 1995 number 26
+1	Na	na	PRON	_	Number=Sing|Person=2	2	nsubj	_	you
+2	hmuh	hmuh	VERB	_	_	0	root	_	see/saw
+3	hna	hna	PRON	_	Number=Plur|Person=3	2	obj	_	them|SpaceAfter=No
+4	.	PUNCT	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 265
 # text = Khoika ah dah caw na hren?
@@ -2532,7 +2532,7 @@
 # text = Amah nu nih mutthai a ka pek
 # text_en = She gave me a candy
 1	Amah	amah	PRON	_	Gender=Fem|Number=Sing|Person=3	7	nsubj	_	she
-2	nu	nu	ADJ	NOUN	Gender=Fem	1	nmod	_	female
+2	nu	nu	PART	NOUN	Gender=Fem	1	nmod	_	female
 3	nih	nih	ADP	_	_	1	case	_	ERG
 4	mutthai	mutthai	NOUN	_	_	7	iobj	_	candy
 5	a	a	PRON	_	_	7	expl	_	expl
@@ -2790,20 +2790,21 @@
 1	Saveh	saveh	NOUN	_	_	3	nsubj	_	rabbit
 2	a	a	PRON	_	Number=Sing|Person=3	3	expl	_	expl
 3	tlau	tlau	VERB	ADJ	_	0	root	_	lost
-4	i	i	CCONJ	_	_	3	conj	_	and
-5	Ngakchiapa	Ngakchiapa	NOUN	_	Gender=Masc	7	csubj	_	child
+4	i	i	CCONJ	_	_	7	cc	_	and
+5	Ngakchiapa	Ngakchiapa	NOUN	_	Gender=Masc	7	nsubj	_	child
 6	a	a	PRON	_	Number=Sing|Person=3	7	expl	_	expl
-7	ttap	ttap	VERB	_	_	3	ccomp	_	cry
+7	ttap	ttap	VERB	_	_	3	conj	_	cry
 
 # sent_id = 313
 # text = A inn a kangh ruangah a ttap
+# text_en = because his house burned down he cried
 1	A	a	PRON	_	Number=Sing|Person=3	2	nmod:poss	_	his
 2	inn	inn	NOUN	_	_	4	obj	_	house
 3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
 4	kangh	kangh	VERB	_	_	0	root	_	burn
-5	ruangah	ruangah	CCONJ	_	_	4	conj	_	because
+5	ruangah	ruangah	CCONJ	_	_	7	cc	_	because
 6	a	a	PRON	_	Number=Sing|Person=3	7	nsubj	_	he
-7	ttap	ttap	VERB	_	_	4	ccomp	_	cry
+7	ttap	ttap	VERB	_	_	4	conj	_	cry
 
 # sent_id = 314
 # text = Bawlung a ril nain uico nih a dawi lo
@@ -2811,11 +2812,11 @@
 1	Bawlung	bawlung	NOUN	_	_	3	nsubj	_	ball
 2	a	a	PRON	_	_	3	expl	_	expl
 3	ril	ril	VERB	_	_	0	root	_	roll
-4	nain	nain	CCONJ	_	_	3	conj	_	although
+4	nain	nain	CCONJ	_	_	8	cc	_	although
 5	uico	uico	NOUN	_	_	8	csubj	_	dog
 6	nih	nih	ADP	_	_	5	case	_	ERG
 7	a	a	PRON	_	Number=Sing|Person=3	8	expl	_	expl
-8	dawi	dawi	VERB	_	_	3	ccomp	_	chase
+8	dawi	dawi	VERB	_	_	3	conj	_	chase
 9	lo	lo	ADV	_	_	8	advmod	_	not
 
 # sent_id = 315
@@ -2825,9 +2826,9 @@
 2	kedan	kedan	NOUN	_	_	4	nsubj	_	shoe
 3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
 4	tlak	tlak	VERB	_	_	0	root	_	tumble
-5	ruangah	ruangah	CCONJ	_	_	4	conj	_	because
-6	a	a	PRON	_	Number=Sing|Person=3	7	csubj	_	he
-7	ttap	ttap	VERB	_	_	4	ccomp	_	cry
+5	ruangah	ruangah	CCONJ	_	_	7	cc	_	because
+6	a	a	PRON	_	Number=Sing|Person=3	7	nsubj	_	he
+7	ttap	ttap	VERB	_	_	4	conj	_	cry
 
 # sent_id = 316
 # text = A ke a bei ruangah a ttap
@@ -2836,9 +2837,9 @@
 2	ke	ke	NOUN	_	_	4	obj	_	foot
 3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
 4	bei	bei	VERB	_	_	0	root	_	limp
-5	ruangah	ruangah	CCONJ	_	_	4	conj	_	because
-6	a	a	PRON	_	Number=Sing|Person=3	7	csubj	_	he
-7	ttap	ttap	VERB	_	_	4	ccomp	_	cry
+5	ruangah	ruangah	CCONJ	_	_	7	cc	_	because
+6	a	a	PRON	_	Number=Sing|Person=3	7	nsubj	_	he
+7	ttap	ttap	VERB	_	_	4	conj	_	cry
 
 # sent_id = 317
 # text = Thingkung a hau maw?
@@ -3294,13 +3295,13 @@
 # text_en = The teacher didn’t give a book to the girl.
 # comment = from field methods
 1	Sayamah	sayamah	NOUN	_	_	8	nsubj	_	teacher
-2	nu	nu	PART	_	_	1	case	_	female
+2	nu	nu	PART	_	Gender=Fem	1	nmod	_	female
 3	nih	nih	ADP	_	_	1	case	_	ERG
 4	ngakchia	ngakchia	NOUN	_	_	8	obj	_	child
-5	nu	nu	PART	_	_	4	case	_	_
+5	nu	nu	PART	_	Gender=Fem	4	nmod	_	female
 6	cauk	cauk	NOUN	_	_	8	iobj	_	book
 7	a	a	PRON	_	Number=Sing|Person=3	8	expl	_	_
-8	pe	pe	VERB	_	_	0	root	_	_
+8	pe	pe	VERB	_	_	0	root	_	give
 9	lo	lo	ADV	_	_	8	advmod	_	not|SpaceAfter=No
 10	.	PUNCT	PUNCT	_	_	8	punct	_	_
 
@@ -3569,7 +3570,7 @@
 # comment = from field methods
 1	Mawttaw	mawttaw	ADV	_	_	3	advmod	_	car
 2	kaa	ka	PRON	_	Number=Sing|Person=1	3	nsubj	_	I
-3	tteih	tteih	VERB	_	_	0	root	_	accident/collision|SpaceAfter=No
+3	tteih	tteih	VERB	_	_	0	root	_	accident|SpaceAfter=No
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 383

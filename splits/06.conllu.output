@@ -1,7 +1,7 @@
 # sent_id = 272
 # text = Mutthai an in pek
 # text_en = They gave you a candy
-1	Mutthai	mutthai	NOUN	_	_	4	iobj	_	candy
+1	Mutthai	mutthai	NOUN	_	_	4	obj	_	candy
 2	an	an	PRON	_	Number=Plur|Person=3	4	nsubj	_	they
 3	in	in	PRON	_	Number=Sing|Person=2	4	obj	_	you
 4	pek	pek	VERB	_	_	0	root	_	give
@@ -9,7 +9,7 @@
 # sent_id = 246
 # text = Bawmh na herh maw?
 # text_en = Do you need help?
-1	Bawmh	bawmh	NOUN	VERB	_	3	obj	_	aid
+1	Bawmh	Bawmh	NOUN	_	_	3	obj	_	aid
 2	na	na	PRON	_	Number=Sing|Person=2	3	nsubj	_	you
 3	herh	herh	VERB	_	_	0	root	_	need
 4	maw	maw	PART	_	_	3	discourse	_	Q|SpaceAfter=No
@@ -27,7 +27,7 @@
 # text = Mah pa hi sibawi a si
 # text_en = This man is a doctor.
 1	Mah	mah	DET	_	_	2	det	_	this
-2	pa	pa	NOUN	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	man
+2	pa	pa	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	man
 3	hi	hi	DET	_	_	2	det	_	this
 4	sibawi	sibawi	NOUN	_	_	0	root	_	doctor
 5	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	3SG
@@ -37,10 +37,10 @@
 # text = Khoika dah naa khawng?
 # text_en = Where does you/it hurt?
 1-2	Khoika	_	_	_	_	_	_	_	_
-1	Khoi	khoi	ADV	_	_	5	advmod	_	where
-2	ka	ka	PRON	_	Number=Sing|Person=3	1	flat	_	1SG
+1	Khoi	Khoi	NOUN	_	_	5	nsubj	_	where
+2	ka	ka	PRON	_	Number=Sing|Person=1	3	nsubj	_	1SG
 3	dah	dah	PART	_	_	1	compound	_	WH
-4	naa	na	PRON	_	Number=Sing|Person=2	5	nsubj	_	you
+4	naa	naa	PART	_	_	1	case	_	you
 5	khawng	khawng	VERB	_	_	0	root	_	hurt|SpaceAfter=No
 6	?	PUNCT	PUNCT	_	_	5	punct	_	_
 
@@ -51,24 +51,24 @@
 2	chizawh	chizawh	NOUN	_	_	5	nsubj	_	cat
 3	hi	hi	DET	_	_	2	det	_	this
 4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
-5	raang	raang	VERB	_	_	0	root	_	white
-6	mi	mi	DET	_	_	5	det	_	REL
+5	raang	rang	VERB	_	_	0	root	_	white
+6	mi	mi	PART	_	_	5	discourse	_	REL
 7	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
-8	si	si	AUX	_	_	7	cop	_	is
+8	si	si	AUX	_	_	5	cop	_	is
 
 # sent_id = 338
 # text = Ka nu thla a cam
 # text_en =  my mother is praying
 1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
-2	nu	nu	NOUN	_	_	5	nsubj	_	mother
-3	thla	thla	VERB	_	_	5	compound	_	pray
+2	nu	nu	NOUN	_	_	5	obj	_	mother
+3	thla	thla	VERB	_	_	2	case	_	pray
 4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	expl
 5	cam	cam	VERB	_	_	0	root	_	pray
 
 # sent_id = 200
 # text = Khual nan ngei lai maw?
 # text_en = will you have any guest?
-1	Khual	khual	NOUN	_	_	3	obj	_	guest
+1	Khual	Khual	NOUN	_	_	3	obj	_	guest
 2	nan	nan	PRON	_	Number=Plur|Person=2	3	nsubj	_	you
 3	ngei	ngei	VERB	_	_	0	root	_	have
 4	lai	lai	AUX	_	_	3	aux	_	will
@@ -91,15 +91,15 @@
 2	ihphah	ihphah	NOUN	_	_	5	nsubj	_	mattress/bedroll
 3	cu	cu	PART	_	_	2	discourse	_	TOP
 4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	expl
-5	neem	nem	VERB	_	_	0	root	_	soft
+5	neem	neem	VERB	_	_	0	root	_	soft
 
 # sent_id = 222
 # text = Amah cu an nauum a si
 # text_en = she is their baby sitter
-1	Amah	amah	PRON	_	Gender=Fem|Number=Sing|Person=3	4	nsubj	_	she
+1	Amah	amah	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	she
 2	cu	cu	PART	_	_	1	discourse	_	TOP
-3	an	an	PRON	_	Number=Plur|Person=3	4	obj	_	their
-4	nauum	nauum	VERB	NOUN	_	0	root	_	baby sitter
+3	an	an	PRON	_	Number=Plur|Person=3	4	nmod:poss	_	their
+4	nauum	nauum	NOUN	_	_	0	root	_	baby sitter
 5	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
 6	si	si	AUX	_	_	4	cop	_	is
 
@@ -109,15 +109,15 @@
 1	A	a	PRON	_	Number=Sing|Person=3	2	nmod:poss	_	his
 2	biachim	biachim	NOUN	_	_	4	nsubj	_	talk
 3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
-4	fum	fum	VERB	ADJ	_	0	root	_	slow
+4	fum	fum	VERB	_	_	0	root	_	slow
 
 # sent_id = 174
 # text = Miruak cu thlan ah an vui
 # text_en = they buried the corpse in the grave
-1	Miruak	miruak	NOUN	_	_	6	obj	_	corpse
+1	Miruak	Miruak	NOUN	_	_	6	nsubj	_	corpse
 2	cu	cu	PART	_	_	1	discourse	_	TOP
-3	thlan	thlan	NOUN	_	_	6	iobj	_	grave
-4	ah	ah	PART	_	_	3	case	_	LOC
+3	thlan	thlan	NOUN	_	_	6	obj	_	grave
+4	ah	ah	ADP	_	_	3	case	_	LOC
 5	an	an	PRON	_	Number=Plur|Person=3	6	nsubj	_	they
 6	vui	vui	VERB	_	_	0	root	_	bury
 
@@ -125,9 +125,9 @@
 # text = Mutthai nan kan pek
 # text_en = Y'all gave us a candy
 1	Mutthai	mutthai	NOUN	_	_	4	iobj	_	candy
-2	nan	nan	PRON	_	Number=Plur|Person=2	4	nsubj	_	y'all
-3	kan	kan	PRON	_	Number=Plur|Person=1	4	obj	_	us
-4	pek	pek	VERB	_	_	0	root	_	give
+2	nan	nan	PRON	_	Number=Plur|Person=2	4	obj	_	y'all
+3	kan	kan	PRON	_	Number=Plur|Person=1	4	nsubj	_	us
+4	pek	peh	VERB	_	_	0	root	_	give
 
 # sent_id = 323
 # text = A cafung a kiah ruangah a ttap
@@ -135,20 +135,20 @@
 1	A	a	PRON	_	Number=Sing|Person=3	2	nmod:poss	_	his
 2	cafung	cafung	NOUN	_	_	4	nsubj	_	pen
 3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
-4	kiah	kiah	VERB	ADJ	_	0	root	_	be broken
+4	kiah	kiah	VERB	_	_	0	root	_	be broken
 5	ruangah	ruangah	CCONJ	_	_	4	conj	_	because
-6	a	a	PRON	_	Number=Sing|Person=3	7	csubj	_	he
+6	a	a	PRON	_	Number=Sing|Person=3	7	expl	_	he
 7	ttap	ttap	VERB	_	_	4	ccomp	_	cry
 
 # sent_id = 154
 # text = Piter cu ngatlai a rak si
 # text_en = Peter was once a fisherman
-1	Piter	Piter	PROPN	_	_	3	nsubj	_	Peter
+1	Piter	Piter	NOUN	_	_	5	nsubj	_	Peter
 2	cu	cu	PART	_	_	1	discourse	_	TOP
-3	ngatlai	ngatlai	NOUN	_	_	0	root	_	fisherman
-4	a	a	PRON	_	Number=Sing|Person=3	3	expl	_	expl
-5	rak	rak	ADV	_	_	3	advmod	_	Past Tense
-6	si	si	AUX	_	_	3	cop	_	is
+3	ngatlai	ngatlai	NOUN	_	_	5	obj	_	fisherman
+4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	expl
+5	rak	rak	VERB	_	_	0	root	_	Past Tense
+6	si	si	AUX	_	_	5	cop	_	is
 
 # sent_id = 173
 # text = Nan cabuai a mil ngaingai
@@ -165,7 +165,7 @@
 1	A	a	PRON	_	Number=Sing|Person=3	2	nmod:poss	_	her
 2	mit	mit	NOUN	_	_	4	nsubj	_	eyes
 3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
-4	kau	kau	VERB	ADJ	_	0	root	_	big
+4	kau	kau	VERB	_	_	0	root	_	big
 
 # sent_id = 117
 # text = Na it.
@@ -186,7 +186,7 @@
 # text_en = I gave Bawi Chin's book.
 1	Bawibawi	Bawibawi	PROPN	_	_	6	iobj	_	Bawi
 2	cu	cu	PART	_	_	1	discourse	_	TOP
-3	Chinchin	Chin	PROPN	_	_	4	nmod:poss	_	Chin's
+3	Chinchin	Chinchin	PROPN	_	_	1	case	_	Chin's
 4	cauk	cauk	NOUN	_	_	6	obj	_	book
 5	ka	ka	PRON	_	Number=Sing|Person=1	6	nsubj	_	I
 6	pek	pek	VERB	_	_	0	root	_	give
@@ -195,9 +195,9 @@
 # text = Ngakchiapa nih darkio in rol a ei.
 # text_en = The boy ate food with a spoon.
 # comment = from field methods
-1	Ngakchiapa	ngakchia	NOUN	_	_	7	nsubj	_	male child
+1	Ngakchiapa	ngakchiapa	NOUN	_	Gender=Masc	7	nsubj	_	male child
 2	nih	nih	ADP	_	_	1	case	_	ERG
-3	darkio	darkio	NOUN	_	_	5	obl	_	spoon
+3	darkio	darkio	NOUN	_	_	7	obj	_	spoon
 4	in	in	ADP	_	_	3	case	_	with
 5	rol	rol	NOUN	_	_	7	obj	_	food
 6	a	a	PRON	_	Number=Sing|Person=3	7	expl	_	3SG
@@ -208,7 +208,7 @@
 # text = Ngakchia hme a si
 # text_en = She is a small child.
 1	Ngakchia	ngakchia	NOUN	_	_	0	root	_	child
-2	hme	hme	ADJ	_	_	1	amod	_	small
+2	hme	hme	ADV	VERB	_	1	amod	_	small
 3	a	a	PRON	_	Number=Sing|Person=3	1	nsubj	_	she
 4	si	si	AUX	_	_	1	cop	_	is
 
@@ -226,8 +226,8 @@
 # sent_id = 10
 # text = Ka dir
 # text_en = I stood up.
-1	Ka	ka	PRON	_	Number=Sing|Person=2	2	nsubj	_	I
-2	dir	dir	VERB	intr	_	0	root	_	stood up
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nsubj	_	I
+2	dir	dir	VERB	_	_	0	root	_	stood up
 
 # sent_id = 66
 # text = Ka fapa a si lo.
@@ -243,10 +243,10 @@
 # text = Dawr ah kan kal hna lai
 # text_en = Let's go to the store.
 1	Dawr	dawr	NOUN	_	_	4	obj	_	store
-2	ah	ah	PART	_	_	1	case	_	LOC
+2	ah	ah	ADP	_	_	1	case	_	LOC
 3	kan	kan	PRON	_	Number=Plur|Person=1	4	nsubj	_	us/we
 4	kal	kal	VERB	_	_	0	root	_	go
-5	hna	hna	PRON	_	Number=Plur|Person=3	4	expl	_	3PL
+5	hna	hna	PRON	_	Number=Plur	4	expl	_	3PL
 6	lai	lai	AUX	_	_	4	aux	_	FUT
 
 # sent_id = 395
@@ -261,8 +261,8 @@
 # text = A hawipa a hlen
 # text_en = he lied to his friend
 1	A	a	PRON	_	Number=Sing|Person=3	2	nmod:poss	_	his
-2	hawipa	hawipa	NOUN	_	_	4	obj	_	friend
-3	a	a	PRON	_	Number=Sing|Person=3	4	nsubj	_	he
+2	hawipa	hawipa	NOUN	_	_	4	nsubj	_	friend
+3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	he
 4	hlen	hlen	VERB	_	_	0	root	_	delude
 
 # sent_id = 34
@@ -286,8 +286,8 @@
 # sent_id = 290
 # text = Thaizing ah zeidah na tuah lai?
 # text_en = What are you going to do tomorrow?
-1	Thaizing	thaizing	ADV	_	_	5	advmod	_	tomorrow
-2	ah	ah	PART	_	_	1	case	_	TEMPORAL
+1	Thaizing	Thaizing	NOUN	_	_	5	obj	_	tomorrow
+2	ah	ah	ADP	_	_	1	case	_	TEMPORAL
 3	zeidah	zeidah	PRON	_	_	5	obj	_	what
 4	na	na	PRON	_	Number=Sing|Person=2	5	nsubj	_	you
 5	tuah	tuah	VERB	_	_	0	root	_	do
@@ -305,17 +305,17 @@
 # text = Na fa a ttap tuk.
 # text_en = Your child cry a lot.
 1	Na	na	PRON	_	Number=Sing|Person=2	2	nmod:poss	_	your
-2	fa	fa	NOUN	_	_	4	nsubj	_	child
-3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	3SG
+2	fa	fal	NOUN	_	_	4	nsubj	_	child
+3	a	a	PRON	_	Number=Sing|Person=3	4	nsubj	_	3SG
 4	ttap	ttap	VERB	_	_	0	root	_	cry
 5	tuk	tuk	ADV	_	_	4	advmod	_	a lot|SpaceAfter=No
-6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 374
 # text = Mipa nih a ka chuih.
 # text_en = The man kicked me.
 # comment = from field methods
-1	Mipa	mipa	PRON	_	_	5	nsubj	_	male person
+1	Mipa	mipa	NOUN	_	_	5	nsubj	_	male person
 2	nih	nih	ADP	_	_	1	case	_	ERG
 3	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
 4	ka	ka	PRON	_	Number=Sing|Person=1	5	obj	_	me
@@ -325,18 +325,18 @@
 # sent_id = 253
 # text = Kha cauk kha ka uar hna
 # text_en = I like those books
-1	Kha	kha	DET	PRON	_	2	det	_	that
-2	cauk	cauk	NOUN	_	_	5	obj	_	book
-3	kha	kha	DET	PRON	_	2	det	_	that
+1	Kha	kha	DET	_	_	2	det	_	that
+2	cauk	cauk	NOUN	_	_	5	nsubj	_	book
+3	kha	kha	DET	_	_	2	det	_	that
 4	ka	ka	PRON	_	Number=Sing|Person=1	5	nsubj	_	I
 5	uar	uar	VERB	_	_	0	root	_	like
-6	hna	hna	PRON	_	Number=Plur	5	expl	_	3PL
+6	hna	hna	PRON	_	Number=Plur|Person=3	5	expl	_	3PL
 
 # sent_id = 357
 # text = Bawi nih cawsa a chumh.
 # text_en = Bawi cooked the beef.
 # comment = from field methods
-1	Bawi	Bawi	PROPN	_	_	5	nsubj	_	Bawi
+1	Bawi	Bawi	NOUN	_	_	5	nsubj	_	Bawi
 2	nih	nih	ADP	_	_	1	case	_	ERG
 3	cawsa	cawsa	NOUN	_	_	5	obj	_	beef
 4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
@@ -346,9 +346,9 @@
 # sent_id = 63
 # text = Khoika dah naa khawng?
 # text_en = Where does it hurt?
-1	Khoika	khoika	PRON	_	_	4	obj	_	where
-2	dah	dah	PART	_	_	1	discourse	_	WH
-3	naa	naa	PRON	_	Number=Sing|Person=2	4	nsubj	_	it/you
+1	Khoika	khoika	PRON	_	_	4	nsubj	_	where
+2	dah	dah	PART	_	_	1	compound	_	WH
+3	naa	naa	PART	_	_	1	case	_	it/you
 4	khawng	khawng	VERB	_	_	0	root	_	hurt|SpaceAfter=No
 5	?	PUNCT	PUNCT	_	_	4	punct	_	_
 
@@ -360,9 +360,9 @@
 2	pawl	pawl	PART	_	_	1	case	_	PL
 3	nih	nih	ADP	_	_	1	case	_	ERG
 4	caw	caw	NOUN	_	_	6	obj	_	cow
-5	an	an	PART	_	Number=Plur|Person=3	6	expl	_	_3PL
+5	an	an	PRON	_	Number=Plur|Person=3	6	nsubj	_	_3PL
 6	hmuh	hmuh	VERB	_	_	0	root	_	chase
-7	hna	hna	PART	_	Number=Plur|Person=3	6	expl	_	3PL|SpaceAfter=No
+7	hna	hna	PRON	_	Number=Plur|Person=3	6	expl	_	3PL|SpaceAfter=No
 8	.	PUNCT	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 386

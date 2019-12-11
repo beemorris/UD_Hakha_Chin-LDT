@@ -1,314 +1,300 @@
-# sent_id = 91
-# text = Ngakchia na dawi.
-# text_en = You chased the child.
-1	Ngakchia	ngakchia	NOUN	_	_	3	obj	_	child
-2	na	na	PRON	_	Number=Sing|Person=2	3	nsubj	_	you
-3	dawi	dawi	VERB	_	_	0	root	_	chase|SpaceAfter=No
-4	.	PUNCT	PUNCT	_	_	3	punct	_	_
-
-# sent_id = 269
-# text = Mutthai aan pek
-# text_en = He gave you a candy
-1	Mutthai	mutthai	NOUN	_	_	3	iobj	_	candy
-2	aan	aan	PRON	_	Number=Sing|Person=2	3	obj	_	you
-3	pek	pek	VERB	_	_	0	root	_	give
-
-# sent_id = 68
-# text = Ruah a sur lo.
-# text_en = It is not raining.
-1	Ruah	ruah	NOUN	_	_	3	nsubj	_	rain
-2	a	a	PRON	_	Number=Sing|Person=3	3	expl	_	3SG
-3	sur	sur	VERB	_	_	0	root	_	fall
-4	lo	lo	ADV	_	_	3	advmod	_	not|SpaceAfter=No
-5	.	PUNCT	PUNCT	_	_	3	punct	_	_
-
-# sent_id = 380
-# text = A tung a sang deu maw?
-# text_en = Is he taller (than before)?
-# comment = from field methods
-1	A	a	PRON	_	Number=Sing|Person=2	2	nmod:poss	_	his
-2	tung	tung	NOUN	_	_	4	nsubj	_	stature
-3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	3SG
-4	sang	sang	VERB	_	_	0	root	_	tall
-5	deu	deu	ADV	_	_	4	advmod	_	more
-6	maw	maw	PART	_	_	4	discourse	_	Q|SpaceAfter=No
-7	?	PUNCT	PUNCT	_	_	4	punct	_	_
-
-# sent_id = 264
-# text = Na hmuh hna.
-# text_en = You see/saw them.
-# comment = Bedell 1995 number 26
+# sent_id = 148
+# text = Na kal lai maw?
+# text_en = are you going now?
 1	Na	na	PRON	_	Number=Sing|Person=2	2	nsubj	_	you
-2	hmuh	hmuh	VERB	_	_	0	root	_	see/saw
-3	hna	hna	PRON	_	Number=Plur|Person=3	2	obj	_	them|SpaceAfter=No
-4	.	PUNCT	PUNCT	_	_	2	punct	_	_
+2	kal	kal	VERB	_	_	0	root	_	go
+3	lai	lai	AUX	_	_	2	aux	_	ing
+4	maw	maw	PART	_	_	2	discourse	_	Q|SpaceAfter=No
+5	?	PUNCT	PUNCT	_	_	2	punct	_	_
 
-# sent_id = 266
-# text = Zei ruang ah dah caw na hren?
-# text_en = Why did you tie the cow?
-1	Zei	zei	PRON	_	_	2	det	_	what
-2	ruang	ruang	NOUN	_	_	7	obj	_	reason
-3	ah	ah	PART	_	_	1	case	_	case
-4	dah	dah	PART	_	_	1	compound	_	WH
-5	caw	caw	NOUN	_	_	7	iobj	_	cow
-6	na	na	PRON	_	Number=Sing|Person=2	7	nsubj	_	you
-7	hren	hren	VERB	_	_	0	root	_	cow|SpaceAfter=No
-8	?	PUNCT	PUNCT	_	_	7	punct	_	_
-
-# sent_id = 153
-# text = Na inntung a ngawi
-# text_en = your post is crooked
-1	Na	na	PRON	_	Number=Sing|Person=2	2	nmod:poss	_	your
-2	inntung	inntung	NOUN	_	_	4	nsubj	_	post
+# sent_id = 260
+# text = Amah lawng a kal
+# text_en = Only she went.
+1	Amah	amah	PRON	_	Gender=Fem|Number=Sing|Person=3	4	nsubj	_	she
+2	lawng	lawng	ADJ	_	_	1	amod	_	only
 3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
-4	ngawi	ngawi	VERB	_	_	0	root	_	crooked
+4	kal	kal	VERB	_	_	0	root	_	go
 
-# sent_id = 107
-# text = Hi uico cu a lian.
-# text_en = This dog is big.
-1	Hi	hi	DET	_	_	2	det	_	this
-2	uico	uico	NOUN	_	_	5	nsubj	_	dog
-3	cu	cu	PART	_	_	2	discourse	_	TOP
-4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
-5	lian	lian	VERB	_	_	0	root	_	big|SpaceAfter=No
-6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+# sent_id = 142
+# text = Chang a ka nawnh
+# text_en = he makes bread for me
+1	Chang	chang	ADV	VERB	_	4	advmod	_	knead
+2	a	a	PRON	_	Number=Sing|Person=3	4	nsubj	_	he
+3	ka	ka	PRON	_	Number=Sing|Person=1	4	obj	_	me
+4	nawnh	nawnh	VERB	_	_	0	root	_	make bread for someone
 
-# sent_id = 77
-# text = Sibawi a si lo.
-# text_en = He is not a doctor.
-1	Sibawi	sibawi	NOUN	_	_	0	root	_	doctor
-2	a	a	PRON	_	Number=Sing|Person=3	1	nsubj	_	he
-3	si	si	AUX	_	_	1	cop	_	is
-4	lo	lo	ADV	_	_	1	advmod	_	not|SpaceAfter=No
-5	.	PUNCT	PUNCT	_	_	1	punct	_	_
+# sent_id = 151
+# text = Ka angki a ngawn
+# text_en = My shirt is dirty
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
+2	angki	angki	NOUN	_	_	4	nsubj	_	shirt
+3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
+4	ngawn	ngawn	VERB	ADJ	_	0	root	_	dirty
 
-# sent_id = 37
-# text = Siangngakchia pawl sianginn an kai
-# text_en = The students go to school.
-1	Siangngakchia	Siangngakchia	NOUN	_	_	5	nsubj	_	student
-2	pawl	pawl	PART	_	Number=Plur	1	nmod	_	PL
-3	sianginn	sianginn	NOUN	_	_	5	obj	_	school
-4	an	an	PART	_	Number=Plur|Person=3	5	expl	_	3PL
-5	kai	kai	VERB	_	_	0	root	_	go
-
-# sent_id = 189
-# text = Orhlei ah naa mer lai
-# text_en = you will turn to the right
-1	Orhlei	orhlei	NOUN	_	_	4	obj	_	right
-2	ah	ah	PART	_	_	1	case	_	LOC
-3	naa	na	PRON	_	Number=Sing|Person=2	4	nsubj	_	you
-4	mer	mer	VERB	_	_	0	root	_	turn
-5	lai	lai	AUX	_	_	4	aux	_	will
-
-# sent_id = 281
-# text = Na nu nih ngakchia pa a tuk
-# text_en = Your mom hit the boy
-1	Na	na	PRON	_	Number=Sing|Person=2	2	nmod:poss	_	your
-2	nu	nu	NOUN	_	_	7	nsubj	_	mother
-3	nih	nih	ADP	_	_	2	case	_	ERG
-4	ngakchia	ngakchia	ADJ	NOUN	_	5	amod	_	child
-5	pa	pa	PART	NOUN	Gender=Masc	7	obj	_	male
-6	a	a	PRON	_	Number=Sing|Person=3	7	expl	_	expl
-7	tuk	tuk	VERB	_	_	0	root	_	hit
-
-# sent_id = 247
-# text = Hma na ngei maw?
-# text_en = Do you have an open wound?
-1	Hma	hma	NOUN	_	_	3	obj	_	sore
-2	na	na	PRON	_	Number=Sing|Person=2	3	nsubj	_	you
-3	ngei	ngei	VERB	_	_	0	root	_	have
-4	maw	maw	PART	_	_	3	discourse	_	Q|SpaceAfter=No
-5	?	PUNCT	PUNCT	_	_	3	punct	_	_
-
-# sent_id = 202
-# text = Inn ah mi an um maw?
-# text_en = are there anyone at the house?
-1	Inn	inn	NOUN	_	_	5	obj	_	house
-2	ah	ah	ADP	_	_	1	case	_	at
-3	mi	mi	NOUN	_	_	5	iobj	_	person
-4	an	an	PRON	_	Number=Plur|Person=3	5	expl	_	expl
-5	um	um	VERB	ADJ	_	0	root	_	present
-6	maw	maw	PART	_	_	5	discourse	_	Q|SpaceAfter=No
-7	?	PUNCT	PUNCT	_	_	5	punct	_	_
-
-# sent_id = 267
-# text = Zei tik ah dah caw na hren?
-# text_en = When did you tie the cow?
-1	Zei	zei	PRON	_	_	2	det	_	what
-2	tik	tik	NOUN	_	_	7	obj	_	time
-3	ah	ah	PART	_	_	1	case	_	case
-4	dah	dah	PART	_	_	1	compound	_	WH
-5	caw	caw	NOUN	_	_	7	iobj	_	cow
-6	na	na	PRON	_	Number=Sing|Person=2	7	nsubj	_	you
-7	hren	hren	VERB	_	_	0	root	_	tie|SpaceAfter=No
-8	?	PUNCT	PUNCT	_	_	7	punct	_	_
-
-# sent_id = 383
-# text = Ngakchia nang dawi.
-# text_en = Y'all chased the child.
-# comment = from field methods
-1	Ngakchia	ngakchia	NOUN	_	_	3	obj	_	child
-2	nang	nang	PRON	_	Number=Plur|Person=3	3	nsubj	_	y'all
-3	dawi	dawi	VERB	_	_	0	root	_	chase|SpaceAfter=No
+# sent_id = 104
+# text = A ka hmuh.
+# text_en = She saw me.
+1	A	a	PRON	_	_	3	nsubj	_	she
+2	ka	ka	PRON	_	_	3	obj	_	me
+3	hmuh	hmuh	VERB	_	_	0	root	_	see|SpaceAfter=No
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 392
-# text = Ka kal.
-# text_en = I go/went.
-# comment = Bedell 1995 number 1
-1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nsubj	_	I
-2	kal	kal	VERB	_	_	0	root	_	go|SpaceAfter=No
-3	.	.	PUNCT	_	_	2	punct	_	_
+# sent_id = 355
+# text = Uico ka ngei.
+# text_en = I have a dog.
+# comment = from field methods
+1	Uico	uico	NOUN	_	_	3	obj	_	dog
+2	ka	ka	PRON	_	Number=Sing|Person=2	3	nsubj	_	I
+3	ngei	ngei	VERB	_	_	0	root	_	have|SpaceAfter=No
+4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 310
-# text = Thlalangawng a khar maw?
-# text_en = did he shut the window?
-1	Thlalangawng	thlalangawng	NOUN	_	_	3	obj	_	window
+# sent_id = 351
+# text = Mah uico hi a ran pik mi a si lai.
+# text_en = This dog will (definitely) be fast.
+# comment = from field methods
+1	Mah	mah	DET	_	_	2	det	_	this
+2	uico	uico	NOUN	_	_	5	nsubj	_	dog
+3	hi	hi	DET	_	_	2	det	_	this
+4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
+5	ran	ran	VERB	_	_	0	root	_	fast
+6	pik	pik	PART	_	_	5	ccomp	_	COMPL
+7	mi	mi	PART	_	_	5	discourse	_	REL
+8	a	a	PRON	_	Number=Sing|Person=3	2	expl	_	expl
+9	si	si	AUX	_	_	5	cop	_	is
+10	lai	lai	AUX	_	_	5	aux	_	FUT|SpaceAfter=No
+11	.	PUNCT	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 63
+# text = Khoika dah naa khawng?
+# text_en = Where does it hurt?
+1	Khoika	khoika	PRON	_	_	4	obj	_	where
+2	dah	dah	PART	_	_	1	discourse	_	WH
+3	naa	naa	PRON	_	Number=Sing|Person=2	4	nsubj	_	it/you
+4	khawng	khawng	VERB	_	_	0	root	_	hurt|SpaceAfter=No
+5	?	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 182
+# text = Mawttaw a mawng thiam lo
+# text_en = he does not know how to drive a car
+1	Mawttaw	mawttaw	NOUN	_	_	3	obj	_	car
 2	a	a	PRON	_	Number=Sing|Person=3	3	nsubj	_	he
-3	khar	khar	VERB	_	_	0	root	_	shut
-4	maw	maw	PART	_	_	3	discourse	_	Q|SpaceAfter=No
-5	?	PUNCT	PUNCT	_	_	3	punct	_	_
+3	mawng	mawng	VERB	_	_	0	root	_	drive
+4	thiam	thiam	ADV	VERB	_	3	advmod	_	know
+5	lo	lo	ADV	_	_	4	advmod	_	not
 
-# sent_id = 14
-# text = Ka raang
-# text_en = I'm white.
-1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nsubj	_	I
-2	raang	raang	VERB	_	_	0	root	_	white
+# sent_id = 171
+# text = Na min ahodah a si?
+# text_en = what is your name? ("who is your name?")
+1	Na	na	PRON	_	Number=Sing|Person=2	2	nmod:poss	_	your
+2	min	min	NOUN	_	_	0	root	_	name
+3	ahodah	ahodah	PRON	_	_	2	nsubj	_	who
+4	a	a	PRON	_	Number=Sing|Person=3	2	expl	_	expl
+5	si	si	AUX	_	_	2	cop	_	is|SpaceAfter=No
+6	?	PUNCT	PUNCT	_	_	2	punct	_	_
 
-# sent_id = 156
-# text = Ngakchia nu a ttap
-# text_en = a girl cries
-1	Ngakchia	ngakchia	NOUN	_	_	4	nsubj	_	child
-2	nu	nu	PART	_	Gender=Fem	1	nmod	_	female
+# sent_id = 216
+# text = A biachim a fum
+# text_en = his speech is slow
+1	A	a	PRON	_	Number=Sing|Person=3	2	nmod:poss	_	his
+2	biachim	biachim	NOUN	_	_	4	nsubj	_	talk
 3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
-4	ttap	ttap	VERB	_	_	0	root	_	cry
+4	fum	fum	VERB	ADJ	_	0	root	_	slow
 
-# sent_id = 157
-# text = Ka nu ka ngai
-# text_en = I miss my mother
-1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
-2	nu	nu	NOUN	_	_	4	obj	_	mother
-3	ka	ka	PRON	_	Number=Sing|Person=1	4	nsubj	_	I
-4	ngai	ngai	VERB	_	_	0	root	_	miss
+# sent_id = 131
+# text = SuiTtha cu nutung a si
+# text_en = SuiTtha is a married woman.
+1	SuiTtha	SuiTtha	PROPN	_	_	3	nsubj	_	SuiTtha
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	nutung	nutung	NOUN	_	_	0	root	_	married woman
+4	a	a	PRON	_	Number=Sing|Person=3	3	expl	_	3SG
+5	si	si	AUX	_	_	3	cop	_	is
 
-# sent_id = 144
-# text = Ti a nawi
-# text_en = the water is muddy
-1	Ti	ti	NOUN	_	_	3	nsubj	_	water
-2	a	a	PRON	_	Number=Sing|Person=3	3	expl	_	expl
-3	nawi	nawi	VERB	ADJ	_	0	root	_	muddy
+# sent_id = 209
+# text = Inn ah ka um
+# text_en = I am in my house
+1	Inn	inn	NOUN	_	_	0	root	_	house
+2	ah	ah	ADP	_	_	1	case	_	in
+3	ka	ka	PRON	_	Number=Sing|Person=1	1	nsubj	_	I
+4	um	um	AUX	_	_	1	cop	_	am
 
-# sent_id = 307
-# text = Hla ka sa
-# text_en = I sang a song
-1	Hla	hla	NOUN	_	_	3	obj	_	song
-2	ka	ka	PRON	_	Number=Sing|Person=1	3	nsubj	_	I
-3	sa	sa	VERB	_	_	0	root	_	sing
+# sent_id = 288
+# text = Nizaan ah zawng a tho
+# text_en = The monkey woke up yesterday
+1	Nizaan	nizaan	ADV	_	_	5	advmod	_	yesterday
+2	ah	ah	ADP	_	_	1	case	_	TEMPORAL
+3	zawng	zawng	NOUN	_	_	5	nsubj	_	monkey
+4	a	a	PRON	_	_	5	expl	_	expl
+5	tho	tho	VERB	_	_	0	root	_	rise
 
-# sent_id = 105
-# text = Amah nu nih a kan hmuh.
-# text_en = She saw us.
-1	Amah	amah	PRON	_	Gender=Fem|Number=Sing|Person=3	6	nsubj	_	she
-2	nu	nu	PART	_	Gender=Fem	1	nmod	_	female
-3	nih	nih	ADP	_	_	1	case	_	ERG
-4	a	a	PRON	_	_	6	expl	_	3SG
-5	kan	kan	PRON	_	Number=Plur|Person=1	6	obj	_	us
-6	hmuh	humh	VERB	_	_	0	root	_	see|SpaceAfter=No
-7	.	PUNCT	PUNCT	_	_	6	punct	_	_
+# sent_id = 222
+# text = Amah cu an nauum a si
+# text_en = she is their baby sitter
+1	Amah	amah	PRON	_	Gender=Fem|Number=Sing|Person=3	4	nsubj	_	she
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	an	an	PRON	_	Number=Plur|Person=3	4	obj	_	their
+4	nauum	nauum	VERB	NOUN	_	0	root	_	baby sitter
+5	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
+6	si	si	AUX	_	_	4	cop	_	is
 
-# sent_id = 254
-# text = Peng cu a it cang
-# text_en = Peng started to sleep
-1	Peng	Peng	PROPN	_	_	4	nsubj	_	Peng
+# sent_id = 259
+# text = Bawibawi cu a it cang
+# text_en = Bawi started sleeping.
+1	Bawibawi	Bawibawi	PROPN	_	_	4	nsubj	_	Bawi
 2	cu	cu	PART	_	_	1	discourse	_	TOP
 3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
 4	it	it	VERB	_	_	0	root	_	sleep
 5	cang	cang	ADV	_	_	4	advmod	_	completed action
 
-# sent_id = 319
-# text = Bawlung a hrilh maw?
-# text_en = did he roll the ball?
-1	Bawlung	bawlung	NOUN	_	_	3	obj	_	ball
-2	a	a	PRON	_	Number=Sing|Person=3	3	nsubj	_	he
-3	hrilh	hrilh	VERB	_	_	0	root	_	roll
-4	maw	maw	PART	_	_	3	discourse	_	Q|SpaceAfter=No
-5	?	PUNCT	PUNCT	_	_	3	punct	_	_
+# sent_id = 22
+# text = Uico a si maw?
+# text_en = Is that a dog?
+1	Uico	uico	NOUN	_	_	0	root	_	dog
+2	a	a	PRON	_	Number=Sing|Person=3	1	obj	_	3SG
+3	si	si	AUX	_	_	1	cop	_	is
+4	maw	maw	PART	_	_	1	discourse	_	Q|SpaceAfter=No
+5	?	PUNCT	PUNCT	_	_	1	punct	_	_
 
-# sent_id = 163
-# text = A mit a ku
-# text_en = he is sleepy
-1	A	a	PRON	_	Number=Sing|Person=2	2	nmod:poss	_	his
-2	mit	mit	NOUN	_	_	4	nsubj	_	eyes
+# sent_id = 29
+# text = Rawl kan ei lai
+# text_en = We will eat food.
+1	Rawl	rawl	NOUN	_	_	3	obj	_	food
+2	kan	kan	PRON	_	Number=Plur|Person=1	3	nsubj	_	we
+3	ei	ei	VERB	_	_	0	root	_	eat
+4	lai	lai	AUX	_	_	3	aux	_	will
+
+# sent_id = 251
+# text = Na pa rian zeidah a si?
+# text_en = What is your father's occupation?
+1	Na	na	PRON	_	Number=Sing|Person=2	2	nmod:poss	_	your
+2	pa	pa	NOUN	_	Gender=Masc	3	nmod:poss	_	father
+3	rian	rian	NOUN	_	_	0	root	_	work
+4	zeidah	zeidah	PRON	_	_	3	det	_	what
+5	a	a	PRON	_	Number=Sing|Person=3	3	expl	_	expl
+6	si	si	AUX	_	_	3	cop	_	is|SpaceAfter=No
+7	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 214
+# text = Ka lu a fak
+# text_en = my head hurts/I have a headache
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
+2	lu	lu	NOUN	_	_	4	nsubj	_	head
 3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
-4	ku	ku	VERB	_	_	0	root	_	sleepy
+4	fak	fak	VERB	_	_	0	root	_	hurt
 
-# sent_id = 72
-# text = Hi vok hi a lian.
-# text_en = This pig is big.
-1	Hi	hi	DET	_	_	2	det	_	this
-2	vok	vok	NOUN	_	_	5	nsubj	_	pig
-3	hi	hi	DET	_	_	2	det	_	this
-4	a	a	PRON	_	Number=Sing|Person=3	5	expl	_	3SG
-5	lian	lian	VERB	_	_	0	root	_	big|SpaceAfter=No
-6	.	PUNCT	PUNCT	_	_	5	punct	_	_
+# sent_id = 55
+# text = A cauk cu Chinchin a pek
+# text_en = He gave Chinchin his book.
+1	A	a	PRON	_	Number=Sing|Person=3	2	nmod:poss	_	his
+2	cauk	cauk	NOUN	_	_	6	obj	_	book
+3	cu	cu	PART	_	_	2	discourse	_	TOP
+4	Chinchin	Chinchin	PROPN	_	_	6	iobj	_	Chinchin
+5	a	a	PRON	_	Number=Sing|Person=3	6	nsubj	_	he
+6	pek	pe	VERB	_	_	0	root	_	give
 
-# sent_id = 241
-# text = Rian cu na kal lai maw?
-# text_en = Are you going to work?
-1	Rian	rian	NOUN	_	_	4	obj	_	work
-2	cu	cu	PART	_	_	1	discourse	_	TOP
-3	na	na	PRON	_	Number=Sing|Person=2	4	nsubj	_	you
-4	kal	kal	VERB	_	_	0	root	_	go
-5	lai	lai	AUX	_	_	4	aux	_	ing
-6	maw	maw	PART	_	_	4	discourse	_	Q|SpaceAfter=No
-7	?	PUNCT	PUNCT	_	_	4	punct	_	_
+# sent_id = 20
+# text = Kaa din lai
+# text_en = I will rest
+1	Kaa	ka	PRON	_	Number=Sing|Person=1	2	nsubj	_	I
+2	din	din	VERB	_	_	0	root	_	rest
+3	lai	lai	AUX	_	_	2	aux	_	will
 
-# sent_id = 81
-# text = Zeidah na cawk?
-# text_en = What did you buy?
-1	Zeidah	zeidah	PRON	_	_	3	obj	_	what
-2	na	na	PRON	_	Number=Sing|Person=2	3	nsubj	_	you
-3	cawk	cawk	VERB	_	_	0	root	_	buy|SpaceAfter=No
-4	?	PUNCT	PUNCT	_	_	3	punct	_	_
-
-# sent_id = 300
-# text = Thli a hrang tuk
-# text_en = It's very windy
-1	Thli	thli	NOUN	_	_	3	obj	_	wind
-2	a	a	PRON	_	Number=Sing|Person=3	3	nsubj	_	it
-3	hrang	hrang	VERB	_	_	0	root	_	blow
-4	tuk	tuk	ADV	_	_	3	advmod	_	very
-
-# sent_id = 399
-# text = Nan ka hmuh.
-# text_en = You see/saw me.
-# comment = Bedell 1995 number 18
-1	Nan	nan	PRON	_	Number=Plur|Person=2	3	nsubj	_	you
-2	ka	ka	PRON	_	Number=Plur|Person=1	3	obj	_	me
-3	hmuh	hmuh	VERB	_	_	0	root	_	see|SpaceAfter=No
+# sent_id = 100
+# text = TV a zoh.
+# text_en = She watches TV.
+1	TV	TV	NOUN	_	_	3	obj	_	TV
+2	a	a	PRON	_	_	3	nsubj	_	she
+3	zoh	zoh	VERB	_	_	0	root	_	watch|SpaceAfter=No
 4	.	PUNCT	PUNCT	_	_	3	punct	_	_
 
-# sent_id = 138
-# text = Amah cu ka ni a si
-# text_en = she is my aunt
-1	Amah	amah	PRON	_	Gender=Fem|Number=Sing|Person=3	0	root	_	She
-2	cu	cu	PART	_	_	1	discourse	_	TOP
-3	ka	ka	PRON	_	Number=Sing|Person=1	4	nmod:poss	_	my
-4	ni	ni	NOUN	_	_	1	obj	_	aunt
-5	a	a	PRON	_	Number=Sing|Person=3	1	expl	_	expl
-6	si	si	AUX	_	_	1	cop	_	is
+# sent_id = 122
+# text = Saya kan si
+# text_en = We are teachers.
+1	Saya	saya	NOUN	_	_	0	root	_	teacher
+2	kan	kan	PRON	_	Number=Plur|Person=1	1	nsubj	_	we
+3	si	si	AUX	_	_	1	cop	_	is
 
-# sent_id = 73
-# text = Hi pa hi Sibawi a si lo.
-# text_en = This man is not a doctor.
+# sent_id = 185
+# text = Mang ttha
+# text_en = good night ("good dream")!
+1	Mang	Mang	NOUN	_	_	0	root	_	dream
+2	ttha	ttha	ADJ	_	_	1	amod	_	good
+
+# sent_id = 184
+# text = Tuzing cu kaa mah lo
+# text_en = this morning I am not as usual
+1	Tuzing	tuzing	NOUN	_	_	4	obj	_	this morning
+2	cu	cu	PART	_	_	1	discourse	_	TOP
+3	kaa	ka	PRON	_	Number=Sing|Person=1	4	nsubj	_	I
+4	mah	mah	VERB	ADJ	_	0	root	_	usual
+5	lo	lo	ADV	_	_	4	advmod	_	not
+
+# sent_id = 75
+# text = Sibawi an si lo.
+# text_en = They are not doctors.
+1	Sibawi	sibawi	NOUN	_	_	0	root	_	doctor
+2	an	an	PRON	_	Number=Plur|Person=3	1	nsubj	_	they
+3	si	si	AUX	_	_	1	cop	_	is
+4	lo	lo	ADV	_	_	1	advmod	_	not|SpaceAfter=No
+5	.	PUNCT	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 327
+# text = Ka pa lo ah a kal
+# text_en = my father goes to the field
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
+2	pa	pa	NOUN	_	_	6	nsubj	_	father
+3	lo	lo	NOUN	_	_	6	obj	_	field
+4	ah	ah	ADP	_	_	3	case	_	LOC
+5	a	a	PRON	_	Number=Sing|Person=3	6	expl	_	expl
+6	kal	kal	VERB	_	_	0	root	_	go
+
+# sent_id = 237
+# text = Hi si hi kaa ziak
+# text_en = this medicine is good for me
 1	Hi	hi	DET	_	_	2	det	_	this
-2	pa	pa	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	man
+2	si	si	NOUN	_	_	5	nsubj	_	medicine
 3	hi	hi	DET	_	_	2	det	_	this
-4	Sibawi	Sibawi	NOUN	_	_	0	root	_	doctor
-5	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	3SG
-6	si	si	AUX	_	_	4	cop	_	is
-7	lo	lo	ADV	_	_	4	advmod	_	not|SpaceAfter=No
-8	.	PUNCT	PUNCT	_	_	4	punct	_	_
+4	kaa	ka	PRON	_	Number=Sing|Person=1	5	obj	_	me
+5	ziak	ziak	VERB	ADJ	_	0	root	_	agreeable
+
+# sent_id = 358
+# text = Ka tta pa nih sibawi pa biakinn ah hmu.
+# text_en My brother saw the doctor at the church.
+# comment = from field methods
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
+2	tta	tta	NOUN	_	_	9	nsubj	_	brother
+3	pa	pa	PART	NOUN	Gender=Masc	2	case	_	male
+4	nih	nih	ADP	_	_	2	case	_	ERG
+5	sibawi	sibawi	NOUN	_	_	9	iobj	_	doctor
+6	pa	pa	PART	NOUN	Gender=Masc	5	case	_	male
+7	biakinn	biakinn	NOUN	_	_	9	obj	_	church
+8	ah	ah	ADP	_	_	7	case	_	at
+9	hmu	hmu	VERB	_	_	0	root	_	see|SpaceAfter=No
+10	.	PUNCT	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 31
+# text = Ka keng a fak
+# text_en = My back hurts (i.e., the lower part of my back is painful).
+1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
+2	keng	keng	NOUN	_	_	4	nsubj	_	back
+3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	3SG
+4	fak	faak	VERB	_	_	0	root	_	hurt
+
+# sent_id = 363
+# text = Kum hleinga ka si.
+# text_en = I am fifteen years old.
+# comment = from field methods
+1	Kum	kum	NOUN	_	_	2	nmod	_	age
+2	hleinga	hleinga	NUM	_	_	0	root	_	fifteen
+3	ka	ka	PRON	_	Number=Sing|Person=1	2	nsubj	_	I
+4	si	si	AUX	_	_	2	cop	_	am|SpaceAfter=No
+5	.	PUNCT	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 43
+# text = Sa an reu
+# text_en = They fried meat.
+1	Sa	sa	NOUN	_	_	3	obj	_	meat
+2	an	an	PRON	_	Number=Plur|Person=3	3	nsubj	_	they
+3	reu	reu	VERB	_	_	0	root	_	fry
 
 # sent_id = 46
 # text = Nangmah le nangmah naa hmu.
@@ -320,54 +306,61 @@
 5	hmu	hmu	VERB	_	_	0	root	_	see|SpaceAfter=No
 6	.	PUNCT	PUNCT	_	_	5	punct	_	_
 
-# sent_id = 356
-# text = A si lo.
-# text_en = It is not.
+# sent_id = 348
+# text = Mei kha an sen dih.
+# text_en = The lights were all red.
 # comment = from field methods
-1	A	a	PRON	_	Number=Sing|Person=3	0	root	_	it
-2	si	si	AUX	_	_	1	cop	_	is
-3	lo	lo	ADV	_	_	1	advmod	_	not|SpaceAfter=No
-4	.	PUNCT	PUNCT	_	_	1	punct	_	_
+1	Mei	mei	NOUN	_	_	4	nsubj	_	light
+2	kha	kha	DET	_	_	1	det	_	DEM
+3	an	an	PRON	_	Number=Plur|Person=3	1	expl	_	they
+4	sen	sen	VERB	_	_	0	root	_	red
+5	dih	dih	PART	_	_	4	discourse	_	COMPL|SpaceAfter=No
+6	.	PUNCT	PUNCT	_	_	4	punct	_	_
 
-# sent_id = 379
-# text = Van cu a pia.
-# text_en = The sky is blue.
-# comment = from field methods
-1	Van	van	NOUN	_	_	4	nsubj	_	sky
-2	cu	cu	PART	_	_	1	discourse	_	TOP
-3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	3SG
-4	pia	pia	VERB	_	_	0	root	_	blue|SpaceAfter=No
-5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+# sent_id = 344
+# text = Ni nih ka mit a ka cerh
+# text_en = the sun dazzles my eyes
+1	Ni	ni	NOUN	_	_	7	nsubj	_	sun
+2	nih	nih	ADP	_	_	1	case	_	ERG
+3	ka	ka	PRON	_	Number=Sing|Person=1	4	nmod:poss	_	my
+4	mit	mit	NOUN	_	_	7	obj	_	eye
+5	a	a	PRON	_	Number=Sing|Person=3	7	expl	_	expl
+6	ka	ka	PRON	_	Number=Sing|Person=1	7	expl	_	expl
+7	cerh	cerh	VERB	_	_	0	root	_	dazzle
 
-# sent_id = 360
-# text = Ka tta pa kha a niam tuk.
-# text_en = My brother is very short.
-# comment = from field methods
-1	Ka	ka	PRON	_	Number=Sing|Person=1	2	nmod:poss	_	my
-2	tta	tta	NOUN	_	_	6	nsubj	_	brother
-3	pa	pa	PART	NOUN	Gender=Masc	2	case	_	male
-4	kha	kha	PART	_	_	2	discourse	_	TOP
-5	a	a	PRON	_	Number=Sing|Person=3	6	expl	_	3SG
-6	niam	niam	VERB	_	_	0	root	_	short
-7	tuk	tuk	ADV	_	_	6	advmod	_	very|SpaceAfter=No
-8	.	PUNCT	PUNCT	_	_	6	punct	_	_
-
-# sent_id = 205
-# text = Ngakchia pa a it.
-# text_en = The little boy slept.
-1	Ngakchia	ngakchia	ADJ	NOUN	_	2	amod	_	child
-2	pa	pa	NOUN	_	Gender=Masc	4	nsubj	_	boy
-3	a	a	PRON	_	Number=Sing|Person=3	4	expl	_	expl
-4	it	it	VERB	_	_	0	root	_	sleep|SpaceAfter=No
-5	.	PUNCT	PUNCT	_	_	4	punct	_	_
-
-# sent_id = 219
-# text = Nupi na ngei cang maw?
-# text_en = do you have a wife?
-1	Nupi	nupi	NOUN	_	_	3	obj	_	wife
+# sent_id = 295
+# text = Hai na ei bal maw?
+# text_en = have you ever eaten a mango?
+1	Hai	hai	NOUN	_	_	3	obj	_	mango
 2	na	na	PRON	_	Number=Sing|Person=2	3	nsubj	_	you
-3	ngei	ngei	VERB	_	_	0	root	_	have
-4	cang	cang	ADV	_	_	3	advmod	_	already
+3	ei	ei	VERB	_	_	0	root	_	eat
+4	bal	bal	ADV	_	_	3	advmod	_	ever
 5	maw	maw	PART	_	_	3	discourse	_	Q|SpaceAfter=No
-6	?	PUNCT	PUNCT	_	_	4	punct	_	_
+6	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 296
+# text = Hai na ei maw?
+# text_en = Did you eat mango?
+1	Hai	hai	NOUN	_	_	3	obj	_	mango
+2	na	na	PRON	_	Number=Sing|Person=2	3	nsubj	_	you
+3	ei	ei	VERB	_	_	0	root	_	eat
+4	maw	maw	PART	_	_	3	discourse	_	Q|SpaceAfter=No
+5	?	PUNCT	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 1
+# text = Indianapolis ah ka um.
+# text_en = I live in Indianapolis.
+1	Indianapolis	Indianapolis	PROPN	_	_	4	obl	_	Indianapolis
+2	ah	ah	ADP	_	_	1	case	_	in
+3	ka	ka	PRON	_	Number=Sing|Person=1	4	nsubj	_	I
+4	um	um	VERB	_	_	0	root	_	live|SpaceAfter=No
+5	.	PUNCT	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 226
+# text = Kan vanpang kan nalh
+# text_en = we are plastering our wall
+1	Kan	kan	PRON	_	Number=Plur|Person=1	2	nmod:poss	_	our
+2	vanpang	vanpang	NOUN	_	_	4	obj	_	wall
+3	kan	kan	PRON	_	Number=Plur|Person=1	4	nsubj	_	we
+4	nalh	nalh	VERB	_	_	0	root	_	plastering
 
